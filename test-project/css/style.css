@@ -1,0 +1,46 @@
+#span1 {
+  font-size: 24px;
+}
+
+.box {
+  color: purple;
+  font-size: 36px;
+}
+
+/*#box1 {
+  border: 5px solid blue;
+  padding: 3px;
+  margin: 5px;
+}*/
+
+/*#container {
+  font-size: 14px;
+  position: relative;
+  border: 10px solid gray;
+  padding: 5px;
+  overflow: auto;
+}*/
+
+p {
+  margin: 0;
+}
+
+#para1 {
+  background-color: #B7FFD8;
+}
+
+#para2 {
+  background-color: #FF778F;
+  /*position: relative;
+  bottom: 10px;
+  right: 10px;*/
+}
+
+#para3 {
+  background-color: #309699;
+}
+
+.farms {
+  width: 50%;
+  float: right;
+}
