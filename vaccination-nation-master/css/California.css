@@ -1,0 +1,141 @@
+/* 575 boilerplate style.css */
+/*
+#california-map{
+  position: absolute;
+}
+*/
+
+/*
+#california{
+  position: static;
+  margin: 180px 0 0 0;
+}
+
+#CAheader{
+
+  font-size: 20px;
+  font-family: sans-serif;
+  color: blue;
+  border: medium solid #999;
+
+}
+*/
+
+#propToolTips{
+  color: green;
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  background-color: blue;
+  padding: 5px
+  border: thin solid #999;
+}
+
+.CAtoolTip {
+  color: black;
+  position: absolute;
+  height: 50px;
+  min-width: 100px;
+  color: #fff;
+  background-color: #000;
+  border: solid thin #fff;
+  padding: 5px 10px;
+  top: -75px;
+}
+
+/*
+#CAtext{
+  float: right;
+  border: medium solid #999;
+  margin-top: 10px;
+}
+*/
+
+/*
+
+#radio{
+  width:900px;
+  height:20px;
+  position:relative;
+  font-size:13px;
+}
+*/
+
+#legend {
+    padding: 1.5em 0 0 1.5em;
+}
+
+li.key {
+    border-top-width: 15px;
+    border-top-style: solid;
+    font-size: .75em;
+    width: 10%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.CAmap {
+    display: block;
+    background-color: #dfe5e7;
+    border: none;
+    stroke-width: 1px;
+    stroke: white;
+}
+
+.gratLines {
+    fill: none;
+    stroke: green;
+    stroke-width: 1px;
+}
+
+.CAchart {
+    background-color: white;
+    border: medium solid grey;
+    float: center;
+    margin: 80px 5px 0px 10px;
+}
+
+
+
+.labelname {
+/*  font-family: Lato, sans-serif;*/
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 2px;
+}
+
+
+#caliSlider{
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+  bottom: 20px;
+  width: 600px;
+  height: 50px;
+};
+
+.chartBackground{
+  fill: silver
+}
+
+.chartFrame {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+/*    font-family: monospace;*/
+    font-weight: bold;
+    font-size: .7em;
+    fill: black;
+}
