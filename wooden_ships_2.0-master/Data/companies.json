@@ -1,0 +1,143 @@
+{
+query: "SELECT DISTINCT(company, nationality) FROM Logbook ;",
+data: [
+{
+Nationality: "American",
+Company: ""
+},
+{
+Nationality: "British",
+Company: ""
+},
+{
+Nationality: "Dutch",
+Company: ""
+},
+{
+Nationality: "French",
+Company: ""
+},
+{
+Nationality: "Hamburg",
+Company: ""
+},
+{
+Nationality: "Spanish",
+Company: ""
+},
+{
+Nationality: " Rotterdam",
+Company: "A. Hoboken"
+},
+{
+Nationality: "Dutch",
+Company: "A. van Hoboken & zn. Te Rotterdam."
+},
+{
+Nationality: "Dutch",
+Company: "ADM"
+},
+{
+Nationality: "French",
+Company: "ADM"
+},
+{
+Nationality: "Dutch",
+Company: "Adm"
+},
+{
+Nationality: "Dutch",
+Company: "Admiraliteit"
+},
+{
+Nationality: "British",
+Company: "EIC"
+},
+{
+Nationality: "British ",
+Company: "EIC"
+},
+{
+Nationality: " Rotterdam",
+Company: "H. v. Rijckevorsel"
+},
+{
+Nationality: "British",
+Company: "Hudson Bay Company"
+},
+{
+Nationality: "British",
+Company: "Hudson Bay company"
+},
+{
+Nationality: "Dutch",
+Company: "MAR"
+},
+{
+Nationality: "French",
+Company: "MAR"
+},
+{
+Nationality: "Dutch",
+Company: "MCC"
+},
+{
+Nationality: "Dutch",
+Company: "MER"
+},
+{
+Nationality: "Dutch",
+Company: "Marine"
+},
+{
+Nationality: "British",
+Company: "Merchant Navy"
+},
+{
+Nationality: "Danish",
+Company: "OIC"
+},
+{
+Nationality: "Dutch",
+Company: "Particulier"
+},
+{
+Nationality: "British",
+Company: "RN"
+},
+{
+Nationality: "British",
+Company: "RN "
+},
+{
+Nationality: "Swedish",
+Company: "Swedish East India Company"
+},
+{
+Nationality: "Dutch",
+Company: "Thomas Brouw en Zn."
+},
+{
+Nationality: "Dutch",
+Company: "VOC"
+},
+{
+Nationality: "Dutch",
+Company: "VOC Z"
+},
+{
+Nationality: "Dutch",
+Company: "VOC-Z"
+},
+{
+Nationality: "Dutch",
+Company: "WHA"
+},
+{
+Nationality: "Dutch",
+Company: "WIC"
+}
+],
+success: true,
+timestamp: "2016-03-28 20:56:57"
+}

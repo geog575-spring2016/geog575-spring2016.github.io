@@ -1,0 +1,254 @@
+"ID","WindForce","CLIWOC.Class","Beaufort","mps"
+"1","","9",NA,NA
+"2","a basses voiles","4","8","19"
+"3","a la cape","8",NA,NA
+"4","a la cappe","8",NA,NA
+"5","a peu","3","5","9.30000019"
+"6","a peu frais","3","6","11.6000004"
+"7","a stribord","8",NA,NA
+"8","affraîcheur","3","6","12.3000002"
+"9","affraichi","3","6","12.3000002"
+"10","afraicheur","3","6","12.3000002"
+"11","afraichi","3","6","12.3000002"
+"12","assez frais","3","6","12.3000002"
+"13","augmenté","8",NA,NA
+"14","augmente fraichy","8",NA,NA
+"15","beacoup moins violant","4","8","17.2000008"
+"16","beacoup moins violent","4","8","17.2000008"
+"17","beacoup molli","1","1","1"
+"18","beau","3","5","9.30000019"
+"19","beau frais","3","5","9.30000019"
+"20","beau petit frais","2","4","6.69999981"
+"21","beaucoup de calme","1","0","0"
+"22","beaucoup de forces","4","8","19"
+"23","beaucoup de vent","3","7","15.3999996"
+"24","beaucoupe de forces","4","8","19"
+"25","belle brise","2","4","6.69999981"
+"26","bien forte","3","6","12.3000002"
+"27","bien petit frais","2","4","6.69999981"
+"28","bon frais","3","5","9.30000019"
+"29","bon frais an peu violent","3","5","9.30000019"
+"30","bon frais fraisant","3","5","9.30000019"
+"31","bon gros frais","3","7","15.3999996"
+"32","bon petit frais","2","4","6.69999981"
+"33","bon petite frais","2","4","6.69999981"
+"34","bon vent","3","5","9.30000019"
+"35","bone brise","3","5","9.30000019"
+"36","bonne brise","3","5","9.30000019"
+"37","bonne brisse","3","5","9.30000019"
+"38","bourasques","8",NA,NA
+"39","brise","3","7","15.3999996"
+"40","brise a varier","3","7","15.3999996"
+"41","brise du terre","8",NA,NA
+"42","brise forte","3","7","15.3999996"
+"43","brise variable","3","7","15.3999996"
+"44","calme","1","0","0"
+"45","calmé","1","0","0"
+"46","calme entierement","1","0","0"
+"47","calme plat","1","0","0"
+"48","calme tout plat","1","0","0"
+"49","calmiffant","1","0","0"
+"50","considerablement","4","8","19"
+"51","considerablement fraichy","3","7","15.3999996"
+"52","contraire","8",NA,NA
+"53","coup de vent","4","8","19"
+"54","en tourmente","4","9","22.6000004"
+"55","etand plus forte","8",NA,NA
+"56","extremadament forte","4","10","26.7999992"
+"57","extrêmement fort","4","10","26.7999992"
+"58","extrêmement violent","4","11","30.8999996"
+"59","faible","1","1","1"
+"60","faible brise","1","1","1"
+"61","foible","1","1","1"
+"62","foiblé","1","1","1"
+"63","foible a perr","1","1","1"
+"64","foible brise","1","1","1"
+"65","foible calme","1","1","0.600000024"
+"66","foibles","1","1","1"
+"67","forcé","4","8","19"
+"68","forcé variant","4","8","19"
+"69","fort","3","7","15.3999996"
+"70","fort grosse","3","7","16.2999992"
+"71","fort inégal","3","7","16.2999992"
+"72","fort petite","8",NA,NA
+"73","fort tems a hun avec ris","3","7","15.3999996"
+"74","fort vent","3","7","15.3999996"
+"75","forte","3","7","15.3999996"
+"76","forte brise","3","7","15.3999996"
+"77","fortes rafales","8",NA,NA
+"78","fraicheur","3","6","12.3000002"
+"79","fraîcheur","3","6","12.3000002"
+"80","fraichi","3","6","12.3000002"
+"81","fraichí","3","6","12.3000002"
+"82","fraichiffant","3","6","12.3000002"
+"83","fraichir","3","6","12.3000002"
+"84","fraîchir","3","6","12.3000002"
+"85","fraichy","3","6","12.3000002"
+"86","frais","3","6","12.3000002"
+"87","frais a perr","3","6","12.3000002"
+"88","frais en diminuant peu a peu","3","6","11.6000004"
+"89","frais grosse","3","6","13.8000002"
+"90","frais inegal","3","6","12.3000002"
+"91","frais inégal","3","6","12.3000002"
+"92","fraisant","3","5","9.30000019"
+"93","grains","8",NA,NA
+"94","gran frais","3","7","15.3999996"
+"95","grand frais","3","7","15.3999996"
+"96","grand vent","3","7","15.3999996"
+"97","grande violence","4","8","19"
+"98","grenase","8",NA,NA
+"99","grenasse","8",NA,NA
+"100","gros","3","7","15.3999996"
+"101","gros frais","3","7","15.3999996"
+"102","gros vent","3","7","15.3999996"
+"103","gros vents","3","7","15.3999996"
+"104","grosse","3","7","15.3999996"
+"105","grosse brise","3","7","15.3999996"
+"106","il a calmé","1","0","0"
+"107","impetuaux","4","9","22.6000004"
+"108","impetueux","4","9","22.6000004"
+"109","inconstant","8",NA,NA
+"110","inconstant enforce de vent","8",NA,NA
+"111","inconstante","8",NA,NA
+"112","Inegal","8",NA,NA
+"113","inégal","8",NA,NA
+"114","Inégal foible","1","1","1"
+"115","jay afourché","8",NA,NA
+"116","joli frais","2","4","6.69999981"
+"117","joli petit frais","2","4","6.69999981"
+"118","jolie brise","2","4","6.69999981"
+"119","jolie frais","2","4","6.69999981"
+"120","joly brisse","2","4","6.69999981"
+"121","joly frais","2","4","6.69999981"
+"122","Joly petite frais","2","4","6.69999981"
+"123","la fraicheur","3","6","12.3000002"
+"124","légère brise","2","2","2.5999999"
+"125","mediocre","8",NA,NA
+"126","moins","8",NA,NA
+"127","molli","2","2","2.5999999"
+"128","mou","2","2","2.5999999"
+"129","moyen","8",NA,NA
+"130","moyen frais","3","6","12.3000002"
+"131","par frais","3","6","12.3000002"
+"132","par grains","8",NA,NA
+"133","par intervalle calme","8",NA,NA
+"134","par rafales","8",NA,NA
+"135","par rafalle","8",NA,NA
+"136","par rafalles","8",NA,NA
+"137","par risée","8",NA,NA
+"138","par rissé","8",NA,NA
+"139","petit","8",NA,NA
+"140","petit air","2","3","4.5999999"
+"141","petit fraîcheur","2","4","6.69999981"
+"142","petit frais","2","4","6.69999981"
+"143","petit temps","2","3","4.5999999"
+"144","petit vent","2","3","4.5999999"
+"145","petite","8",NA,NA
+"146","petite air","2","3","4.5999999"
+"147","petite brise","2","3","4.5999999"
+"148","petite fraicheur","2","4","6.69999981"
+"149","petite frais","2","3","4.5999999"
+"150","petite grosse","3","6","12.3000002"
+"151","petite presque calme","1","1","0.600000024"
+"152","petite vent","2","3","4.5999999"
+"153","peu","3","5","9.30000019"
+"154","peu afreche","8",NA,NA
+"155","peu calme","1","1","1"
+"156","peu de frais","2","3","4.5999999"
+"157","peu de vent","2","3","4.5999999"
+"158","peu fraicheur","2","4","6.69999981"
+"159","peu fraichi","2","4","6.69999981"
+"160","peu frais","2","3","4.5999999"
+"161","peu grosse","3","6","12.3000002"
+"162","peu mollir","2","2","2"
+"163","peu moly","2","2","2"
+"164","peu plus forte","8",NA,NA
+"165","peu violent","4","11","29.5"
+"166","plus faible","1","1","1.20000005"
+"167","plus fort","3","7","16.2999992"
+"168","plus frais","3","6","13.1000004"
+"169","presque","8",NA,NA
+"170","presque calme","1","1","1"
+"171","presque calme plat","1","1","1"
+"172","quelque fraicheur","3","6","12.3000002"
+"173","rafales","8",NA,NA
+"174","rafalle","8",NA,NA
+"175","rafraichi","8",NA,NA
+"176","rafraîchi","8",NA,NA
+"177","rafraichissant","8",NA,NA
+"178","rafraîchissant","8",NA,NA
+"179","serein","1","0","0"
+"180","single","8",NA,NA
+"181","soufflant impétueux","4","8","19"
+"182","soufflant impetuoist","4","8","19"
+"183","tempete","4","10","26.7999992"
+"184","tempête","4","10","26.7999992"
+"185","tems a basses voiles","4","8","19"
+"186","tems a hun","8",NA,NA
+"187","tems a hun avec ris","8",NA,NA
+"188","tems a perr","8",NA,NA
+"189","tems inconstant","8",NA,NA
+"190","tombé","1","0","0"
+"191","Toujours bon frais","3","5","9.30000019"
+"192","tremant de la force","8",NA,NA
+"193","trés bon frais","3","5","10"
+"194","tres considerable","4","8","19.7999992"
+"195","tres faible","1","1","1.20000005"
+"196","trés faible","1","1","1.20000005"
+"197","très faible","1","1","1.20000005"
+"198","trés faiblir","1","1","1.20000005"
+"199","tres fioble","1","1","1.20000005"
+"200","tres foible","1","1","1.20000005"
+"201","trés foible","1","1","1.20000005"
+"202","trés foible brise","1","1","1.20000005"
+"203","tres fort","3","7","16.2999992"
+"204","trés fort","3","7","16.2999992"
+"205","tres forte","3","7","16.2999992"
+"206","trés forte","3","7","16.2999992"
+"207","trés forte brise","3","7","16.2999992"
+"208","tres frais","3","6","13.1000004"
+"209","trés frais","3","6","13.1000004"
+"210","trés grand frais","3","7","16.2999992"
+"211","tres gros frais","3","7","16.2999992"
+"212","trés gros frais","3","7","16.2999992"
+"213","tres grosse","3","7","16.2999992"
+"214","tres inegal","8",NA,NA
+"215","trés jolie petite brise","2","3","5.4000001"
+"216","trés mediocre","8",NA,NA
+"217","trés mou","2","2","2.5999999"
+"218","tres petit frais","2","4","7.30000019"
+"219","tres petite","8",NA,NA
+"220","trés petite brise","2","3","4.9000001"
+"221","tres petite frais","2","4","7.30000019"
+"222","trés petite frais","2","4","7.30000019"
+"223","tres petite vent","3","5","10"
+"224","trés petite vent","3","5","10"
+"225","tres variable","8",NA,NA
+"226","trés variable","8",NA,NA
+"227","tres violent","4","11","31.6000004"
+"228","trés violent","4","11","31.6000004"
+"229","tres-faible","1","1","1.20000005"
+"230","très-faible","1","1","1.20000005"
+"231","tres-foible","1","1","1.20000005"
+"232","très-foible","1","1","1.20000005"
+"233","tres-frais","3","6","13.1000004"
+"234","très-frais","3","6","13.1000004"
+"235","tres-grand frais","3","7","16.2999992"
+"236","très-grand frais","3","7","16.2999992"
+"237","très-inégal","8",NA,NA
+"238","très-petit frais","2","4","7.30000019"
+"239","variable","8",NA,NA
+"240","variables","8",NA,NA
+"241","varié","8",NA,NA
+"242","varier","8",NA,NA
+"243","variu","8",NA,NA
+"244","vent fort","3","7","15.3999996"
+"245","vent fort d'hunier avec ris","3","7","15.3999996"
+"246","vent fort en augmentant","3","7","16.2999992"
+"247","vent frais","3","6","12.3000002"
+"248","ventand considerablement","4","8","19"
+"249","violance variable","4","11","30.8999996"
+"250","violans ouragans","4","12","35"
+"251","violence","4","11","30.8999996"
+"252","violent","4","11","30.8999996"
+"253","violent ouragans","4","12","35"

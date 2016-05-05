@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>index</title>
+  <meta name="description" content="">
+  <meta name="author" content="Scott Farley">
+
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+</head>
+
+<body>
+<h1>Wooden Ships Database API Landing Page</h1>
+
+<p>All resources will return a JSON object that contains the following fields: <ul>
+	<li><b>timestamp:</b><i>The date of the query.</i></li>
+	<li><b>query:</b><i>The sql text of the query (for debugging).</i></li>
+	<li><b>success:</b><i>Boolean showing whether the query succeeded or failed at the database level.</i></li>
+	<li><b>Data:</b><i>An array of objects.  Object details are outlined below.</i></li>
+</ul></p>
+
+<p>All parameters and URIs are CaSe SeNSitiVe.  Use caution.</p>
+
+<h4>Available Resources: </h4>
+<ul>
+	<li><a href='Captains.php'>Captains.php</a>
+		<i>Returns a list of captains and their ranks and vessels in JSON format.</i>
+		<ul>
+			<li>Accepts Parameters: 
+				<ul>
+					<li><b>shipName:</b> <i>Exact name of ship.</i></li>
+					<li><b>shipType:</b> <i>Exact name of type of ship.</i></li>
+					<li><b>nationality:</b> <i>Exact name of nationality.</i></li>
+					<li><b>captainName:</b> <i>Exact name of captain.</i></li>
+					<li><b>rank:</b> <i>Exact rank name.</i></li>
+					<li><b>minDate:</b> <i>Time filter specifying the earliest activity of this captain. Format: yyyy-mm-dd</i></li>
+					<li><b>maxDate:</b> <i>Time filter specifying the latest voyage start date of this captain. Format: yyyy-mm-dd</i></li>
+				</ul>
+			</li>
+			<li>Returns Fields: 
+				<ul>
+					<li><b>Captain:</b> <i>Name of captain.</i></li>
+					<li><b>CaptainRank:</b> <i>Rank of captain.</i></li>
+					<li><b>shipName:</b> <i>Name of ship Sailed.</i></li>
+					<li><b>Company:</b> <i>Name of associated company. </i></li>
+					<li><b>Nationality:</b> <i>Name of assoicated nationality.</i></li>
+				</ul>
+			</li>
+			<li>Examples: 
+				<ul>
+					<li><a href="Captains.php?nationality=British"><i>Return all the British Captains.</i></a>
+					<li><a href="Captains.php?shipType=sloop"><i>Return all the captains sailing ships of type 'Sloop'.</i></a>
+					<li><a href="Captains.php?minDate=1800-01-01&maxDate=1805-01-01"><i>Return all the captains operating between 1800 and 1805.</i></a>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<hr />
+	<li><a href='Companies.php'>Companies.php</a>
+		<i>Returns a list of Companies and their nationalities in JSON format.</i>
+		<ul>
+			<li>Accepts Parameters: 
+				<ul>
+					<li><b>nationality:</b> <i>Exact name of nationality assoicated with these companies.</i></li>
+					<li><b>minDate:</b> <i>Time filter specifying the earliest activity of this company. Format: yyyy-mm-dd</i></li>
+					<li><b>maxDate:</b> <i>Time filter specifying the latest voyage start date of this company. Format: yyyy-mm-dd</i></li>
+				</ul>
+			</li>
+			<li>Returns Fields: 
+				<ul>
+					<li><b>Company:</b> <i>Name of associated company. </i></li>
+					<li><b>Nationality:</b> <i>Name of assoicated nationality.</i></li>
+					<li><b>companyID:</b> <i>Database ID for this company entity</i></li>
+				</ul>
+			</li>
+			<li>Examples: 
+				<ul>
+					<li><a href="Companies.php?nationality=Dutch"><i>Return all the Dutch companies.</i></a>
+					<li><a href="Captains.php?minDate=1750-01-01&maxDate=1800-01-01"><i>Return all the captains operating between 1750 and 1800.</i></a>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<hr />
+	<li><a href='data.php'>data.php</a>
+		<i>Returns logbook details for individual records.  Allows flexible querying of the weather parameters and can include the text observations in the respose.  Returns in JSON format.</i>
+		<ul>
+			<li>Accepts Parameters: 
+				<ul>
+					<li><b>shipName:</b> <i>Exact name of ship.</i></li>
+					<li><b>shipType:</b> <i>Exact name of type of ship.</i></li>
+					<li><b>nationality:</b> <i>Exact name of nationality.</i></li>
+					<li><b>captainName:</b> <i>Exact name of captain.</i></li>
+					<li><b>minDate:</b> <i>Time filter specifying the minimum for the temporal search window. Format: yyyy-mm-dd</i></li>
+					<li><b>maxDate:</b> <i>Time filter specifying the maximum for the temporal search window. Format: yyyy-mm-dd</i></li>
+					<li><b>minAirTemp:</b> <i>Minimum air temperature in degrees celsius.</i></li>
+					<li><b>maxAirTemp:</b> <i>Maximum air temperature in degrees celsius.</i></li>
+					<li><b>minPressure:</b> <i>Minimum air pressure in degrees millimeters mercury.</i></li>
+					<li><b>maxPressure:</b> <i>Maximum air pressure in degrees millimeters mercury.</i></li>
+					<li><b>gusts:<boolean></b> <i>Was it gusty?</i></li>
+					<li><b>rain:<boolean></b> <i>Was rain recorded?</i></li>
+					<li><b>snow:<boolean></b> <i>Was snow recorded?</i></li>
+					<li><b>hail:<boolean></b> <i>Was hail recorded?</i></li>
+					<li><b>thunder:<boolean></b> <i>Was thunder recorded?</i></li>
+					<li><b>fog:<boolean></b> <i>Was it foggy?</i></li>
+					<li><b>seaice:<boolean></b> <i>Was sea ice encountered?</i></li>
+					<li><b>windSpeedMin:</b> <i>Minimum wind speed in meters per second.</i></li>
+					<li><b>windSpeedMax:</b> <i>Maximum wind speed in meters per second.</i></li>
+					<li><b>windDirMin:</b> <i>Minimum wind direction in degrees [0-360].</i></li>
+					<li><b>windDirMax:</b> <i>Maximum wind direction in degrees [0-360].</i></li>
+					<li><b>locationID:</b> <i>A database identifier for this ship's record on this date.  Can be used to retrieve additional details about a location if you only care about a single record.</i></li>
+					<li><b>returnObservations:<boolean></b><i>Include textual observation associated with this record.  Increased query time and size.</i></li>
+				</ul>
+			</li>
+			<li>Returns Fields: 
+				<ul>
+					<li><b>shipName:</b> <i>Exact name of ship.</i></li>
+					<li><b>shipType:</b> <i>Exact name of type of ship.</i></li>
+					<li><b>nationality:</b> <i>Exact name of nationality.</i></li>
+					<li><b>captainName:</b> <i>Exact name of captain.</i></li>
+					<li><b>airTemp:</b> <i>Air temperature in degrees celsius.</i></li>
+					<li><b>airPressure:</b> <i>Air pressure in degrees millimeters mercury.</i></li>
+					<li><b>gusts:<boolean></b> <i>Was it gusty?</i></li>
+					<li><b>rain:<boolean></b> <i>Was rain recorded?</i></li>
+					<li><b>snow:<boolean></b> <i>Was snow recorded?</i></li>
+					<li><b>hail:<boolean></b> <i>Was hail recorded?</i></li>
+					<li><b>thunder:<boolean></b> <i>Was thunder recorded?</i></li>
+					<li><b>fog:<boolean></b> <i>Was it foggy?</i></li>
+					<li><b>seaice:<boolean></b> <i>Was sea ice encountered?</i></li>
+					<li><b>windSpeed:</b> <i>Minimum wind speed in meters per second.</i></li>
+					<li><b>windDirMin:</b> <i>Minimum wind direction in degrees [0-360].</i></li>
+					<li><b>windDirMax:</b> <i>Maximum wind direction in degrees [0-360].</i></li>
+					<li><b>locationID:</b> <i>A database identifier for this ship's record on this date.  Can be used to retrieve additional details about a location if you only care about a single record.</i></li>
+					<li><b>latitude:</b> <i>Latitude of matched location.</i></li>
+					<li><b>longitude:</b> <i>Longitude of matched location.</i></li>
+					<li><b>date: </b><i>The date of this observation in format yyyy-mm-dd.</i></li>
+					<p>If the <b>returnObservations</b> parameter is set, these additional fields will be returned:</p>
+					<li><b>Observations: </b><i>An array of observations that consists of the following objects.</i>
+						<ul>
+							<li><b>observationID: </b><i>Unique database identifier for this text observation.</i></li>
+							<li><b>memoText: </b><i>The text of the observation as recorded in the logbook.</i></li>
+							<li><b>memoType: </b><i>The type/content of the observation as recorded by the digitizer.</i></li>
+							<li><b>memoLanguage: </b><i>The language that the text is written in.</i></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>Examples: 
+				<ul>
+					<li><a href="data.php?returnObservations=true&shipName=Endeavour"><i>Return all observations associated with Captain James Cook's ship the Endeavour.</i></a></li>
+					<li><a href="data.php?shipType=Frigate&rain=true"><i>Return all of the ships of type frigate that encountered rain.</i></a></li>
+					<li><a href="data.php?windSpeedMin=10&windSpeedMax=15&windDirMin=300&windDirMax=330"><i>Return all observations for which the wind speed was between 10 and 15 mps and the wind direction was between 300 and 330 degrees.</i></a></li>
+			</ul>
+			</li>
+		</ul>
+	</li>
+	<hr />
+	<li><a href='nations.php'>nations.php</a>
+		<i>Returns a list of nationalities in JSON format.</i>
+		<ul>
+			<li>Accepts Parameters: 
+				<ul>
+					<li><b>minDate:</b> <i>Time filter specifying the earliest activity of this nation. Format: yyyy-mm-dd</i></li>
+					<li><b>maxDate:</b> <i>Time filter specifying the latest voyage start date of this nation. Format: yyyy-mm-dd</i></li>
+				</ul>
+			</li>
+			<li>Returns Fields: 
+				<ul>
+					<li><b>Nationality:</b> <i>Name of assoicated nationality.</i></li>
+					<li><b>nationID:</b> <i>Database ID for this nation entity</i></li>
+				</ul>
+			</li>
+			<li>Examples: 
+				<ul>
+					<li><a href="nations.php"><i>Return all of the nationalities in the database.</i></a>
+					<li><a href="nations.php?minDate=1845-01-01"><i>Return all the captains operating in or after 1845.</i></a>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<hr />
+	<li><a href='Ships.php'>Ships.php</a>
+		<i>Returns a list of ships and their associated information in JSON format.</i>
+		<ul>
+			<li>Accepts Parameters: 
+				<ul>
+					<li><b>shipName:</b> <i>Exact name of ship.</i></li>
+					<li><b>shipType:</b> <i>Exact name of type of ship.</i></li>
+					<li><b>nationality:</b> <i>Nationality associated with this ship.</i></li>
+					<li><b>minDate:</b> <i>Time filter specifying the earliest activity of this ship. Format: yyyy-mm-dd</i></li>
+					<li><b>maxDate:</b> <i>Time filter specifying the latest voyage start date from this ship. Format: yyyy-mm-dd</i></li>
+				</ul>
+			</li>
+			<li>Returns Fields: 
+				<ul>
+					<li><b>Type:</b> <i>Type of ship.</i></li>
+					<li><b>Information:</b> <i>Other information about the ship.</i></li>
+					<li><b>ShipName:</b> <i>Name of ship.</i></li>
+					<li><b>Notes:</b> <i>Any notes that we've added about this ship.</i></li>
+					<li><b>Nationality:</b> <i>Name of assoicated nationality.</i></li>
+					<li><b>ShipID:</b> <i>Database ID associated with this ship entity.</i></li>
+				</ul>
+			</li>
+			<li>Examples: 
+				<ul>
+					<li><a href="Ships.php?nationality=Spanish"><i>Return all the Spanish ships.</i></a>
+					<li><a href="Ships.php?shipType=Frigate"><i>Return all the captains sailing ships of type 'Frigate'.</i></a>
+					<li><a href="Ships.php?minDate=1800-01-01&maxDate=1805-01-01"><i>Return all the ships operating between 1800 and 1805.</i></a>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<hr />
+	<li><a href='ShipTypes.php'>ShipTypes.php</a>
+		<i>Returns a list of ship types in JSON format.</i>
+		<ul>
+			<li>Accepts Parameters: 
+				<ul>
+					<li><b>shipName:</b> <i>Exact name of ship.</i></li>
+					<li><b>nationality:</b> <i>Nationality associated with this ship.</i></li>
+					<li><b>minDate:</b> <i>Time filter specifying the earliest activity of this ship. Format: yyyy-mm-dd</i></li>
+					<li><b>maxDate:</b> <i>Time filter specifying the latest voyage start date from this ship. Format: yyyy-mm-dd</i></li>
+				</ul>
+			</li>
+			<li>Returns Fields: 
+				<ul>
+					<li><b>Type:</b> <i>Type of ship.</i></li>
+					<li><b>Nationality:</b> <i>Name of assoicated nationality.</i></li>
+				</ul>
+			</li>
+			<li>Examples: 
+				<ul>
+					<li><a href="ShipTypes.php?nationality=Spanish"><i>Return all the Spanish ship types.</i></a>
+					<li><a href="ShipTypes.php?"><i>Return all the ship types in the database.</i></a>
+					<li><a href="ShipTypes.php?minDate=1800-01-01&maxDate=1805-01-01"><i>Return all the ships operating between 1800 and 1805.</i></a>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<hr />
+	<li><a href='Voyages.php'>Voyages.php</a>
+		<i>Returns a list of voyages and their associated information in JSON format. A voyage is a single journey between Point A and Point B made by a single ship.</i>
+		<ul>
+			<li>Accepts Parameters: 
+				<ul>
+					<li><b>shipName:</b> <i>Exact name of ship associated with this voyage.</i></li>
+					<li><b>shipType:</b> <i>Exact name of type of ship.</i></li>
+					<li><b>nationality:</b> <i>Exact name of nationality.</i></li>
+					<li><b>captainName:</b> <i>Exact name of captain.</i></li>
+					<li><b>rank:</b> <i>Exact rank name.</i></li>
+					<li><b>minDate:</b> <i>Time filter specifying the earliest activity of this captain. Format: yyyy-mm-dd</i></li>
+					<li><b>maxDate:</b> <i>Time filter specifying the latest voyage start date of this captain. Format: yyyy-mm-dd</i></li>
+					<li><b>fromPlace:</b> <i>Starting location of the voyage.</i></li>
+					<li><b>toPlace:</b> <i>Ending location of the voyage.</i></li>
+				</ul>
+			</li>
+			<li>Returns Fields: 
+				<ul>
+					<li><b>ShipType:</b> <i>Type of ship.</i></li>
+					<li><b>ShipName:</b> <i>Name of ship.</i></li>
+					<li><b>Captain:</b> <i>Name of ship captain.</i></li>
+					<li><b>Company:</b> <i>Name of company operating the voyage.</i></li>
+					<li><b>Nationality:</b> <i>Name of assoicated nationality.</i></li>
+					<li><b>VoyageID:</b> <i>Database ID associated with this ship entity.</i></li>
+					<li><b>FromPlace:</b> <i>Starting location of the voyage.</i></li>
+					<li><b>ToPlace:</b> <i>Ending location of the voyage.</i></li>
+					<li><b>StartDate:</b> <i>Starting date of the voyage in form yyyy-mm-dd</i></li>
+				</ul>
+			</li>
+			<li>Examples: 
+				<ul>
+					<li><a href="Voyages.php?nationality=American"><i>Return all the American voyages.</i></a>
+					<li><a href="Voyages.php?shipType=Frigate"><i>Return all the voyages made by ships of type 'Frigate'.</i></a>
+					<li><a href="Voyages.php?minDate=1800-01-01&maxDate=1805-01-01"><i>Return all the ships operating between 1800 and 1805.</i></a>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<hr />
+		<li><a href='voyageEnds.php'>voyageEnds.php</a>
+		<i>Returns a list of places where voyages ended (toPlace) in JSON format.</i>
+		<ul>
+			<li>Accepts Parameters: 
+				<ul>
+					<li><b>geocode:<boolean></b> <i>Only return results with valid latitude and longitude data</i></li>
+					<li><b>modernName:<boolean></b> <i>Only return results that match with a modern name.</i></li>
+				</ul>
+			</li>
+			<li>Returns Fields: 
+				<ul>
+					<li><b>place:</b> <i>Original name of location.</i></li>
+					<li><b>modernName:</b> <i>Geocoded matched name of location.</i></li>
+					<li><b>latitude:</b> <i>Latitude of matched location.</i></li>
+					<li><b>longitude:</b> <i>Longitude of matched location.</i></li>
+				</ul>
+			</li>
+			<li>Examples: 
+				<ul>
+					<li><a href="voyageEnds.php?geocode=true"><i>Return all the destination ports that have lat/lng attached.</i></a></li>
+					<li><a href="voyageEnds.php?"><i>Return all the destination ports in the database.</i></a></li>
+					<li><a href="voyageEnds.php?modernName=true"><i>Return all the destination ports in the database that have a modern name associated with them.</i></a></li>
+			</ul>
+			</li>
+		</ul>
+		<hr />
+	</li>
+			<li><a href='voyageStarts.php'>voyageStarts.php</a>
+		<i>Returns a list of places where voyages started (fromPlace) in JSON format.</i>
+		<ul>
+			<li>Accepts Parameters: 
+				<ul>
+					<li><b>geocode:<boolean></b> <i>Only return results with valid latitude and longitude data</i></li>
+					<li><b>modernName:<boolean></b> <i>Only return results that match with a modern name.</i></li>
+				</ul>
+			</li>
+			<li>Returns Fields: 
+				<ul>
+					<li><b>place:</b> <i>Original name of location.</i></li>
+					<li><b>modernName:</b> <i>Geocoded matched name of location.</i></li>
+					<li><b>latitude:</b> <i>Latitude of matched location.</i></li>
+					<li><b>longitude:</b> <i>Longitude of matched location.</i></li>
+				</ul>
+			</li>
+			<li>Examples: 
+				<ul>
+					<li><a href="voyageStarts.php?geocode=true"><i>Return all the initial ports that have lat/lng attached.</i></a></li>
+					<li><a href="voyageStarts.php?"><i>Return all the initial ports in the database.</i></a></li>
+					<li><a href="voyageStarts.php?modernName=true"><i>Return all the initial ports in the database that have a modern name associated with them.</i></a></li>
+			</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,1043 @@
+"ID","WindForce","CLIWOC.Class","Beaufort","mps"
+"1","","9",NA,NA
+"2","0","1","0","0"
+"3","1","1","1","1"
+"4","10","4","10","26.7999992"
+"5","11","4","11","30.8999996"
+"6","12","4","12","35"
+"7","2","2","2","2.5999999"
+"8","3","2","3","4.5999999"
+"9","4","2","4","6.69999981"
+"10","5","3","5","9.30000019"
+"11","6","3","6","12.3000002"
+"12","7","3","7","15.3999996"
+"13","8","4","8","19"
+"14","9","4","9","22.6000004"
+"15","adverse winds","8",NA,NA
+"16","agreable gales","3","7","15.3999996"
+"17","agreeable gales","3","7","15.3999996"
+"18","airs","1","1","1"
+"19","almost calm","1","1","1"
+"20","appearance of trade winds","3","5","9.30000019"
+"21","appearance of wind","1","1","1"
+"22","baffling airs","1","1","1"
+"23","baffling light airs","1","1","1"
+"24","baffling light variable winds","1","1","0.600000024"
+"25","baffling winds","1","1","1"
+"26","blew strong","4","9","22.6000004"
+"27","blew very hard","4","11","30.8999996"
+"28","blew very violent","4","12","35"
+"29","blow excessive hard","4","12","35"
+"30","blow fresh","3","6","12.3000002"
+"31","blow hard","4","10","26.7999992"
+"32","blow very hard","4","11","30.8999996"
+"33","blowed hard","4","10","26.7999992"
+"34","blowing","8",NA,NA
+"35","blowing a gale of wind","3","7","15.3999996"
+"36","blowing a hard gale","4","10","26.7999992"
+"37","blowing a storm of wind","4","10","26.7999992"
+"38","blowing excessively hard","4","11","31.6000004"
+"39","blowing extremely hard","4","11","31.6000004"
+"40","blowing fresh","3","6","12.3000002"
+"41","blowing fresh decreasing","3","6","11.6000004"
+"42","blowing fresh squalls","3","6","12.3000002"
+"43","blowing hard","4","10","26.7999992"
+"44","blowing hard decreasing","4","10","25.5"
+"45","blowing harder and harder","4","10","27.3999996"
+"46","blowing heavy gales","4","9","22.6000004"
+"47","blowing strong","4","9","22.6000004"
+"48","blowing strong decreasing","4","9","21.7000008"
+"49","blowing unsettled","8",NA,NA
+"50","blowing very","8",NA,NA
+"51","blowing very fresh","3","5","10"
+"52","blowing very hard","4","10","27.3999996"
+"53","blowing very heavy","8",NA,NA
+"54","blowing very strong gale","4","9","23.5"
+"55","blowing very strong in squalls","8",NA,NA
+"56","blowing wind","8",NA,NA
+"57","blows fresh","3","5","9.30000019"
+"58","blows hard","4","10","26.7999992"
+"59","blows strong","4","9","22.6000004"
+"60","blows very hard","4","10","27.3999996"
+"61","breeze","2","4","6.69999981"
+"62","breeze considerably increasing","2","4","7.30000019"
+"63","breeze decreasing","2","4","6.0999999"
+"64","breeze freshened","2","4","7.30000019"
+"65","breeze increasing","2","4","7.30000019"
+"66","breezes","2","4","6.69999981"
+"67","breezes freshening","2","4","7.30000019"
+"68","brisk","3","6","12.3000002"
+"69","brisk breeze","3","6","12.3000002"
+"70","brisk breezes","3","6","12.3000002"
+"71","brisk gale","3","6","12.3000002"
+"72","brisk gale decreasing","3","6","11.6000004"
+"73","brisk gale increasing","3","6","13.1000004"
+"74","brisk gale of wind","3","6","12.3000002"
+"75","brisk gales","3","6","12.3000002"
+"76","brisk increasing gales","3","6","13.1000004"
+"77","brisk pleasant gales","3","5","9.30000019"
+"78","brisk scant trade","2","3","4.9000001"
+"79","brisk steady gale","3","6","12.3000002"
+"80","brisk steady gales","3","6","12.3000002"
+"81","brisk steady trade","3","6","13.1000004"
+"82","brisk trade","3","5","10"
+"83","brisk trade decreasing","3","5","9.30000019"
+"84","brisk trade wind","3","5","10"
+"85","brisk trade winds","3","5","10"
+"86","brisk variable trade","3","5","10"
+"87","brisk wind","8",NA,NA
+"88","calm","1","0","0"
+"89","calms","1","0","0"
+"90","changable winds","8",NA,NA
+"91","changeable","8",NA,NA
+"92","changeable wind","8",NA,NA
+"93","clear fresh wind","3","5","9.30000019"
+"94","close hauled","4","10","26.7999992"
+"95","constant breeze","2","4","6.69999981"
+"96","constant brisk gale of wind","3","7","15.3999996"
+"97","constant brisk trade","3","5","10"
+"98","constant fine gale of wind","3","7","15.3999996"
+"99","constant fine trade","3","5","9.30000019"
+"100","constant flying squalls","8",NA,NA
+"101","constant fresh gale","4","8","19"
+"102","constant fresh gales","4","8","19"
+"103","constant fresh wind","3","5","9.30000019"
+"104","constant gale","3","7","15.3999996"
+"105","constant gales","3","7","15.3999996"
+"106","constant gentle trade","2","4","6.69999981"
+"107","constant pleasant trade","3","5","9.30000019"
+"108","constant squalls","8",NA,NA
+"109","constant steady breeze increasing","2","4","6.69999981"
+"110","constant steady easy gale","2","3","4.5999999"
+"111","constant steady gale","3","7","15.3999996"
+"112","constant steady wind","8",NA,NA
+"113","constant strong gale","4","9","22.6000004"
+"114","constant trade","3","5","9.30000019"
+"115","constant wind","8",NA,NA
+"116","continual hard squalls","8",NA,NA
+"117","continuance of hard squalls","8",NA,NA
+"118","continuous squalls","8",NA,NA
+"119","contrary","8",NA,NA
+"120","contrary winds","8",NA,NA
+"121","dark and squally weather","8",NA,NA
+"122","dark squally","8",NA,NA
+"123","dead calm","1","0","0"
+"124","declining breezes","2","4","6.0999999"
+"125","declining trade","3","5","8.69999981"
+"126","decreasing","8",NA,NA
+"127","decreasing breeze","2","4","6.0999999"
+"128","decreasing breezes","2","4","6.0999999"
+"129","decreasing gale","3","7","14.6999998"
+"130","decreasing gales","3","7","14.6999998"
+"131","decreasing gradually","8",NA,NA
+"132","decreasing pleasant breeze","2","4","6.0999999"
+"133","decreasing pleasant gale","3","5","8.69999981"
+"134","decreasing trade","3","5","8.69999981"
+"135","decreasing wind","8",NA,NA
+"136","decreasing winds","8",NA,NA
+"137","delightful fresh breeze","3","5","9.30000019"
+"138","dirty squally","8",NA,NA
+"139","disagreeable calms","1","0","0"
+"140","disagreeable light airs","1","1","1"
+"141","disagreeable light winds","1","1","1"
+"142","drifting winds","8",NA,NA
+"143","dying away","1","0","0"
+"144","easy breeze","2","2","2.5999999"
+"145","easy breezes","2","2","2.5999999"
+"146","easy gale","2","3","4.5999999"
+"147","easy gales","2","3","4.5999999"
+"148","easy pleasant gales","3","5","9.30000019"
+"149","easy trade","3","5","9.30000019"
+"150","exceeding hard gales","4","10","27.3999996"
+"151","exceeding pleasant trade","3","5","9.30000019"
+"152","exceeding strong gales","4","9","23.5"
+"153","exceedingly fine winds","3","5","9.30000019"
+"154","excessive hard gales","4","10","27.3999996"
+"155","excessive hard gales abating","4","10","26.7999992"
+"156","excessive hard squalls","8",NA,NA
+"157","excessive hard squalls decreasing","8",NA,NA
+"158","extremely light airs","1","1","0.600000024"
+"159","extremely pleasant running gale","3","5","9.30000019"
+"160","faint","1","1","1"
+"161","faint air","1","1","1"
+"162","faint airs","1","1","1"
+"163","faint breeze","2","2","2.5999999"
+"164","faint breezes","2","2","2.5999999"
+"165","faint gales","2","3","4.5999999"
+"166","faint light winds","2","2","2"
+"167","faint trade","2","3","4.5999999"
+"168","faint trade gales","2","3","4.5999999"
+"169","faint trade wind","2","3","4.5999999"
+"170","faint winds","2","2","2.5999999"
+"171","fair","8",NA,NA
+"172","fair air","8",NA,NA
+"173","fair breeze","8",NA,NA
+"174","fair breezes","8",NA,NA
+"175","fair fine breeze","3","5","9.30000019"
+"176","fair pleasant trade","3","5","9.30000019"
+"177","fair steady gale","3","7","15.3999996"
+"178","fair weather","8",NA,NA
+"179","falling calm","1","0","0"
+"180","falling little wind","1","1","1"
+"181","faultering breezes","8",NA,NA
+"182","favourable gales","3","7","15.3999996"
+"183","favourable trade","3","5","9.30000019"
+"184","fine","8",NA,NA
+"185","fine breeze","3","5","9.30000019"
+"186","fine breeze decreasing","3","5","8.69999981"
+"187","fine breeze increasing","3","5","10"
+"188","fine breeze springing up","3","5","9.30000019"
+"189","fine breezes","3","5","9.30000019"
+"190","fine breezes decreasing","3","5","8.69999981"
+"191","fine brisk gale","3","6","12.3000002"
+"192","fine brisk gale of wind","3","6","12.3000002"
+"193","fine brisk trade","3","5","9.30000019"
+"194","fine brisk trade wind","3","5","9.30000019"
+"195","fine brisk wind","8",NA,NA
+"196","fine constant gale","3","5","9.30000019"
+"197","fine constant gales","3","5","9.30000019"
+"198","fine easy gale","2","3","4.5999999"
+"199","fine easy gale gradually decreasing","2","3","4"
+"200","fine easy gales","2","3","4.5999999"
+"201","fine easy light winds","2","2","2.5999999"
+"202","fine easy pleasant gale","3","5","9.30000019"
+"203","fine fresh breeze","3","5","9.30000019"
+"204","fine fresh breezes","3","5","9.30000019"
+"205","fine fresh gale","4","8","19"
+"206","fine fresh gales","4","8","19"
+"207","fine fresh steady gales","3","6","12.3000002"
+"208","fine fresh trade","3","6","12.3000002"
+"209","fine fresh wind","3","6","12.3000002"
+"210","fine gale","3","5","9.30000019"
+"211","fine gale increasing","3","5","10"
+"212","fine gale moderate","3","5","9.30000019"
+"213","fine gale of wind","3","5","9.30000019"
+"214","fine gales","3","5","9.30000019"
+"215","fine gentle breeze","2","3","4.5999999"
+"216","fine gentle breezes","2","3","4.5999999"
+"217","fine gentle gale","2","3","4.5999999"
+"218","fine heavy gales","4","9","22.6000004"
+"219","fine increasing breeze","3","5","10"
+"220","fine increasing breezes","3","5","10"
+"221","fine increasing gale","3","5","10"
+"222","fine land breeze","8",NA,NA
+"223","fine leading gale","3","5","9.30000019"
+"224","fine little breeze","2","2","2"
+"225","fine little breezes","2","3","4.5999999"
+"226","fine moderate constant gale of wind","2","3","4.5999999"
+"227","fine moderate gale","3","7","15.3999996"
+"228","fine moderate gale of wind","3","7","15.3999996"
+"229","fine moderate gales","3","7","15.3999996"
+"230","fine moderate pleasant gale of wind","3","5","9.30000019"
+"231","fine moderate trade","3","5","9.30000019"
+"232","fine pleasant breeze","2","4","6.69999981"
+"233","fine pleasant breezes","2","4","6.69999981"
+"234","fine pleasant gale","3","5","9.30000019"
+"235","fine pleasant gale of wind","3","5","9.30000019"
+"236","fine pleasant gales","3","5","9.30000019"
+"237","fine pleasant gales of wind","3","5","9.30000019"
+"238","fine pleasant running gale","3","5","9.30000019"
+"239","fine pleasant trade","3","5","9.30000019"
+"240","fine pleasant trade wind","3","5","9.30000019"
+"241","fine running gale","3","5","9.30000019"
+"242","fine running pleasant gale","3","5","9.30000019"
+"243","fine settled pleasant gale","3","5","9.30000019"
+"244","fine settled trade","3","5","9.30000019"
+"245","fine steady breeze","3","5","9.30000019"
+"246","fine steady breezes","3","5","9.30000019"
+"247","fine steady fresh breeze","3","5","9.30000019"
+"248","fine steady gale","3","6","12.3000002"
+"249","fine steady gales","3","6","12.3000002"
+"250","fine steady running gale","3","6","12.3000002"
+"251","fine steady trade","3","6","12.3000002"
+"252","fine strong breezes","3","6","12.3000002"
+"253","fine strong trade","3","7","15.3999996"
+"254","fine trade","3","5","9.30000019"
+"255","fine trade wind","3","5","9.30000019"
+"256","fine trading gale","3","5","9.30000019"
+"257","fine wind","3","5","9.30000019"
+"258","flying showers","8",NA,NA
+"259","flying squalls","8",NA,NA
+"260","flying winds","8",NA,NA
+"261","frequent apperance of hard squalls","8",NA,NA
+"262","frequent hard squalls","8",NA,NA
+"263","frequent light squalls","8",NA,NA
+"264","frequent squalls","8",NA,NA
+"265","fresh","8",NA,NA
+"266","fresh airs","8",NA,NA
+"267","fresh breeze","3","5","9.30000019"
+"268","fresh breeze decreasing","3","5","8.69999981"
+"269","fresh breeze increasing","3","5","10"
+"270","fresh breezes","3","5","9.30000019"
+"271","fresh breezes declining","3","5","8.69999981"
+"272","fresh breezes decreasing","3","5","8.69999981"
+"273","fresh breezes inclinable to blow","3","5","10"
+"274","fresh breezes increasing","3","5","10"
+"275","fresh breezes varying","3","5","9.30000019"
+"276","fresh decreasing","8",NA,NA
+"277","fresh gale","4","8","19"
+"278","fresh gale blowing strong","4","8","19.7999992"
+"279","fresh gale decreasing","4","8","18.1000004"
+"280","fresh gale moderating","4","8","18.1000004"
+"281","fresh gale of wind","4","8","19"
+"282","fresh gale under double-reefed topsails","4","8","19"
+"283","fresh gale with squalls","4","8","19"
+"284","fresh gales","4","8","19"
+"285","fresh gales blowing very hard","4","8","19.7999992"
+"286","fresh gales decreasing","4","8","18.1000004"
+"287","fresh gales inclinable to blow hard","4","8","19.7999992"
+"288","fresh gales increasing","4","8","19.7999992"
+"289","fresh gales moderating","4","8","18.1000004"
+"290","fresh gales of wind","4","8","19"
+"291","fresh gales unsettled","4","8","19"
+"292","fresh gales variable","4","8","19"
+"293","fresh increasing breeze","3","5","10"
+"294","fresh increasing gale","4","8","19.7999992"
+"295","fresh monsoon","3","6","12.3000002"
+"296","fresh monsoons","3","6","12.3000002"
+"297","fresh passing squalls","8",NA,NA
+"298","fresh pleasant breezes","2","4","7.30000019"
+"299","fresh pleasant gale","3","5","10"
+"300","fresh pleasant gales","3","5","10"
+"301","fresh pleasant trade","3","5","10"
+"302","fresh pleasant trades","3","5","10"
+"303","fresh running gale","4","8","19"
+"304","fresh scant trade","2","3","4.9000001"
+"305","fresh settled breeze","3","5","9.30000019"
+"306","fresh settled monsoon","3","6","12.3000002"
+"307","fresh squalls","8",NA,NA
+"308","fresh squally weather","8",NA,NA
+"309","fresh steady breeze","3","5","10"
+"310","fresh steady breezes","3","5","10"
+"311","fresh steady gale","3","6","13.1000004"
+"312","fresh steady gales","3","6","13.1000004"
+"313","fresh steady trade","3","6","13.1000004"
+"314","fresh steady wind","3","5","10"
+"315","fresh topgallant gale","3","5","9.30000019"
+"316","fresh trade","3","6","12.3000002"
+"317","fresh trade and squally","3","6","12.3000002"
+"318","fresh trade breezes","3","6","12.3000002"
+"319","fresh trade decreasing","3","6","11.6000004"
+"320","fresh trade gale","3","6","12.3000002"
+"321","fresh trade gales","3","6","12.3000002"
+"322","fresh trade increasing","3","6","13.1000004"
+"323","fresh trade wind","3","6","12.3000002"
+"324","fresh trade winds","3","6","12.3000002"
+"325","fresh trades","3","6","12.3000002"
+"326","fresh trading gale","3","6","12.3000002"
+"327","fresh trading winds","3","6","12.3000002"
+"328","fresh variable breezes","3","5","9.30000019"
+"329","fresh variable gales","4","8","19"
+"330","fresh variable trade","3","6","12.3000002"
+"331","fresh variable wind","3","6","12.3000002"
+"332","fresh wind","3","6","12.3000002"
+"333","fresh winds","3","6","12.3000002"
+"334","fresh winds decreasing","3","6","11.6000004"
+"335","freshened","8",NA,NA
+"336","freshening","8",NA,NA
+"337","freshening breeze","2","4","7.30000019"
+"338","freshening breezes","2","4","7.30000019"
+"339","freshening gales","3","7","16.2999992"
+"340","freshening winds","2","4","7.30000019"
+"341","freshing on","8",NA,NA
+"342","freshning up","8",NA,NA
+"343","gale","3","7","15.3999996"
+"344","gale abated","3","7","14.6999998"
+"345","gale abating","3","7","14.6999998"
+"346","gale blowing very hard","4","10","27.3999996"
+"347","gale decreasing","3","7","14.6999998"
+"348","gale increasing","3","7","16.2999992"
+"349","gale moderating","3","7","14.6999998"
+"350","gale of wind","3","7","15.3999996"
+"351","gales","3","7","15.3999996"
+"352","gales decreasing","3","7","14.6999998"
+"353","gales freshening","3","7","16.2999992"
+"354","gales increasing","3","7","16.2999992"
+"355","gales of wind","3","7","15.3999996"
+"356","gales somewhat less","3","7","14.6999998"
+"357","gentle","2","3","4.5999999"
+"358","gentle breeze","2","3","4.5999999"
+"359","gentle breezes","2","3","4.5999999"
+"360","gentle breezes inclining to calms","1","1","1"
+"361","gentle breezes of wind","2","3","4.5999999"
+"362","gentle breezes sometimes calm","2","3","4.5999999"
+"363","gentle breezes variable","2","3","4.5999999"
+"364","gentle gale","2","3","4.5999999"
+"365","gentle gales","2","3","4.5999999"
+"366","gentle gales freshening","2","3","4.9000001"
+"367","gentle gales increasing","2","3","4.9000001"
+"368","gentle light breezes","2","2","2"
+"369","gentle trade","2","3","4.5999999"
+"370","gentle trade wind","2","3","4.5999999"
+"371","gentle wind","2","3","4.5999999"
+"372","gentle winds","2","3","4.5999999"
+"373","gloomy","8",NA,NA
+"374","good wind","8",NA,NA
+"375","happy running gale","8",NA,NA
+"376","hard","4","10","26.7999992"
+"377","hard gale","4","10","26.7999992"
+"378","hard gale decreasing","4","10","25.5"
+"379","hard gale increasing","4","10","27.3999996"
+"380","hard gales","4","10","26.7999992"
+"381","hard gales decreasing","4","10","25.5"
+"382","hard gales increasing","4","10","27.3999996"
+"383","hard gales of wind","4","10","26.7999992"
+"384","hard gusts","8",NA,NA
+"385","hard squall","8",NA,NA
+"386","hard squall of wind","8",NA,NA
+"387","hard squalls","8",NA,NA
+"388","hard squalls of wind","8",NA,NA
+"389","hard squalls variable","8",NA,NA
+"390","hard storm","4","10","27.3999996"
+"391","hard storms of wind","4","10","27.3999996"
+"392","hardest gales","4","10","27.3999996"
+"393","heavy gale","4","9","22.6000004"
+"394","heavy gales","4","9","22.6000004"
+"395","heavy gales of wind","4","9","22.6000004"
+"396","heavy squall","8",NA,NA
+"397","heavy squalls","8",NA,NA
+"398","heavy squalls of wind","8",NA,NA
+"399","heavy wind","4","9","22.6000004"
+"400","heavy winds","4","9","22.6000004"
+"401","hurricane","4","12","35"
+"402","ight breezes","2","2","2.5999999"
+"403","Iight winds","2","2","2.5999999"
+"404","inclinable to calm","1","1","1"
+"405","inclinable to calms","1","1","1"
+"406","inclining to calm","1","1","1"
+"407","inclining to calms","1","1","1"
+"408","increasing","8",NA,NA
+"409","increasing breeze","2","4","7.30000019"
+"410","increasing breezes","2","4","7.30000019"
+"411","increasing fine trade","3","5","10"
+"412","increasing fresh gale","4","8","19.7999992"
+"413","increasing fresh steady gale","3","7","15.3999996"
+"414","increasing gale","3","7","16.2999992"
+"415","increasing gales","3","7","16.2999992"
+"416","increasing little breeze","2","2","2.9000001"
+"417","increasing pleasant breeze","2","4","7.30000019"
+"418","increasing steady gale","3","6","13.1000004"
+"419","increasing strong gale","4","9","23.5"
+"420","increasing trade","3","5","10"
+"421","increasing wind","2","4","7.30000019"
+"422","increasing winds","2","4","7.30000019"
+"423","increasingly pleasant","8",NA,NA
+"424","invariable","8",NA,NA
+"425","land and sea breezes","8",NA,NA
+"426","land and seawinds","8",NA,NA
+"427","land breeze","8",NA,NA
+"428","land sea breezes","8",NA,NA
+"429","less wind","8",NA,NA
+"430","less winds","8",NA,NA
+"431","light","8",NA,NA
+"432","light air","1","1","1"
+"433","light airs","1","1","1"
+"434","light airs incinable to calm","1","1","0.600000024"
+"435","light airs inclinable to be calm","1","1","0.600000024"
+"436","light airs inclinable to calm","1","1","0.600000024"
+"437","light airs inclinable to calms","1","1","0.600000024"
+"438","light airs inclinbale to calm","1","1","0.600000024"
+"439","light airs inclining to calm","1","1","0.600000024"
+"440","light airs inclining to calms","1","1","0.600000024"
+"441","light airs increasing","1","1","1.20000005"
+"442","light airs of wind","1","1","1"
+"443","light airs variable","1","1","1"
+"444","light baffling airs","2","2","2.5999999"
+"445","light baffling winds","2","2","2.5999999"
+"446","light breeze","2","2","2.5999999"
+"447","light breeze freshening","2","2","2.9000001"
+"448","light breeze inclinable to calm","1","1","1.5"
+"449","light breeze increasing","2","2","2.9000001"
+"450","light breezes","2","2","2.5999999"
+"451","light breezes decreasing","2","2","2"
+"452","light breezes freshening","2","2","2.9000001"
+"453","light breezes inclinable to calm","1","1","1"
+"454","light breezes inclinable to calms","1","1","1.5"
+"455","light breezes inclining to calm","1","1","1.5"
+"456","light breezes increasing","2","2","2.9000001"
+"457","light breezes of wind","2","2","2.5999999"
+"458","light breezes variable","2","2","2.5999999"
+"459","light decreasing breeze","2","2","2"
+"460","light decreasing trade","2","4","6.0999999"
+"461","light disagreeable calms","1","1","1"
+"462","light easy gale","2","3","4"
+"463","light faint winds","2","2","2"
+"464","light faint winds variable","2","2","2"
+"465","light fanning airs","1","1","1"
+"466","light flying squalls","8",NA,NA
+"467","light gale","2","3","4.5999999"
+"468","light gales","2","3","4.5999999"
+"469","light gales decreasing","2","3","4"
+"470","light gales increasing","2","3","4.9000001"
+"471","light gales of wind","2","3","4.5999999"
+"472","light gales some squalls","2","3","4.5999999"
+"473","light gales variable","2","3","4.5999999"
+"474","light gentle breezes","2","3","4"
+"475","light inclining to calm","1","1","1"
+"476","light increasing breeze","2","2","2.9000001"
+"477","light increasing breezes","2","2","2.9000001"
+"478","light land and sea breezes","8",NA,NA
+"479","light land and sea winds","8",NA,NA
+"480","light menacing breeze","2","2","2.5999999"
+"481","light moderate breezes","2","2","2.5999999"
+"482","light monsoon","2","4","6.69999981"
+"483","light passing squalls","8",NA,NA
+"484","light pleasant breeze","2","4","6.0999999"
+"485","light pleasant breeze freshening","2","4","6.69999981"
+"486","light pleasant breezes","2","4","6.69999981"
+"487","light pleasant trade","3","5","8.69999981"
+"488","light sea breeze","8",NA,NA
+"489","light sea breezes","8",NA,NA
+"490","light shuffling breezes","8",NA,NA
+"491","light squalls","8",NA,NA
+"492","light steady breeze","3","5","8.69999981"
+"493","light steady breezes","3","5","8.69999981"
+"494","light steady trade","3","6","11.6000004"
+"495","light trade","2","4","6.69999981"
+"496","light trade decreasing","2","4","6.0999999"
+"497","light trade freshening","2","4","7.30000019"
+"498","light trade increasing","2","4","7.30000019"
+"499","light trade winds","2","4","6.69999981"
+"500","light trades","2","4","6.69999981"
+"501","light trading winds","2","4","6.69999981"
+"502","light triffling winds","1","1","1"
+"503","light unsettled airs","8",NA,NA
+"504","light variable","8",NA,NA
+"505","light variable airs","1","1","1"
+"506","light variable breeze","2","2","2.5999999"
+"507","light variable breezes","2","2","2.5999999"
+"508","light variable increasing","8",NA,NA
+"509","light variable trade","2","4","6.69999981"
+"510","light variable trade increasing","2","4","7.30000019"
+"511","light variable unsteady breezes","2","2","2.5999999"
+"512","light variable weather","8",NA,NA
+"513","light variable wind","2","2","2.5999999"
+"514","light variable winds","2","2","2.5999999"
+"515","light variable winds freshening","2","2","2.9000001"
+"516","light variable winds increasing","2","2","2.9000001"
+"517","light wind","2","2","2.5999999"
+"518","light winds","2","2","2.5999999"
+"519","light winds decreasing","2","2","2"
+"520","light winds freshening breezes","2","2","2.9000001"
+"521","light winds inclinable to be calm","1","1","1.5"
+"522","light winds inclinable to calm","1","1","1.5"
+"523","light winds inclinable to calms","1","1","1.5"
+"524","light winds inclining to calm","1","1","1.5"
+"525","light winds increasing","2","2","2.9000001"
+"526","light winds variable","2","2","2.5999999"
+"527","light winds very variable","2","2","2.5999999"
+"528","lighter","8",NA,NA
+"529","lighter squalls","8",NA,NA
+"530","little","8",NA,NA
+"531","little airs","1","1","1"
+"532","little breeze","2","2","2.5999999"
+"533","little breeze variable","2","2","2.5999999"
+"534","little breezes","2","2","2.5999999"
+"535","little moderate","2","4","6.0999999"
+"536","little wind ","2","2","2.5999999"
+"537","little wind falling calm","1","0","0"
+"538","little wind inclinable to calm","1","1","0.600000024"
+"539","little wind inclinable to calms","1","1","0.600000024"
+"540","little wind inclined to calm","1","1","0.600000024"
+"541","little wind inclining to calm","1","1","0.600000024"
+"542","little wind inclining to calms","1","1","0.600000024"
+"543","little wind variable","2","2","2.5999999"
+"544","little winds","2","2","2.5999999"
+"545","little winds inclinable to calms","1","1","0.600000024"
+"546","loitering winds","8",NA,NA
+"547","long lulls","8",NA,NA
+"548","messy hurricane of wind","4","12","35"
+"549","moderate","2","4","6.69999981"
+"550","moderate bad variable","8",NA,NA
+"551","moderate breeze","2","4","6.69999981"
+"552","moderate breeze decreasing","2","4","6.0999999"
+"553","moderate breeze freshening","2","4","7.30000019"
+"554","moderate breeze increasing","2","4","7.30000019"
+"555","moderate breezes","2","4","6.69999981"
+"556","moderate breezes declining","2","4","6.0999999"
+"557","moderate breezes decreasing","2","4","6.0999999"
+"558","moderate breezes freshing","2","4","7.30000019"
+"559","moderate breezes gradually decreasing","2","4","6.0999999"
+"560","moderate breezes inclinable to calm","1","1","1"
+"561","moderate breezes increasing","2","4","7.30000019"
+"562","moderate decreasing","8",NA,NA
+"563","moderate fair","8",NA,NA
+"564","moderate fine gale","3","5","9.30000019"
+"565","moderate fresh trade","3","6","12.3000002"
+"566","moderate fresh winds","3","6","12.3000002"
+"567","moderate gale","3","7","15.3999996"
+"568","moderate gale decreasing","3","7","14.6999998"
+"569","moderate gale of wind","3","7","15.3999996"
+"570","moderate gales","3","7","15.3999996"
+"571","moderate gales declining","3","7","14.6999998"
+"572","moderate gales decreasing","3","7","14.6999998"
+"573","moderate gales freshening","3","7","16.2999992"
+"574","moderate gales increasing","3","7","16.2999992"
+"575","moderate gales variable","3","7","15.3999996"
+"576","moderate inclinable to blow","8",NA,NA
+"577","moderate inclinable to calm","1","1","1"
+"578","moderate inclinable to calms","1","1","1"
+"579","moderate inclining to calm","1","1","1"
+"580","moderate increasing","2","4","7.30000019"
+"581","moderate increasing breeze","2","4","7.30000019"
+"582","moderate increasing trade","3","5","10"
+"583","moderate land and sea breezes","2","4","6.69999981"
+"584","moderate land breeze","2","4","6.69999981"
+"585","moderate light airs","1","1","1"
+"586","moderate light breeze","2","2","2.5999999"
+"587","moderate light breezes","2","2","2.5999999"
+"588","moderate monsoon","3","5","9.30000019"
+"589","moderate pleasant breezes","2","4","6.69999981"
+"590","moderate pleasant monsoon","3","5","9.30000019"
+"591","moderate pleasant weather","8",NA,NA
+"592","moderate sea breeze","2","4","6.69999981"
+"593","moderate sea breezes","8",NA,NA
+"594","moderate shuffling winds","2","4","6.69999981"
+"595","moderate steady","2","4","6.69999981"
+"596","moderate steady breeze","3","5","9.30000019"
+"597","moderate steady breezes","3","5","9.30000019"
+"598","moderate steady gale","4","9","22.6000004"
+"599","moderate steady trade","3","6","12.3000002"
+"600","moderate steady trades","3","6","12.3000002"
+"601","moderate trade","3","5","9.30000019"
+"602","moderate trade declining","3","5","8.69999981"
+"603","moderate trade decreasing","3","5","8.69999981"
+"604","moderate trade gales","3","5","9.30000019"
+"605","moderate trade wind","3","5","9.30000019"
+"606","moderate trade winds","3","5","9.30000019"
+"607","moderate trades","3","5","9.30000019"
+"608","moderate variable breeze","2","4","6.69999981"
+"609","moderate variable breezes","2","4","6.69999981"
+"610","moderate variable trade","3","5","9.30000019"
+"611","moderate variable winds","2","4","6.69999981"
+"612","moderate weather","8",NA,NA
+"613","moderate wind","2","4","6.69999981"
+"614","moderate winds","2","4","6.69999981"
+"615","moderate winds decreasing","2","4","6.0999999"
+"616","moderate winds increasing","2","4","7.30000019"
+"617","moderated","2","4","6.69999981"
+"618","moderating","2","4","6.69999981"
+"619","monsoon","3","5","9.30000019"
+"620","more favourable","8",NA,NA
+"621","more fresh","3","5","9.30000019"
+"622","more hurricane of wind","4","12","35"
+"623","more moderate","2","4","6.69999981"
+"624","more moderate gale","3","7","15.3999996"
+"625","more moderate inclining to calm","1","1","1"
+"626","more moderate trade","3","5","9.30000019"
+"627","more moderate variable winds","2","4","6.69999981"
+"628","more moderate weather","8",NA,NA
+"629","more pleasant breeze","2","4","6.69999981"
+"630","more regular","8",NA,NA
+"631","more settled","8",NA,NA
+"632","more settled weather","8",NA,NA
+"633","more steady","8",NA,NA
+"634","more wind","8",NA,NA
+"635","more winds","8",NA,NA
+"636","much abated","8",NA,NA
+"637","much wind","8",NA,NA
+"638","much wind and squally","8",NA,NA
+"639","much winds","8",NA,NA
+"640","much winds and squally","8",NA,NA
+"641","nearly calm","1","0","0.100000001"
+"642","nearly calm increasing","1","0","0.100000001"
+"643","not much wind","8",NA,NA
+"644","not so much wind","8",NA,NA
+"645","passing squalls","8",NA,NA
+"646","perpetual very hard squalls","8",NA,NA
+"647","pleasant","2","4","6.69999981"
+"648","pleasant breeze","2","4","6.69999981"
+"649","pleasant breeze declining","2","4","6.0999999"
+"650","pleasant breeze decreasing","2","4","6.0999999"
+"651","pleasant breeze increasing","2","4","7.30000019"
+"652","pleasant breezes","2","4","6.69999981"
+"653","pleasant breezes decreasing","2","4","6.0999999"
+"654","pleasant breezes increasing","2","4","7.30000019"
+"655","pleasant brisk gale","3","6","12.3000002"
+"656","pleasant brisk trade","3","5","9.30000019"
+"657","pleasant decreasing gale","3","5","8.69999981"
+"658","pleasant fair breezes","2","4","6.69999981"
+"659","pleasant fresh breeze","3","5","9.30000019"
+"660","pleasant fresh breezes","3","5","9.30000019"
+"661","pleasant fresh gales","4","8","18.1000004"
+"662","pleasant fresh trade","3","6","12.3000002"
+"663","pleasant fresh winds","3","6","12.3000002"
+"664","pleasant gale","3","5","9.30000019"
+"665","pleasant gale decreasing","3","5","8.69999981"
+"666","pleasant gale increasing","3","5","10"
+"667","pleasant gales","3","5","9.30000019"
+"668","pleasant gales decreasing","3","5","8.69999981"
+"669","pleasant gales increasing","3","5","10"
+"670","pleasant increasing breeze","2","4","7.30000019"
+"671","pleasant increasing gale","3","5","10"
+"672","pleasant increasing trade","3","5","10"
+"673","pleasant land and sea winds","8",NA,NA
+"674","pleasant land breezes","8",NA,NA
+"675","pleasant light breezes","2","3","4.5999999"
+"676","pleasant light gale","2","4","6.69999981"
+"677","pleasant light steady gale","2","4","6.69999981"
+"678","pleasant light trade","2","4","6.69999981"
+"679","pleasant light winds","2","3","4.5999999"
+"680","pleasant mild breeze","2","4","6.69999981"
+"681","pleasant mild trade","3","5","9.30000019"
+"682","pleasant moderate gale","3","6","12.3000002"
+"683","pleasant moderate trade","3","5","9.30000019"
+"684","pleasant monsoon","3","5","9.30000019"
+"685","pleasant monsoon fair","3","5","9.30000019"
+"686","pleasant steady breeze","3","5","8.69999981"
+"687","pleasant steady breezes","3","5","8.69999981"
+"688","pleasant steady fresh breezes","3","5","9.30000019"
+"689","pleasant steady fresh trade","3","6","12.3000002"
+"690","pleasant steady gale","3","6","11.6000004"
+"691","pleasant steady gales","3","6","11.6000004"
+"692","pleasant steady trade","3","6","11.6000004"
+"693","pleasant topgallant gales","3","5","9.30000019"
+"694","pleasant trade","3","5","9.30000019"
+"695","pleasant trade breezes","3","5","9.30000019"
+"696","pleasant trade decreasing","3","5","8.69999981"
+"697","pleasant trade gales","3","5","9.30000019"
+"698","pleasant trade increasing","3","5","10"
+"699","pleasant trade wind","3","5","9.30000019"
+"700","pleasant trade winds","3","5","9.30000019"
+"701","pleasant trades","3","5","9.30000019"
+"702","pleasant trading gales","3","5","9.30000019"
+"703","pleasant variable breezes","2","4","6.69999981"
+"704","pleasant variable trade","3","5","9.30000019"
+"705","pleasant very scant trade","2","3","4"
+"706","pleasant wind","2","4","6.69999981"
+"707","pleasant winds","2","4","6.69999981"
+"708","pleasant winds increasing","2","4","7.30000019"
+"709","pretty breezes","2","4","6.69999981"
+"710","pretty fresh gales","4","8","19"
+"711","pretty hard gale","4","9","22.6000004"
+"712","pretty moderate","2","4","6.69999981"
+"713","prodigious hard gales","4","9","23.5"
+"714","quite calm","1","1","1"
+"715","quite unsettled","8",NA,NA
+"716","rather moderate","2","4","6.69999981"
+"717","rather unsettled","8",NA,NA
+"718","regular fresh breeze","3","5","9.30000019"
+"719","regular increasing breeze","2","4","7.30000019"
+"720","samey","8",NA,NA
+"721","scant","1","1","1"
+"722","scant trade","2","3","4.5999999"
+"723","scant trade wind","2","3","4.5999999"
+"724","scant wind","1","1","1"
+"725","sea & land winds standing for the land","8",NA,NA
+"726","sea and land winds","8",NA,NA
+"727","sea breeze","8",NA,NA
+"728","settled","8",NA,NA
+"729","settled breeze","2","4","6.69999981"
+"730","settled gale","3","7","15.3999996"
+"731","settled pleasant gale","3","5","9.30000019"
+"732","settled pleasant trade","3","5","9.30000019"
+"733","settled steady wind","3","5","9.30000019"
+"734","settled trade","3","5","9.30000019"
+"735","settled weather","8",NA,NA
+"736","settled winds","2","4","6.69999981"
+"737","several squalls","8",NA,NA
+"738","severe gale","4","10","26.7999992"
+"739","severe squalls","8",NA,NA
+"740","severe storm","4","10","26.7999992"
+"741","sharp squalls","8",NA,NA
+"742","shifting winds","8",NA,NA
+"743","slight breeze","2","2","2.5999999"
+"744","slight squalls","8",NA,NA
+"745","small air","1","1","1"
+"746","small air of wind","1","1","1"
+"747","small airs","1","1","1"
+"748","small breeze","2","2","2.5999999"
+"749","small breezes","2","2","2.5999999"
+"750","small gales","2","3","4.5999999"
+"751","small squalls","8",NA,NA
+"752","smart gale","3","5","9.30000019"
+"753","smart gales","3","5","9.30000019"
+"754","smart squalls","8",NA,NA
+"755","some light squalls","8",NA,NA
+"756","some squalls","8",NA,NA
+"757","sometimes squally","8",NA,NA
+"758","somewhat moderate","2","4","6.0999999"
+"759","sprung up a breeze","8",NA,NA
+"760","squall","8",NA,NA
+"761","squall of wind","8",NA,NA
+"762","squalls","8",NA,NA
+"763","squalls blew very heavy","8",NA,NA
+"764","squalls not so hard","8",NA,NA
+"765","squalls of wind","8",NA,NA
+"766","squally","8",NA,NA
+"767","squally at times","8",NA,NA
+"768","squally trade","8",NA,NA
+"769","squally uncertain weather","8",NA,NA
+"770","squally unsettled weather","8",NA,NA
+"771","squally variable","8",NA,NA
+"772","squally weather","8",NA,NA
+"773","stark calm","1","0","0"
+"774","stationary","8",NA,NA
+"775","steady","8",NA,NA
+"776","steady breeze","3","5","9.30000019"
+"777","steady breeze increasing","3","5","10"
+"778","steady breezes","3","5","9.30000019"
+"779","steady breezes decreasing","3","5","8.69999981"
+"780","steady breezes increasing","3","5","10"
+"781","steady brisk gale","3","6","12.3000002"
+"782","steady brisk gales","3","6","12.3000002"
+"783","steady brisk trade","3","5","9.30000019"
+"784","steady decreasing breezes","3","5","8.69999981"
+"785","steady easy gale","2","3","4.5999999"
+"786","steady fine breeze","3","5","9.30000019"
+"787","steady fresh breeze","3","5","9.30000019"
+"788","steady fresh breezes","3","5","9.30000019"
+"789","steady fresh breezes increasing","3","5","10"
+"790","steady fresh gale","4","8","19"
+"791","steady fresh gales","4","8","19"
+"792","steady fresh trade","3","6","12.3000002"
+"793","steady gale","3","6","12.3000002"
+"794","steady gale abating","3","6","11.6000004"
+"795","steady gale decreasing","3","6","11.6000004"
+"796","steady gale increasing","3","6","13.1000004"
+"797","steady gales","3","6","12.3000002"
+"798","steady gales increasing","3","6","13.1000004"
+"799","steady gentle breeze","2","3","4.5999999"
+"800","steady gentle gale","2","3","4.5999999"
+"801","steady gentle gales","2","3","4.5999999"
+"802","steady increasing breeze","3","5","10"
+"803","steady increasing gale","3","6","13.1000004"
+"804","steady light breeze increasing","2","2","2.9000001"
+"805","steady light breezes","2","2","2.5999999"
+"806","steady light gale","2","3","4.5999999"
+"807","steady light trade","2","4","6.69999981"
+"808","steady moderate breeze","2","4","6.69999981"
+"809","steady moderate breezes","2","4","6.69999981"
+"810","steady moderate gale","3","7","15.3999996"
+"811","steady moderate gales","3","7","15.3999996"
+"812","steady moderate trade","3","5","9.30000019"
+"813","steady monsoon","3","5","9.30000019"
+"814","steady pleasant breezes","2","4","6.69999981"
+"815","steady pleasant gale","3","5","9.30000019"
+"816","steady pleasant gales","3","5","9.30000019"
+"817","steady pleasant monsoon","3","5","9.30000019"
+"818","steady pleasant trade","3","5","9.30000019"
+"819","steady regular breeze","8",NA,NA
+"820","steady regular winds","8",NA,NA
+"821","steady scant trade","2","3","4.5999999"
+"822","steady sea breeze","8",NA,NA
+"823","steady strong gales","4","9","22.6000004"
+"824","steady trade","3","6","12.3000002"
+"825","steady trade wind","3","6","12.3000002"
+"826","steady trading gale","3","6","12.3000002"
+"827","steady trading wind","2","4","6.69999981"
+"828","steady wind","8",NA,NA
+"829","steady winds","8",NA,NA
+"830","stiff breeze","8",NA,NA
+"831","stiff breezes","8",NA,NA
+"832","stiff gale","4","9","22.6000004"
+"833","stiff gales","4","9","22.6000004"
+"834","storm","4","11","30.8999996"
+"835","storm of wind","8",NA,NA
+"836","stormy","8",NA,NA
+"837","stormy trade","3","7","15.3999996"
+"838","stormy weather","8",NA,NA
+"839","stout gales","8",NA,NA
+"840","stout trade","3","7","15.3999996"
+"841","strong","8",NA,NA
+"842","strong breeze","3","6","12.3000002"
+"843","strong breezes","3","6","12.3000002"
+"844","strong breezes declining","3","6","11.6000004"
+"845","strong breezes decreasing","3","6","11.6000004"
+"846","strong breezes increasing","3","6","13.1000004"
+"847","strong breezes moderating","3","6","11.6000004"
+"848","strong breezes squalls","3","6","12.3000002"
+"849","strong fresh gale","4","8","19.7999992"
+"850","strong fresh gales","4","8","19.7999992"
+"851","strong gale","4","9","22.6000004"
+"852","strong gale decreasing","4","9","21.7000008"
+"853","strong gale increasing","4","9","23.5"
+"854","strong gale moderating","4","9","21.7000008"
+"855","strong gales","4","9","22.6000004"
+"856","strong gales abating","4","9","21.7000008"
+"857","strong gales decreasing","4","9","21.7000008"
+"858","strong gales dying away","4","9","21.7000008"
+"859","strong gales heavy squalls","4","9","22.6000004"
+"860","strong gales increasing","4","9","23.5"
+"861","strong gales moderating","4","9","21.7000008"
+"862","strong gales variable","4","9","22.6000004"
+"863","strong gusts of wind","8",NA,NA
+"864","strong increasing breeze","2","4","7.30000019"
+"865","strong increasing gale","3","7","16.2999992"
+"866","strong increasing gales","3","7","16.2999992"
+"867","strong increasing winds","2","4","7.30000019"
+"868","strong monsoon","3","7","16.2999992"
+"869","strong pleasant breezes","2","4","7.30000019"
+"870","strong pleasant trade","3","5","10"
+"871","strong squalls","8",NA,NA
+"872","strong steady gale","3","6","13.1000004"
+"873","strong steady gales","3","6","13.1000004"
+"874","strong trade","3","7","16.2999992"
+"875","strong trades","3","7","16.2999992"
+"876","strong variable breezes","8",NA,NA
+"877","strong variable winds","8",NA,NA
+"878","strong wind","4","8","19"
+"879","strong winds","4","8","19"
+"880","strong winds decreasing","4","8","18.1000004"
+"881","strong winds gradually moderating","4","8","18.1000004"
+"882","stronger winds","8",NA,NA
+"883","thick squally","8",NA,NA
+"884","too little wind","1","1","1"
+"885","trade","3","5","9.30000019"
+"886","trade freshening","3","5","10"
+"887","trade light","2","4","6.69999981"
+"888","trade moderate","3","5","9.30000019"
+"889","trade more favourable","3","5","9.30000019"
+"890","trade variable","3","5","9.30000019"
+"891","trade very scant","2","3","4"
+"892","trade very unsettled","2","4","6.69999981"
+"893","trade very variable","2","4","6.69999981"
+"894","trade wind","3","5","9.30000019"
+"895","tremendous hard gales","4","10","27.3999996"
+"896","triffling winds","8",NA,NA
+"897","uncertain","8",NA,NA
+"898","uncertain squally","8",NA,NA
+"899","unconstant winds","8",NA,NA
+"900","unfavorable","8",NA,NA
+"901","unsettled","8",NA,NA
+"902","unsettled light winds","2","2","2.5999999"
+"903","unsettled squally","8",NA,NA
+"904","unsettled squally weather","8",NA,NA
+"905","unsettled trade","3","5","9.30000019"
+"906","unsettled trade blowing very strong","3","7","16.2999992"
+"907","unsettled weather","8",NA,NA
+"908","unsettled wind","8",NA,NA
+"909","unsettled winds","8",NA,NA
+"910","unsteady","8",NA,NA
+"911","unsteady breeze","8",NA,NA
+"912","unsteady breezes","8",NA,NA
+"913","unsteady trade","3","5","9.30000019"
+"914","unsteady winds","8",NA,NA
+"915","variabel squally","8",NA,NA
+"916","variable","8",NA,NA
+"917","variable airs","8",NA,NA
+"918","variable breeze","8",NA,NA
+"919","variable breezes","8",NA,NA
+"920","variable breezes decreasing","8",NA,NA
+"921","variable fresh gales","4","8","19"
+"922","variable gales","8",NA,NA
+"923","variable hard squalls","8",NA,NA
+"924","variable increasing","8",NA,NA
+"925","variable land sea breezes","8",NA,NA
+"926","variable light airs","1","1","1"
+"927","variable light breeze","2","2","2.5999999"
+"928","variable light breezes","2","2","2.5999999"
+"929","variable light squalls","8",NA,NA
+"930","variable light trade","2","4","6.69999981"
+"931","variable light winds","2","2","2.5999999"
+"932","variable light winds increasing","2","2","2.9000001"
+"933","variable moderate breezes","2","4","6.69999981"
+"934","variable squalls","8",NA,NA
+"935","variable squally","8",NA,NA
+"936","variable squally weather","8",NA,NA
+"937","variable squally winds","8",NA,NA
+"938","variable strong breezes","3","6","12.3000002"
+"939","variable trade","3","5","9.30000019"
+"940","variable unsettled","8",NA,NA
+"941","variable unsettled weather","8",NA,NA
+"942","variable unsettled winds","8",NA,NA
+"943","variable unsteady weather","8",NA,NA
+"944","variable unsteady winds","8",NA,NA
+"945","variable weather","8",NA,NA
+"946","variable wind","8",NA,NA
+"947","variable winds","8",NA,NA
+"948","variable winds decreasing","8",NA,NA
+"949","variable winds increasing","8",NA,NA
+"950","varied","8",NA,NA
+"951","varying very little","8",NA,NA
+"952","very brisk gales","3","6","13.1000004"
+"953","very cross winds","8",NA,NA
+"954","very faint breezes","2","2","2"
+"955","very fiery","8",NA,NA
+"956","very fine breezes","3","5","8.69999981"
+"957","very fine steady trade","3","6","12.3000002"
+"958","very frequent smart squalls","8",NA,NA
+"959","very fresh","8",NA,NA
+"960","very fresh gale","4","8","19.7999992"
+"961","very fresh gale frequent squalls","4","8","19.7999992"
+"962","very fresh gales","4","8","19.7999992"
+"963","very fresh settled trade","3","6","12.3000002"
+"964","very fresh trade","3","6","13.1000004"
+"965","very gentle breezes","2","3","4.5999999"
+"966","very great gales","4","9","22.6000004"
+"967","very hard","8",NA,NA
+"968","very hard gale","4","10","27.3999996"
+"969","very hard gale abated","4","10","26.7999992"
+"970","very hard gale of wind","4","10","27.3999996"
+"971","very hard gales","4","10","27.3999996"
+"972","very hard gales of wind","4","10","27.3999996"
+"973","very hard squall","8",NA,NA
+"974","very hard squalls","8",NA,NA
+"975","very hard with heavy squalls","8",NA,NA
+"976","very heavy gale","4","9","23.5"
+"977","very heavy gales","4","9","23.5"
+"978","very heavy squall","8",NA,NA
+"979","very heavy squalls","8",NA,NA
+"980","very light","8",NA,NA
+"981","very light airs","1","1","0.600000024"
+"982","very light breeze","2","2","2"
+"983","very light breezes","2","2","2"
+"984","very light trade","2","4","6.0999999"
+"985","very light variable airs","8",NA,NA
+"986","very light winds","2","2","2"
+"987","very little wind","2","2","2"
+"988","very moderate","2","4","6.0999999"
+"989","very moderate trade","3","5","9.30000019"
+"990","very pleasant easy gale","2","3","4.5999999"
+"991","very pleasant trade","3","5","9.30000019"
+"992","very pleasant winds","2","4","6.69999981"
+"993","very scant","1","1","1"
+"994","very scant pleasant trade","3","5","8.69999981"
+"995","very severe squalls","8",NA,NA
+"996","very squally","8",NA,NA
+"997","very stormy trade","4","10","26.7999992"
+"998","very strong","8",NA,NA
+"999","very strong gale","4","10","26.7999992"
+"1000","very strong gales","4","10","26.7999992"
+"1001","very strong squalls","8",NA,NA
+"1002","very strong trade","3","7","16.2999992"
+"1003","very strong wind","4","8","19.7999992"
+"1004","very strong winds","4","8","19.7999992"
+"1005","very tempestuous","4","11","31.6000004"
+"1006","very uncertain","8",NA,NA
+"1007","very uncertain squally weather","8",NA,NA
+"1008","very unsettled","8",NA,NA
+"1009","very unsettled frequent squalls","8",NA,NA
+"1010","very unsettled weather","8",NA,NA
+"1011","very unsettled winds","8",NA,NA
+"1012","very variable","8",NA,NA
+"1013","violent burst of wind","8",NA,NA
+"1014","violent bursts of wind","8",NA,NA
+"1015","violent gale","4","9","22.6000004"
+"1016","violent gale of wind","4","9","22.6000004"
+"1017","violent gales","4","9","22.6000004"
+"1018","violent hard gales","4","10","27.3999996"
+"1019","violent hard gusts","8",NA,NA
+"1020","violent hard squalls","8",NA,NA
+"1021","violent squalls","8",NA,NA
+"1022","violent storm","4","11","30.8999996"
+"1023","violent tornado","8",NA,NA
+"1024","wind","8",NA,NA
+"1025","wind abated","8",NA,NA
+"1026","wind abating","8",NA,NA
+"1027","wind declined","8",NA,NA
+"1028","wind decreased","8",NA,NA
+"1029","wind decreasing","8",NA,NA
+"1030","wind dying away","8",NA,NA
+"1031","wind freshened up","8",NA,NA
+"1032","wind freshening","8",NA,NA
+"1033","wind less","8",NA,NA
+"1034","wind light","2","2","2.5999999"
+"1035","wind rising","8",NA,NA
+"1036","wind settled","8",NA,NA
+"1037","wind variable","8",NA,NA
+"1038","winds abated","8",NA,NA
+"1039","winds all around","8",NA,NA
+"1040","winds increasing","8",NA,NA
+"1041","winds light","2","2","2.5999999"
+"1042","winds variable","8",NA,NA

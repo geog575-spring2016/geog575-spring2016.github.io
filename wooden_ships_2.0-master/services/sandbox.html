@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<style>
+	body, html{
+		height: 100%;
+	}
+	#map {
+		height: 100%;
+	}
+	
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.city-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(200, 200, 200, 0.8);
+  color: black;
+  border-radius: 2px;
+}
+
+circle{
+	cursor: cell;
+}
+</style>
+
+</head>
+
+<body>
+	<h1 class='page-header'>Wooden Ships Sandbox</h1>
+	<h4 id='status'></h4>
+	<div id='loading' class='container'>
+		<h6 class='page-header'>Loading...</h6>
+		<span>Basemap: </span><span id='basemapLoaded'></span><br />
+		<span>Ships: </span><span id='shipsLoaded'></span><br />
+		<span>Nationalities: </span><span id='nationsLoaded'></span><br />
+		<span>Companies: </span><span id='companiesLoaded'></span><br />
+		<span>Ship Types: </span><span id='typesLoaded'></span><br />
+	</div>
+	
+	<div id='filters' class='container'>
+		<div class='col-sm-6'>
+		<label>Nationality: </label><select id='nationalitySelect'>
+			<option>All Nationalities</option>
+		</select><br />
+		<label>Min Date:</label><input type='date' id='minDateSelect' min='1750-01-01' max='1850-12-31'/><br />
+		<label>Max Date</label><input type='date' id='maxDateSelect' min='1750-01-01' max='1850-12-31'/><br />
+		<label>Ship Name: </label><select id='shipNameSelect'>
+			<option>All Ships</option>
+		</select><br />
+		<label>Color each ship differently: </label><input type='checkbox' id='colorShips'><br />
+		<label>Company: </label><select id='companySelect'>
+			<option>All Companies</option>
+		</select><br />
+		<label>Ship Type: </label><select id='shipTypeSelect'>
+			<option>All Types</option>
+		</select><br />
+		</div>
+		<div class='col-sm-3'>
+		<span>Only select records that note...</span><br />
+		<label>Gusts: </label><input type='checkbox' id='gustSelect'><br />
+		<label>Rain: </label><input type='checkbox' id='rainSelect'><br />
+		<label>Snow: </label><input type='checkbox' id='snowSelect'><br />
+		<label>Fog: </label><input type='checkbox' id='fogSelect'><br />
+		<label>Thunder: </label><input type='checkbox' id='thunderSelect'><br />
+		<label>Hail: </label><input type='checkbox' id='hailSelect'><br />
+		<label>Sea Ice: </label><input type='checkbox' id='seaiceSelect'><br />
+		<label>Min Wind Direction (Degrees): </label><input type='number' step='0.001' id='windDirMin'><br />
+		<label>Max Wind Direction (Degrees): </label><input type='number' step='0.001' id='windDirMax'><br />
+		<label>Min Wind Speed: </label><input type='number' step='0.001' id='windSpeedMin'><br />
+		<label>Max Wind Speed: </label><input type='number' step='0.001' id='windSpeedMax'><br />
+		</div>
+		<button id='goButton' class='btn btn-primary col-sm-12'>Go!</button>
+	</div>
+	<div id='summary' class='container'>
+		<div id='recordSummary' class='col-sm-6'>
+			<b id='newReturn' style="{display: none}">New Results Set Returned!</b><br />
+		<span id='numTotal'></span><br />
+		<span id='numNations'></span><br />
+		<span id='numShips'></span><br />
+		<span id='numCompanies'></span><br />
+		<span id='numCaps'></span><br />
+		<button class='col-sm-12 btn-alert' id='downloadCSV'>Download Records as Excel (.csv)</button>
+		<button class='col-sm-12 btn-alert' id='downloadJSON'>Download Records as JSON</button>
+		</div>
+		<div class='col-sm-6'>
+	<label>Voyage From: </label><span class='text-muted' id='voyageFrom'></span><br />
+	<label>Voyage To: </label><span class='text-muted' id='voyageTo'></span><br />
+	<label>Voyage Start: </label><span class='text-muted' id='voyageStart'></span>
+	</div>
+	</div>
+	
+
+	<div id='map'></div>
+	
+	
+	
+	<!--load the javascript files-->
+			<!-- JQuery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<!-- Bootstrap js -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src='assets/js/underscore.js'></script>
+		<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script> <!--Tooltips-->
+		<script src="http://d3js.org/queue.v1.min.js"></script>
+	<script src="assets/js/config.js"></script>
+	<script src='assets/js/sandbox.js'></script>
+</body>
+</html>

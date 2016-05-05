@@ -1,0 +1,212 @@
+"ID","WindDirection","ProbWindDD"
+1,"dood stil",0
+2,"doodstil",0
+3,"geen vertier",0
+4,"stil",0
+5,"stilletjes",0
+6,"stilte",0
+7,"n1/3o",4
+8,"n1/2o",6
+9,"10",10
+10,"nto",11
+11,"nno1/2n",17
+12,"nto1/2o",17
+13,"20",20
+14,"nno",23
+15,"nno1/2o",28
+16,"30",30
+17,"nnoto",34
+18,"notn",34
+19,"notw",34
+20,"no1/2n",39
+21,"40",40
+22,"no",45
+23,"no1/2o",51
+24,"noto",56
+25,"notz",56
+26,"60",60
+27,"ono1/2n",62
+28,"ono",68
+29,"70",70
+30,"ono1/2o",73
+31,"otn1/2n",73
+32,"onotz",79
+33,"otn",79
+34,"otno",79
+35,"80",80
+36,"o1/2n",84
+37,"90",90
+38,"o",90
+39,"o1/2z",96
+40,"100",100
+41,"otz",101
+42,"otzo",101
+43,"ozoto",101
+44,"otz1/2z",107
+45,"ozo1/2o",107
+46,"110",110
+47,"ozo",113
+48,"ozo1/2z",118
+49,"zoto1/2o",118
+50,"120",120
+51,"zotn",124
+52,"zoto",124
+53,"zo1/2o",129
+54,"130",130
+55,"zo",135
+56,"140",140
+57,"zo1/2z",141
+58,"zotw",146
+59,"zotz",146
+60,"150",150
+61,"zzo1/2o",152
+62,"zzo",158
+63,"160",160
+64,"zto1/2o",163
+65,"zto",169
+66,"zzotz",169
+67,"170",170
+68,"z1/2o",174
+69,"zto1/2z",174
+70,"z",180
+71,"z1/2w",186
+72,"190",190
+73,"ztw",191
+74,"ztzw",191
+75,"zzwtz",191
+76,"ztw1/4w",194
+77,"ztw1/2w",197
+78,"zzw",203
+79,"zzw1/2w",208
+80,"210",210
+81,"zzw3/4w",211
+82,"zwtz",214
+83,"zwtzo",214
+84,"zzwtw",214
+85,"zw1/2z",219
+86,"220",220
+87,"zw1/4z",222
+88,"zw",225
+89,"zw1/8w",226
+90,"230",230
+91,"zw1/2w",231
+92,"zwtn",236
+93,"zwtw",236
+94,"wzw1/2z",242
+95,"zwtw1/2w",242
+96,"wzw",248
+97,"250",250
+98,"wzw1/2w",253
+99,"wtz",259
+100,"wtzw",259
+101,"wzwtw",259
+102,"w1/2z",264
+103,"wtz1/2w",264
+104,"270",270
+105,"w",270
+106,"w1/2n",276
+107,"280",280
+108,"wnwtw",281
+109,"wtn",281
+110,"wnw1/2w",287
+111,"290",290
+112,"wnw",293
+113,"nwtw1/2w",298
+114,"nwtw",304
+115,"nw1/2w",309
+116,"nw1/8w",314
+117,"nw",315
+118,"nw1/2n",321
+119,"nnwtw",326
+120,"nwtn",326
+121,"nnw1/2w",332
+122,"nnw",338
+123,"nnw1/2n",343
+124,"nnwtn",349
+125,"nnwto",349
+126,"ntw",349
+127,"n1/2w",354
+128,"n",360
+129,"",500
+130,"in en uitlopend",500
+131,"in- en uitlopend",500
+132,"in- en uitlopende wind",500
+133,"landig",500
+134,"landwind",500
+135,"lopend",500
+136,"lopende wind",500
+137,"lopende winden",500
+138,"nntw",500
+139,"noo",500
+140,"notm",500
+141,"ntz",500
+142,"nwn",500
+143,"nww",500
+144,"nwzw",500
+145,"nz",500
+146,"on",500
+147,"onto",500
+148,"op en neer",500
+149,"otw",500
+150,"oz",500
+151,"oztz",500
+152,"wind van land",500
+153,"wisselend",500
+154,"wzn",500
+155,"zno",500
+156,"zoo",500
+157,"zot",500
+158,"zozo",500
+159,"ztz",500
+160,"zww",500
+161,"zwz",500
+162,"compleet rond",999
+163,"fariabel",999
+164,"heen en weer",999
+165,"heen en weer lopende",999
+166,"heen en weer lopende wind",999
+167,"het kompas rond",999
+168,"kompas rond",999
+169,"kompasrond",999
+170,"oml",999
+171,"omloopend",999
+172,"omlopend",999
+173,"omlopende",999
+174,"omlopende luchtjes",999
+175,"omlopende wind",999
+176,"omlopende winden",999
+177,"ongelijk",999
+178,"romdgaande wind",999
+179,"rond",999
+180,"ronddraaiend",999
+181,"rondgaande",999
+182,"rondgaande wind",999
+183,"rondl",999
+184,"rondloopend",999
+185,"rondloopende wind",999
+186,"rondlopen",999
+187,"rondlopend",999
+188,"rondlopende",999
+189,"rondlopende wind",999
+190,"rondlopende winden",999
+191,"rondmalend",999
+192,"rondom",999
+193,"rondomlopend",999
+194,"ronlopend",999
+195,"'t compas rond",999
+196,"'t kompas rond",999
+197,"'t luchtje variabel",999
+198,"uitlopend",999
+199,"var",999
+200,"variab",999
+201,"variabel",999
+202,"variable",999
+203,"varibel",999
+204,"varierend",999
+205,"varierende",999
+206,"varierende wind",999
+207,"veranderlijk",999
+208,"veranderlijke winden",999
+209,"zeer omlopend",999
+210,"zeer variabel",999
+211,"zeer veranderlijk",999
