@@ -1,0 +1,386 @@
+@font-face {
+  font-family: TitleFont;
+  src: url(../font/NexaShadow.otf);
+}
+
+@font-face {
+  font-family: HeaderFont;
+  src: url(../font/NexaSans.otf);
+}
+#title{
+    position: float;
+    float: right;
+    color: #134B5F;
+    font-size: 2em;
+    text-align: center;
+    font-family: TitleFont;
+		width: 100%;
+    height: 10%
+}
+#subtitle{
+    position: float;
+    float: right;
+    color: #134B5F;
+    font-size: 1em;
+    text-align: center;
+    font-family: HeaderFont;
+    width: 100%;
+    height: 10%
+}
+#attContainer {
+    height: 75%;
+    width: 365px;
+    border:2px solid #E6F2DE;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    position: fixed;
+    bottom: 0;
+    color:#E6F2DE;
+		font-family: 'trebuchet ms';
+    border-radius: 5px;
+    opacity: .9;
+}
+#attHeaderRect {
+    fill: none;
+    stroke: #E6F2DE;
+}
+
+
+
+
+
+.backButton1,
+.clickButton1,
+.backButton2,
+.clickButton2,
+.backButton3,
+.clickButton3,
+.backButton4,
+.clickButton4,
+.backButton5,
+.clickButton5 {
+    width: 20px;
+    height: 20px;
+    rx: 5px;
+    ry: 5px;
+}
+
+.backButton5,
+#backButton {
+    fill: #ccc;
+}
+
+.backButton4 {
+    fill: #bbb;
+}
+
+.backButton3{
+    fill: #aaa;
+}
+.backButton2 {
+    fill: #999;
+}
+
+.backButton1{
+    fill: #888;
+}
+
+
+.clickButton1,
+.clickButton2,
+.clickButton3,
+.clickButton4,
+.clickButton5 {
+    opacity: 0;
+    pointer-events: all;
+    cursor: pointer;
+    fill: none;
+
+}
+.infoClick {
+    opacity: 0;
+    pointer-events: all;
+    cursor: pointer;
+    fill: none;
+    width: 12px;
+    height: 12px;
+    rx: 3px;
+    ry: 3px;
+}
+.infoBack {
+  fill: #888;
+  width: 12px;
+  height: 12px;
+  rx: 3px;
+  ry: 3px;
+}
+#infoText {
+  font-size: 12px;
+  font-weight: bold;
+  fill: #eee;
+}
+#headerMost,
+#headerLeast {
+    font-size: 0.7em;
+}
+#attTitleRect {
+    fill: #038090;
+}
+.attTitle {
+    fill: #E6F2DE;
+    font-size: 1.25em;
+    font-family: HeaderFont;
+
+}
+.attHeader{
+  fill: #E6F2DE;
+}
+.attSvg {
+		background: #134B5F;
+}
+.attText {
+    fill: #E6F2DE;
+    font-size: 1em;
+}
+.variableRect {
+		fill: none;
+}
+.checkbox {
+		cursor: pointer;
+}
+#checkAll  {
+    cursor: pointer;
+}
+
+
+
+#mapContainer {
+	float: right;
+	margin: 5px;
+	bottom: 0;
+  background-color: #ccc
+  opacity: .11;
+  border: black;
+
+}
+
+
+#selectButton {
+    opacity: 0;
+    pointer-events: all;
+    cursor: pointer;
+    fill: none;
+}
+
+
+#searchDiv {
+		padding-left: 5px;
+    padding-top: 5px;
+    color:#E6F2DE;
+
+
+
+}
+.cityContainer {
+    height: 40%;
+    width: 250px;
+    border: 1px solid #E6F2DE;
+    overflow-y: scroll;
+		position: absolute;
+		left: 380px;
+		bottom: 0;
+    margin-right: 5px;
+		cursor: move;
+    background-color: #134B5F;
+    font-family: 'trebuchet ms';
+    border-radius: 5px;
+    opacity: .9;
+
+}
+
+
+
+
+#cityTitleRect {
+    width: 100%;
+    fill: #038090;
+}
+
+#cityHeaderRect {
+    width: 100%;
+    fill: #038090;
+}
+
+
+.cityRect {
+    fill:#aaa;
+    cursor: pointer;
+}
+.cityRank,
+.cityText,
+.cityScore,
+#buttonText,
+.buttonText1,
+.buttonText2,
+.buttonText3,
+.buttonText4,
+.buttonText5{
+
+  font-family: 'trebuchet ms';
+  fill: #121517;
+}
+
+.cities{
+  cursor: pointer;
+}
+
+#cityTitle {
+    fill:#E6F2DE;
+    font-size: 1.25em;
+    font-family: headerFont;
+
+}
+.headerText {
+    fill:#E6F2DE;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+.us_states {
+	fill: #FCFCFC;
+	stroke: #134B5F;
+	stroke-width: 0.5px;
+  opacity: 0.5;
+}
+
+.legendContainer{
+
+  background-color: #134B5F;
+  border: solid thin #fff;
+  z-index: 10;
+  /*height: 100px;*/
+}
+
+.legendContainer  text{
+  fill: white;
+  font: 12px sans-serif;
+  text-anchor: middle;
+  z-index: 10;
+}
+
+.legend circle {
+  fill: #aaa;
+  stroke: #777;
+  z-index: 10;
+}
+.legendRect{
+  fill: white;
+  stroke: #aaa;
+  opacity: 0.8;
+}
+.legendText{
+  text-align: center;
+  fill: #aaa;
+  font: 12px "trebuchet ms";
+  text-anchor: center;
+
+}
+.legend text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: middle;
+  z-index: 10;
+}
+
+.infolabel {
+    position: absolute;
+    font-family: "trebuchet ms";
+    min-width: 100px;
+    color: #E6F2DE;
+    background-color: #038090;
+    border: solid thin #000;
+    padding: 5px 10px;
+    top: -75px;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.infolabel h2 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.infolabel h3 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.attLabel {
+    position: absolute;
+    font-family: "trebuchet ms";
+    min-width: 100px;
+    color: #E6F2DE;
+    background-color: #038090;
+    border: solid thin #fff;
+    padding: 5px 10px;
+    top: -75px;
+		z-index: 10;
+}
+.cityList {
+    background-color: inherit;
+    padding: 5px 10px;
+    top: -75px;
+		color: #E6F2DE;
+		border: solid thin #fff;
+    font-family: "trebuchet ms";
+
+}
+
+.cityP{
+		line-height: 5px;
+}
+
+
+.attLabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+#helpText {
+    color: #E6F2DE;
+    position: relative;
+    bottom: 1500px;
+    left: 5px;
+  }
+
+
+.ui-state-default .ui-icon {
+    background-image: url("../img/ui-icons_444444_256x240.png")
+}
+
+.authors {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: white;
+    opacity: 0.5;
+    height: 50px;
+    width: 100px;
+    padding-top: 5px;
+    padding-left: 2px;
+    line-height: 0.1em;
+    font-family: "trebuchet ms";
+    font-size: 0.8em;
+}
