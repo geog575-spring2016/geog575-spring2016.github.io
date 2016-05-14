@@ -1,3 +1,23 @@
 html {
   font-family: 'Lato', sans-serif;
 }
+
+body {
+  padding-left: 20px;
+}
+
+div {
+  font-size: 24px;
+}
+
+.project-link {
+  color: #247072;
+}
+
+a {
+  color: #3cbcc0;
+}
+
+a:hover {
+  color: #CC7EB3;
+}
