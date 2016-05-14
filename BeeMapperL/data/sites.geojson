@@ -1,0 +1,6030 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 1,
+        "Station": "A",
+        "Site_st": "1A",
+        "Trt": "CONTROL",
+        "BumbleBee": 11,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 21,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.068185,
+          37.556191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 1,
+        "Station": "B",
+        "Site_st": "1B",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 16,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.071162,
+          37.535804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 1,
+        "Station": "C",
+        "Site_st": "1C",
+        "Trt": "CONTROL",
+        "BumbleBee": 3,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 18,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.071112,
+          37.535643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 1,
+        "Station": "D",
+        "Site_st": "1D",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 15,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.071095,
+          37.535534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 1,
+        "Station": "E",
+        "Site_st": "1E",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 15,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.071065,
+          37.535444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 1,
+        "Station": "F",
+        "Site_st": "1F",
+        "Trt": "CONTROL",
+        "BumbleBee": 4,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 2,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 18,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.071035,
+          37.535353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 2,
+        "Station": "A",
+        "Site_st": "2A",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 12,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.069322,
+          37.53203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 2,
+        "Station": "B",
+        "Site_st": "2B",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 8,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.069316,
+          37.531988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 2,
+        "Station": "C",
+        "Site_st": "2C",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 11,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.069393,
+          37.531869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 2,
+        "Station": "D",
+        "Site_st": "2D",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 13,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.069478,
+          37.531792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 2,
+        "Station": "E",
+        "Site_st": "2E",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 8,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 4,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.069557,
+          37.531724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 2,
+        "Station": "F",
+        "Site_st": "2F",
+        "Trt": "CONTROL",
+        "BumbleBee": 2,
+        "CarpenterBee": 3,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 6,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 6,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.069634,
+          37.531678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 3,
+        "Station": "A",
+        "Site_st": "3A",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 23,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.07394,
+          37.539575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 3,
+        "Station": "B",
+        "Site_st": "3B",
+        "Trt": "CONTROL",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 32,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.076992,
+          37.536411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 3,
+        "Station": "C",
+        "Site_st": "3C",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 5,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 22,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.077046,
+          37.536435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 3,
+        "Station": "D",
+        "Site_st": "3D",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 19,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.077155,
+          37.536512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 3,
+        "Station": "E",
+        "Site_st": "3E",
+        "Trt": "CONTROL",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 5,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 12,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.077231,
+          37.536597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 3,
+        "Station": "F",
+        "Site_st": "3F",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 6,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 29,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.077258,
+          37.536649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 4,
+        "Station": "A",
+        "Site_st": "4A",
+        "Trt": "CONTROL",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 34,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.073123,
+          37.540008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 4,
+        "Station": "B",
+        "Site_st": "4B",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 15,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.074208,
+          37.539853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 4,
+        "Station": "C",
+        "Site_st": "4C",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 17,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.074154,
+          37.539783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 4,
+        "Station": "D",
+        "Site_st": "4D",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 22,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.074058,
+          37.539697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 4,
+        "Station": "E",
+        "Site_st": "4E",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 33,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.074028,
+          37.53964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 4,
+        "Station": "F",
+        "Site_st": "4F",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 34,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.073949,
+          37.539582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 5,
+        "Station": "A",
+        "Site_st": "5A",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 27,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.073844,
+          37.542079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 5,
+        "Station": "B",
+        "Site_st": "5B",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 13,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.073692,
+          37.5421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 5,
+        "Station": "C",
+        "Site_st": "5C",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 9,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.073557,
+          37.5421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 5,
+        "Station": "D",
+        "Site_st": "5D",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 7,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.073428,
+          37.542083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 5,
+        "Station": "E",
+        "Site_st": "5E",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 3,
+        "Long-hornedBee": 0,
+        "SweatBee": 9,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.073314,
+          37.542083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 5,
+        "Station": "F",
+        "Site_st": "5F",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 5,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 9,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.073196,
+          37.542031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 6,
+        "Station": "A",
+        "Site_st": "6A",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 11,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.073323,
+          37.540471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 6,
+        "Station": "B",
+        "Site_st": "6B",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 15,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.073303,
+          37.540377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 6,
+        "Station": "C",
+        "Site_st": "6C",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 19,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.073246,
+          37.540278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 6,
+        "Station": "D",
+        "Site_st": "6D",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 3,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 12,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.07321,
+          37.540195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 6,
+        "Station": "E",
+        "Site_st": "6E",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 0,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.073154,
+          37.54009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 6,
+        "Station": "F",
+        "Site_st": "6F",
+        "Trt": "CONTROL",
+        "BumbleBee": 3,
+        "CarpenterBee": 3,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 12,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.073119,
+          37.540007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 7,
+        "Station": "A",
+        "Site_st": "7A",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 24,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.077063,
+          37.546333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 7,
+        "Station": "B",
+        "Site_st": "7B",
+        "Trt": "LOW",
+        "BumbleBee": 2,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 29,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.076917,
+          37.546352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 7,
+        "Station": "C",
+        "Site_st": "7C",
+        "Trt": "LOW",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 47,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.076795,
+          37.546392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 7,
+        "Station": "D",
+        "Site_st": "7D",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 31,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.076706,
+          37.546446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 7,
+        "Station": "E",
+        "Site_st": "7E",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 26,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.076624,
+          37.546501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 7,
+        "Station": "F",
+        "Site_st": "7F",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 13,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.076482,
+          37.546521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 8,
+        "Station": "A",
+        "Site_st": "8A",
+        "Trt": "LOW",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 3,
+        "Long-hornedBee": 0,
+        "SweatBee": 30,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.071952,
+          37.545323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 8,
+        "Station": "B",
+        "Site_st": "8B",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 19,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.072022,
+          37.545275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 8,
+        "Station": "C",
+        "Site_st": "8C",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 33,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.072145,
+          37.545197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 8,
+        "Station": "D",
+        "Site_st": "8D",
+        "Trt": "LOW",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 49,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.072239,
+          37.545126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 8,
+        "Station": "E",
+        "Site_st": "8E",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 37,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.072328,
+          37.545079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 8,
+        "Station": "F",
+        "Site_st": "8F",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 1,
+        "SweatBee": 39,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.072406,
+          37.54503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 9,
+        "Station": "A",
+        "Site_st": "9A",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 62,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.064864,
+          37.550597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 9,
+        "Station": "B",
+        "Site_st": "9B",
+        "Trt": "LOW",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 37,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.064783,
+          37.550547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 9,
+        "Station": "C",
+        "Site_st": "9C",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 34,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.06468,
+          37.550502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 9,
+        "Station": "D",
+        "Site_st": "9D",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 52,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.064599,
+          37.550452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 9,
+        "Station": "E",
+        "Site_st": "9E",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 71,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.064481,
+          37.550432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 9,
+        "Station": "F",
+        "Site_st": "9F",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 54,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.064386,
+          37.550345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 10,
+        "Station": "A",
+        "Site_st": "10A",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 69,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.062794,
+          37.553484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 10,
+        "Station": "B",
+        "Site_st": "10B",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 53,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.062735,
+          37.553468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 10,
+        "Station": "C",
+        "Site_st": "10C",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 5,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 62,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.062668,
+          37.55336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 10,
+        "Station": "D",
+        "Site_st": "10D",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 51,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.062604,
+          37.55329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 10,
+        "Station": "E",
+        "Site_st": "10E",
+        "Trt": "LOW",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 75,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.062543,
+          37.553206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 10,
+        "Station": "F",
+        "Site_st": "10F",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 5,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 54,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.062463,
+          37.553132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 11,
+        "Station": "A",
+        "Site_st": "11A",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 23,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.074906,
+          37.542245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 11,
+        "Station": "B",
+        "Site_st": "11B",
+        "Trt": "LOW",
+        "BumbleBee": 2,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 32,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.074957,
+          37.542282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 11,
+        "Station": "C",
+        "Site_st": "11C",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 29,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.074899,
+          37.542375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 11,
+        "Station": "D",
+        "Site_st": "11D",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 24,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.074862,
+          37.542461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 11,
+        "Station": "E",
+        "Site_st": "11E",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 24,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.074814,
+          37.542535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 11,
+        "Station": "F",
+        "Site_st": "11F",
+        "Trt": "LOW",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 14,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.074791,
+          37.542601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 12,
+        "Station": "A",
+        "Site_st": "12A",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 24,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.068593,
+          37.556477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 12,
+        "Station": "B",
+        "Site_st": "12B",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 14,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.06853,
+          37.556414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 12,
+        "Station": "C",
+        "Site_st": "12C",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 9,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.068437,
+          37.556354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 12,
+        "Station": "D",
+        "Site_st": "12D",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 5,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 13,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.068378,
+          37.556286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 12,
+        "Station": "E",
+        "Site_st": "12E",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 8,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.068277,
+          37.556237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 12,
+        "Station": "F",
+        "Site_st": "12F",
+        "Trt": "HIGH",
+        "BumbleBee": 4,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 0,
+        "SweatBee": 11,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.068177,
+          37.55619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 13,
+        "Station": "A",
+        "Site_st": "13A",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 8,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.085081,
+          37.565604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 13,
+        "Station": "B",
+        "Site_st": "13B",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 6,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.085001,
+          37.565523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 13,
+        "Station": "C",
+        "Site_st": "13C",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 7,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.084959,
+          37.565444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 13,
+        "Station": "D",
+        "Site_st": "13D",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 5,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.084922,
+          37.565367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 13,
+        "Station": "E",
+        "Site_st": "13E",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 11,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.084868,
+          37.565286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 13,
+        "Station": "F",
+        "Site_st": "13F",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 6,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.084797,
+          37.565213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 14,
+        "Station": "A",
+        "Site_st": "14A",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 9,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.082639,
+          37.560993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 14,
+        "Station": "B",
+        "Site_st": "14B",
+        "Trt": "HIGH",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 6,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.082608,
+          37.560994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 14,
+        "Station": "C",
+        "Site_st": "14C",
+        "Trt": "HIGH",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 16,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.082566,
+          37.560922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 14,
+        "Station": "D",
+        "Site_st": "14D",
+        "Trt": "HIGH",
+        "BumbleBee": 3,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 13,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.082493,
+          37.560866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 14,
+        "Station": "E",
+        "Site_st": "14E",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 0,
+        "SweatBee": 10,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.082437,
+          37.560785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 14,
+        "Station": "F",
+        "Site_st": "14F",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 13,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.08239,
+          37.560703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 15,
+        "Station": "A",
+        "Site_st": "15A",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 8,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.096091,
+          37.557753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 15,
+        "Station": "B",
+        "Site_st": "15B",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 2,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 8,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.096102,
+          37.557683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 15,
+        "Station": "C",
+        "Site_st": "15C",
+        "Trt": "HIGH",
+        "BumbleBee": 2,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 10,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.096157,
+          37.557571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 15,
+        "Station": "D",
+        "Site_st": "15D",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 8,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.096159,
+          37.5575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 15,
+        "Station": "E",
+        "Site_st": "15E",
+        "Trt": "HIGH",
+        "BumbleBee": 3,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 6,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.096198,
+          37.557449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 15,
+        "Station": "F",
+        "Site_st": "15F",
+        "Trt": "HIGH",
+        "BumbleBee": 5,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 10,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.096236,
+          37.557337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 16,
+        "Station": "A",
+        "Site_st": "16A",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 34,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.091265,
+          37.564114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 16,
+        "Station": "B",
+        "Site_st": "16B",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 1,
+        "SweatBee": 15,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.091202,
+          37.564175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 16,
+        "Station": "C",
+        "Site_st": "16C",
+        "Trt": "HIGH",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 35,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.091157,
+          37.564269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 16,
+        "Station": "D",
+        "Site_st": "16D",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 2,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 28,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.091106,
+          37.564328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 16,
+        "Station": "D.1   ",
+        "Site_st": "16D.1   ",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 0,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.091161,
+          37.564358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 16,
+        "Station": "E",
+        "Site_st": "16E",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 6,
+        "Honeybee": 4,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 41,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.091056,
+          37.564414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 16,
+        "Station": "E.1   ",
+        "Site_st": "16E.1   ",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 0,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.091106,
+          37.564427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 16,
+        "Station": "F",
+        "Site_st": "16F",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 3,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 6,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 51,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.090988,
+          37.564478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 16,
+        "Station": "F.1   ",
+        "Site_st": "16F.1   ",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 0,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.091037,
+          37.564537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 17,
+        "Station": "A",
+        "Site_st": "17A",
+        "Trt": "HIGH",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 6,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.07648,
+          37.546515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 17,
+        "Station": "B",
+        "Site_st": "17B",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 15,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.082396,
+          37.548435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 17,
+        "Station": "C",
+        "Site_st": "17C",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 0,
+        "SweatBee": 10,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.082386,
+          37.548531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 17,
+        "Station": "D",
+        "Site_st": "17D",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 14,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.082407,
+          37.548609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 17,
+        "Station": "E",
+        "Site_st": "17E",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 14,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.082398,
+          37.548704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 17,
+        "Station": "F",
+        "Site_st": "17F",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 22,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.082396,
+          37.548787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 18,
+        "Station": "A",
+        "Site_st": "18A",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 16,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.082397,
+          37.548782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 18,
+        "Station": "B",
+        "Site_st": "18B",
+        "Trt": "HIGH",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 2,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 33,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.083489,
+          37.552161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 18,
+        "Station": "C",
+        "Site_st": "18C",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 19,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.083575,
+          37.552166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 18,
+        "Station": "D",
+        "Site_st": "18D",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 15,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.083647,
+          37.55222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 18,
+        "Station": "E",
+        "Site_st": "18E",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 25,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.083799,
+          37.552212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 18,
+        "Station": "F",
+        "Site_st": "18F",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 23,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.083926,
+          37.55223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 19,
+        "Station": "A",
+        "Site_st": "19A",
+        "Trt": "HIGH",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 13,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.094921,
+          37.559899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 19,
+        "Station": "B",
+        "Site_st": "19B",
+        "Trt": "HIGH",
+        "BumbleBee": 3,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 3,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 10,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.094864,
+          37.559986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 19,
+        "Station": "C",
+        "Site_st": "19C",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 10,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.094769,
+          37.560012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 19,
+        "Station": "D",
+        "Site_st": "19D",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 1,
+        "SweatBee": 18,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.094762,
+          37.560115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 19,
+        "Station": "E",
+        "Site_st": "19E",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 2,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 0,
+        "SweatBee": 20,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.094705,
+          37.560186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 19,
+        "Station": "F",
+        "Site_st": "19F",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 18,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.09463,
+          37.560279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 0,
+        "Station": "Y",
+        "Site_st": "0Y",
+        "Trt": "SITE",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 0,
+        "Name": "Sweet Briar College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0704444,
+          37.5497778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 20,
+        "Station": "A     ",
+        "Site_st": "20A     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 5,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 8,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.110048,
+          36.88942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 20,
+        "Station": "B     ",
+        "Site_st": "20B     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 7,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.109976,
+          36.88935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 20,
+        "Station": "C     ",
+        "Site_st": "20C     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 3,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.110015,
+          36.889305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 20,
+        "Station": "D     ",
+        "Site_st": "20D     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 8,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.110071,
+          36.88921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 20,
+        "Station": "E     ",
+        "Site_st": "20E     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 1,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.110135,
+          36.889141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 20,
+        "Station": "F     ",
+        "Site_st": "20F     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 1,
+        "SweatBee": 5,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.110156,
+          36.889038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 21,
+        "Station": "A     ",
+        "Site_st": "21A     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 7,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.112171,
+          36.886183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 21,
+        "Station": "B     ",
+        "Site_st": "21B     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 3,
+        "SweatBee": 6,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.112292,
+          36.886172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 21,
+        "Station": "C     ",
+        "Site_st": "21C     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 5,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.112375,
+          36.886196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 21,
+        "Station": "D     ",
+        "Site_st": "21D     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 2,
+        "SweatBee": 6,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.112477,
+          36.886227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 21,
+        "Station": "E     ",
+        "Site_st": "21E     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 6,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.112563,
+          36.886229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 21,
+        "Station": "F     ",
+        "Site_st": "21F     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 8,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 3,
+        "Long-hornedBee": 3,
+        "SweatBee": 22,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.112667,
+          36.886268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 22,
+        "Station": "A     ",
+        "Site_st": "22A     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 2,
+        "SweatBee": 16,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.116105,
+          36.891709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 22,
+        "Station": "B     ",
+        "Site_st": "22B     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 19,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.116045,
+          36.891651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 22,
+        "Station": "C     ",
+        "Site_st": "22C     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 24,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.115934,
+          36.891616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 22,
+        "Station": "D     ",
+        "Site_st": "22D     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 3,
+        "Long-hornedBee": 0,
+        "SweatBee": 35,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.115847,
+          36.891594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 22,
+        "Station": "E     ",
+        "Site_st": "22E     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 6,
+        "SweatBee": 27,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.115731,
+          36.891554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 22,
+        "Station": "F     ",
+        "Site_st": "22F     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 3,
+        "Long-hornedBee": 4,
+        "SweatBee": 42,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.115641,
+          36.891501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 23,
+        "Station": "A     ",
+        "Site_st": "23A     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 4,
+        "Long-hornedBee": 1,
+        "SweatBee": 10,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.114381,
+          36.888051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 23,
+        "Station": "B     ",
+        "Site_st": "23B     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 16,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.114491,
+          36.888077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 23,
+        "Station": "C     ",
+        "Site_st": "23C     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 11,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.114586,
+          36.888112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 23,
+        "Station": "D     ",
+        "Site_st": "23D     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 3,
+        "Long-hornedBee": 3,
+        "SweatBee": 9,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.114682,
+          36.888106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 23,
+        "Station": "E     ",
+        "Site_st": "23E     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 3,
+        "SweatBee": 10,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.114796,
+          36.888151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 23,
+        "Station": "F     ",
+        "Site_st": "23F     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 3,
+        "Long-hornedBee": 1,
+        "SweatBee": 11,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.114914,
+          36.888165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 24,
+        "Station": "A     ",
+        "Site_st": "24A     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 2,
+        "SweatBee": 17,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.115642,
+          36.891497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 24,
+        "Station": "B     ",
+        "Site_st": "24B     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 7,
+        "Long-hornedBee": 3,
+        "SweatBee": 14,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.11384,
+          36.889609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 24,
+        "Station": "C     ",
+        "Site_st": "24C     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 0,
+        "SweatBee": 30,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.113841,
+          36.889718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 24,
+        "Station": "D     ",
+        "Site_st": "24D     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 25,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.113824,
+          36.8898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 24,
+        "Station": "E     ",
+        "Site_st": "24E     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 3,
+        "Long-hornedBee": 0,
+        "SweatBee": 22,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.113813,
+          36.889883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 24,
+        "Station": "F     ",
+        "Site_st": "24F     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 2,
+        "SweatBee": 12,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.113811,
+          36.88998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 25,
+        "Station": "A     ",
+        "Site_st": "25A     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 1,
+        "SweatBee": 0,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.110528,
+          36.887387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 25,
+        "Station": "B     ",
+        "Site_st": "25B     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 8,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.110561,
+          36.887269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 25,
+        "Station": "C     ",
+        "Site_st": "25C     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 1,
+        "SweatBee": 2,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.110559,
+          36.887205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 25,
+        "Station": "D     ",
+        "Site_st": "25D     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 4,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.110593,
+          36.887115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 25,
+        "Station": "E     ",
+        "Site_st": "25E     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 2,
+        "SweatBee": 7,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.1107,
+          36.887027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 25,
+        "Station": "F     ",
+        "Site_st": "25F     ",
+        "Trt": "CONTROL",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 6,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.11078,
+          36.88695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 26,
+        "Station": "A     ",
+        "Site_st": "26A     ",
+        "Trt": "LOW",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 1,
+        "SweatBee": 10,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123361,
+          36.884749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 26,
+        "Station": "B     ",
+        "Site_st": "26B     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 14,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123398,
+          36.884656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 26,
+        "Station": "C     ",
+        "Site_st": "26C     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 10,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123405,
+          36.884591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 26,
+        "Station": "D     ",
+        "Site_st": "26D     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 8,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123421,
+          36.884501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 26,
+        "Station": "E     ",
+        "Site_st": "26E     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 0,
+        "SweatBee": 13,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123443,
+          36.884402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 26,
+        "Station": "F     ",
+        "Site_st": "26F     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 4,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.12344,
+          36.884316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 27,
+        "Station": "A     ",
+        "Site_st": "27A     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 2,
+        "SweatBee": 9,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.12327,
+          36.891406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 27,
+        "Station": "B     ",
+        "Site_st": "27B     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 22,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123354,
+          36.891344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 27,
+        "Station": "C     ",
+        "Site_st": "27C     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 22,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123449,
+          36.891314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 27,
+        "Station": "D     ",
+        "Site_st": "27D     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 1,
+        "SweatBee": 24,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123541,
+          36.891292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 27,
+        "Station": "E     ",
+        "Site_st": "27E     ",
+        "Trt": "LOW",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 1,
+        "SweatBee": 25,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123645,
+          36.891256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 27,
+        "Station": "F     ",
+        "Site_st": "27F     ",
+        "Trt": "LOW",
+        "BumbleBee": 2,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 2,
+        "SweatBee": 37,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123764,
+          36.891231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 28,
+        "Station": "A     ",
+        "Site_st": "28A     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 1,
+        "SweatBee": 23,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123738,
+          36.891216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 28,
+        "Station": "B     ",
+        "Site_st": "28B     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 30,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.126307,
+          36.888362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 28,
+        "Station": "C     ",
+        "Site_st": "28C     ",
+        "Trt": "LOW",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 0,
+        "SweatBee": 15,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.126191,
+          36.888345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 28,
+        "Station": "D     ",
+        "Site_st": "28D     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 5,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 2,
+        "SweatBee": 20,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.126113,
+          36.888289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 28,
+        "Station": "E     ",
+        "Site_st": "28E     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 5,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 36,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.126021,
+          36.888206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 28,
+        "Station": "F     ",
+        "Site_st": "28F     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 23,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.125978,
+          36.888138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 29,
+        "Station": "A     ",
+        "Site_st": "29A     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 30,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.122047,
+          36.888996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 29,
+        "Station": "B     ",
+        "Site_st": "29B     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 3,
+        "SweatBee": 24,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.121898,
+          36.889039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 29,
+        "Station": "C     ",
+        "Site_st": "29C     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 29,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.121787,
+          36.889008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 29,
+        "Station": "D     ",
+        "Site_st": "29D     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 17,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.121631,
+          36.889023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 29,
+        "Station": "E     ",
+        "Site_st": "29E     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 2,
+        "SweatBee": 20,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.121535,
+          36.888984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 29,
+        "Station": "F     ",
+        "Site_st": "29F     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 1,
+        "SweatBee": 20,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.121424,
+          36.888958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 30,
+        "Station": "A     ",
+        "Site_st": "30A     ",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 1,
+        "SweatBee": 14,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.120393,
+          36.881642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 30,
+        "Station": "B     ",
+        "Site_st": "30B     ",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 20,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.12048,
+          36.881522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 30,
+        "Station": "C     ",
+        "Site_st": "30C     ",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 1,
+        "SweatBee": 26,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.120547,
+          36.881496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 30,
+        "Station": "D     ",
+        "Site_st": "30D     ",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 1,
+        "SweatBee": 21,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.120655,
+          36.881444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 30,
+        "Station": "E     ",
+        "Site_st": "30E     ",
+        "Trt": "HIGH",
+        "BumbleBee": 3,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 9,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.120762,
+          36.881395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 30,
+        "Station": "F     ",
+        "Site_st": "30F     ",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 14,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.120855,
+          36.881371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 31,
+        "Station": "A     ",
+        "Site_st": "31A     ",
+        "Trt": "HIGH",
+        "BumbleBee": 3,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 24,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123802,
+          36.879653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 31,
+        "Station": "B     ",
+        "Site_st": "31B     ",
+        "Trt": "HIGH",
+        "BumbleBee": 3,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 18,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123887,
+          36.879599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 31,
+        "Station": "c     ",
+        "Site_st": "31c     ",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 3,
+        "Long-hornedBee": 0,
+        "SweatBee": 25,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123978,
+          36.879543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 31,
+        "Station": "D     ",
+        "Site_st": "31D     ",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 23,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.124052,
+          36.879483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 31,
+        "Station": "E     ",
+        "Site_st": "31E     ",
+        "Trt": "HIGH",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 18,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.124164,
+          36.879451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 31,
+        "Station": "F     ",
+        "Site_st": "31F     ",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 3,
+        "SweatBee": 20,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.124277,
+          36.879407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 32,
+        "Station": "A     ",
+        "Site_st": "32A     ",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 11,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123439,
+          36.884319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 32,
+        "Station": "B     ",
+        "Site_st": "32B     ",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 13,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.119168,
+          36.885014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 32,
+        "Station": "C     ",
+        "Site_st": "32C     ",
+        "Trt": "HIGH",
+        "BumbleBee": 2,
+        "CarpenterBee": 2,
+        "ChimneyBee": 1,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 22,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.119267,
+          36.884981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 32,
+        "Station": "D     ",
+        "Site_st": "32D     ",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 30,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.119376,
+          36.884964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 32,
+        "Station": "E     ",
+        "Site_st": "32E     ",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 0,
+        "SweatBee": 24,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.119478,
+          36.884968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 32,
+        "Station": "F     ",
+        "Site_st": "32F     ",
+        "Trt": "HIGH",
+        "BumbleBee": 2,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 42,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.119612,
+          36.884978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 33,
+        "Station": "A     ",
+        "Site_st": "33A     ",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 7,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111785,
+          36.884136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 33,
+        "Station": "B     ",
+        "Site_st": "33B     ",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 0,
+        "SweatBee": 13,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111701,
+          36.884141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 33,
+        "Station": "C     ",
+        "Site_st": "33C     ",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 1,
+        "SweatBee": 9,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111627,
+          36.884093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 33,
+        "Station": "D     ",
+        "Site_st": "33D     ",
+        "Trt": "HIGH",
+        "BumbleBee": 4,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 0,
+        "SweatBee": 7,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111495,
+          36.884092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 33,
+        "Station": "E     ",
+        "Site_st": "33E     ",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 8,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111376,
+          36.884081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 33,
+        "Station": "F     ",
+        "Site_st": "33F     ",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 5,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111292,
+          36.884036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 0,
+        "Station": "Z",
+        "Site_st": "0Z",
+        "Trt": "SITE",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 0,
+        "Name": "Falcons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.114467,
+          36.887325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 34,
+        "Station": "A     ",
+        "Site_st": "34A     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 12,
+        "Name": "Inge Mann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.122992,
+          37.058486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 34,
+        "Station": "B     ",
+        "Site_st": "34B     ",
+        "Trt": "LOW",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 7,
+        "Name": "Inge Mann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123123,
+          37.058524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 34,
+        "Station": "C     ",
+        "Site_st": "34C     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 17,
+        "Name": "Inge Mann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123063,
+          37.058428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 34,
+        "Station": "D     ",
+        "Site_st": "34D     ",
+        "Trt": "LOW",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 23,
+        "Name": "Inge Mann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123051,
+          37.058363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 34,
+        "Station": "E     ",
+        "Site_st": "34E     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 20,
+        "Name": "Inge Mann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.122932,
+          37.058299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 34,
+        "Station": "F     ",
+        "Site_st": "34F     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 5,
+        "Name": "Inge Mann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.122915,
+          37.058216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 35,
+        "Station": "A     ",
+        "Site_st": "35A     ",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 13,
+        "Name": "Inge Mann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.124019,
+          37.053734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 35,
+        "Station": "B     ",
+        "Site_st": "35B     ",
+        "Trt": "HIGH",
+        "BumbleBee": 2,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 17,
+        "Name": "Inge Mann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.123994,
+          37.053617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 35,
+        "Station": "C     ",
+        "Site_st": "35C     ",
+        "Trt": "HIGH",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 16,
+        "Name": "Inge Mann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.124025,
+          37.053533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 35,
+        "Station": "D     ",
+        "Site_st": "35D     ",
+        "Trt": "HIGH",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 12,
+        "Name": "Inge Mann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.124046,
+          37.053443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 35,
+        "Station": "E     ",
+        "Site_st": "35E     ",
+        "Trt": "HIGH",
+        "BumbleBee": 2,
+        "CarpenterBee": 9,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 11,
+        "Name": "Inge Mann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.124089,
+          37.053366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 35,
+        "Station": "F     ",
+        "Site_st": "35F     ",
+        "Trt": "HIGH",
+        "BumbleBee": 3,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 3,
+        "SweatBee": 12,
+        "Name": "Inge Mann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.124112,
+          37.053258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 0,
+        "Station": "X",
+        "Site_st": "0X",
+        "Trt": "SITE",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 0,
+        "Name": "Inge Mann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.1234803,
+          37.0560800
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 36,
+        "Station": "A     ",
+        "Site_st": "36A     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 5,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 16,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111192,
+          37.125359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 36,
+        "Station": "B     ",
+        "Site_st": "36B     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 6,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111259,
+          37.125342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 36,
+        "Station": "C     ",
+        "Site_st": "36C     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 3,
+        "SweatBee": 13,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111291,
+          37.125255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 36,
+        "Station": "D     ",
+        "Site_st": "36D     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 16,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111363,
+          37.125181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 36,
+        "Station": "E     ",
+        "Site_st": "36E     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 19,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111362,
+          37.125117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 36,
+        "Station": "F     ",
+        "Site_st": "36F     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 3,
+        "Long-hornedBee": 1,
+        "SweatBee": 18,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111562,
+          37.12508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 37,
+        "Station": "A     ",
+        "Site_st": "37A     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 17,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.109441,
+          37.125111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 37,
+        "Station": "B     ",
+        "Site_st": "37B     ",
+        "Trt": "LOW",
+        "BumbleBee": 4,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 15,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.109351,
+          37.125122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 37,
+        "Station": "D     ",
+        "Site_st": "37D     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 4,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 16,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.1091,
+          37.125111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 37,
+        "Station": "E     ",
+        "Site_st": "37E     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 15,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 14,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.108969,
+          37.1251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 37,
+        "Station": "E     ",
+        "Site_st": "37E     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 10,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 13,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.109214,
+          37.12512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 37,
+        "Station": "F     ",
+        "Site_st": "37F     ",
+        "Trt": "LOW",
+        "BumbleBee": 2,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 9,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 23,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.108881,
+          37.125102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 38,
+        "Station": "A     ",
+        "Site_st": "38A     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 1,
+        "SweatBee": 17,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.107988,
+          37.128082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 38,
+        "Station": "B     ",
+        "Site_st": "38B     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 2,
+        "Long-hornedBee": 1,
+        "SweatBee": 19,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.107761,
+          37.127933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 38,
+        "Station": "C     ",
+        "Site_st": "38C     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 2,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 16,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.107629,
+          37.127931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 38,
+        "Station": "D     ",
+        "Site_st": "38D     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 3,
+        "SweatBee": 15,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.107541,
+          37.127894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 38,
+        "Station": "E     ",
+        "Site_st": "38E     ",
+        "Trt": "LOW",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 1,
+        "SweatBee": 14,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.107423,
+          37.127869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 38,
+        "Station": "F     ",
+        "Site_st": "38F     ",
+        "Trt": "LOW",
+        "BumbleBee": 1,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 3,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.1073,
+          37.127866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 39,
+        "Station": "A     ",
+        "Site_st": "39A     ",
+        "Trt": "HIGH ",
+        "BumbleBee": 4,
+        "CarpenterBee": 1,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 3,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 12,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111243,
+          37.130082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 39,
+        "Station": "B     ",
+        "Site_st": "39B     ",
+        "Trt": "HIGH ",
+        "BumbleBee": 2,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 5,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 1,
+        "Long-hornedBee": 0,
+        "SweatBee": 17,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111224,
+          37.130125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 39,
+        "Station": "C     ",
+        "Site_st": "39C     ",
+        "Trt": "HIGH ",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 3,
+        "Long-hornedBee": 2,
+        "SweatBee": 11,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111202,
+          37.130225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 39,
+        "Station": "D     ",
+        "Site_st": "39D     ",
+        "Trt": "HIGH ",
+        "BumbleBee": 3,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 2,
+        "Honeybee": 1,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 1,
+        "SweatBee": 6,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111191,
+          37.130312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 39,
+        "Station": "E     ",
+        "Site_st": "39E     ",
+        "Trt": "HIGH ",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 11,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111166,
+          37.130359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 39,
+        "Station": "F     ",
+        "Site_st": "39F     ",
+        "Trt": "HIGH ",
+        "BumbleBee": 3,
+        "CarpenterBee": 3,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 1,
+        "Honeybee": 2,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 1,
+        "SweatBee": 19,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.111136,
+          37.130465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_Number": 0,
+        "Station": "W",
+        "Site_st": "0W",
+        "Trt": "SITE",
+        "BumbleBee": 0,
+        "CarpenterBee": 0,
+        "ChimneyBee": 0,
+        "GreenMetallicBee": 0,
+        "Honeybee": 0,
+        "Leaf-cutterBee": 0,
+        "Long-hornedBee": 0,
+        "SweatBee": 0,
+        "Name": "Elzay "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.115443,
+          37.127585
+        ]
+      }
+    }
+  ]
+}

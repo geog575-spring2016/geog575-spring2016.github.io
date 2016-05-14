@@ -11,11 +11,12 @@ div {
 }
 
 .project-link {
-  color: #247072;
+  color: #3cbcc0;
 }
 
 a {
-  color: #3cbcc0;
+  color: #247072;
+  font-weight: bold;
 }
 
 a:hover {
