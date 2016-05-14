@@ -1,0 +1,244 @@
+/******MAP STYLING******/
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Droid Serif', serif;*/
+
+#info {
+  height: 200px;
+  width: 300px;
+  z-index: 2;
+  background: blue;
+  border: 1px solid black;
+  float: right;
+  top: 100px;
+}
+
+
+.retrieveLabel {
+    position: absolute;
+    float:left;
+    display:inline-block;
+    background: red;
+}
+
+
+#mainmap {
+    background: none;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    margin-left: 15%;
+}
+
+.map {
+    background-color: none;
+    margin-right: 20%;
+    padding-left: 3%;
+    float: left;
+    margin-bottom: 5%;
+}
+
+.states {
+    stroke: #E8E8E8;
+    stroke-width: 1px;
+    float: left;
+}
+
+p2 {
+  float:bottom;
+  width: 90%;
+  font-size: 12pt;
+}
+
+.info{
+  margin-top: 700px;
+  box-sizing: content-box;
+  position:absolute;
+  width: 1200px;
+}
+
+.page-header {
+    margin-top: -90px;
+}
+
+.main-menu {
+    position: absolute;
+    margin-left: -10%;
+    background-color: white;
+    width: 190px;
+    height: 315px;
+}
+
+rect {
+  height: 40px;
+  width: 40px;
+  stroke: #D3D3D3;
+}
+
+.legendTitle {
+  font-family: 'Droid Serif', serif;
+
+}
+
+.legendLabels {
+  font-size: 12pt;
+  font-family: 'Droid Serif', serif;
+}
+
+.menu-inset {
+    float: left;
+    border-style: none;
+    border-width: 2px;
+    border color: none;
+}
+
+.states {
+    stroke: #C0C0C0;
+    stroke-width: 0.5px;
+    float:left;
+}
+
+
+.labelTitle {
+   font-family: 'Montserrat', sans-serif;
+   font-weight:bold;
+   font-size:20px;
+   line-height:24px;
+   width:200px;
+   padding:10px;
+   margin-top: -600px;
+   margin-left:760px;
+}
+
+.labelAttribute {
+    font-family: 'Montserrat', sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    line-height: 20px;
+}
+
+#custom-bootstrap-menu.navbar-custom .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-custom .navbar-nav>li>a:focus {
+    color: white;
+    background-color: #1f7676;
+}
+.well {
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: white;
+    background-color: grey;
+}
+
+
+.main-menu {
+    margin-left: 12% !important;
+    font-size: 20pt;
+}
+
+.menu-inset {
+    float: left;
+    border-style: none;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sequence-buttons {
+  margin: 15px;
+
+}
+
+.button {
+    padding-right: 0%;
+    float: left;
+    height:50px;
+    width: 200px;
+}
+
+
+.menuBox {
+    width: 120pt;
+    height: 150px;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    background: none;
+}
+.stepForward {
+width: 80pt;
+position: absolute;
+background: none;
+border: none;
+color: #1F7676;
+
+}
+.stepBackward {
+position: absolute;
+width: 80pt;
+background: none;
+border: none;
+color: #1F7676;
+margin-left: -100px;
+}
+
+#clock {
+  color: #800000;
+  size: 100pt;
+  height: 300px;
+  margin: 10px;
+}
+
+#sources p{
+    font-size: 12px;
+    font-color: grey;
+}
+
+
+strong {
+  font-size: 33pt;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+
+}
+
+
+p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Droid Serif', serif;
+}
+
+h2 {
+
+    font-family: 'Droid Serif', serif;;
+}
+
+h3 {
+    font-family: 'Droid Serif', serif;;
+}
+
+body {
+    padding-top: 90px;
+}
+
+a:link {
+    color: #1f7676;
+}
+
+a:visited {
+    color: #1f7676 ;
+
+}
+
+a:hover {
+    color: #800000;
+}
+
+a:active {
+    color: white;
+}
