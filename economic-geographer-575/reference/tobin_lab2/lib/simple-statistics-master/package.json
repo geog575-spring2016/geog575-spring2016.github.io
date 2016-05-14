@@ -1,0 +1,43 @@
+{
+  "name": "simple-statistics",
+  "version": "2.0.0-beta1",
+  "description": "Simple Statistics",
+  "author": "Tom MacWright <tom@macwright.org> (http://macwright.org/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simple-statistics/simple-statistics.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "are-we-flow-yet": "^1.0.0",
+    "browserify": "^13.0.0",
+    "bundle-collapser": "^1.0.0",
+    "eslint": "^2.4.0",
+    "exorcist": "^0.4.0",
+    "flow-bin": "^0.22.0",
+    "istanbul": "^0.4.0",
+    "random-js": "^1.0.4",
+    "tap": "^5.7.0",
+    "uglify-js": "^2.6.2"
+  },
+  "scripts": {
+    "test": "are-we-flow-yet src && flow check src && eslint index.js src/*.js test/*.js && tap --coverage test/*.js",
+    "test-sauce": "node scripts/browser_test.js",
+    "build": "npm run bundle && npm run minify",
+    "bundle": "browserify -p bundle-collapser/plugin -s ss index.js --debug | exorcist dist/simple_statistics.js.map > dist/simple_statistics.js",
+    "minify": "uglifyjs dist/simple_statistics.js -c -m --in-source-map=dist/simple_statistics.js.map --source-map=dist/simple_statistics.min.js.map -o dist/simple_statistics.min.js"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "*"
+  },
+  "license": "ISC",
+  "keywords": [
+    "descriptive",
+    "linear",
+    "math",
+    "probability",
+    "regression",
+    "statistics"
+  ]
+}

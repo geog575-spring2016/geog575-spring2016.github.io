@@ -1,0 +1,95 @@
+.plotBackground {
+	background: white;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+#dropdownContainer {
+	display: inline;
+	z-index: 10;
+}
+#yAxisDropdown-button, #xAxisDropdown-button,
+#yAxisDropdown-menu, #xAxisDropdown-menu {
+	font-size: 14px;
+	font-family: 'Noticia Text', serif;
+	font-weight: 400;
+}
+
+#A1 {
+	fill: #be64ac;
+}
+#B1 {
+	fill: #8c62aa;
+}
+#C1 {
+	fill: #3b4994;
+}
+#A2 {
+	fill: #dfb0d6;
+}
+#B2 {
+	fill: #a5add3;
+}
+#C2 {
+	fill: #5698b9;
+}
+#A3 {
+	fill: #e8e8e8;
+}
+#B3 {
+	fill: #ace4e4;
+}
+#C3 {
+	fill: #5ac8c8;
+}
+
+#slider {
+	z-index: 10;
+	width: 280px;
+}
+#slider .ui-slider-handle {
+	text-align: center;
+
+}
+i.fa {
+	position: absolute;
+	font-size: 12px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title {
+	font-size: 14px;
+	font-family: 'Noticia Text', serif;
+	font-weight: 700;
+}
+.time {
+	display: none;
+	font-size: 48px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+}
+.label {
+	font-size: 12px;
+	font-family: 'Noticia Text', serif;
+	font-weight: 400;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.tick text, .numLabel {
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+}
+
+.dot {
+  stroke: #000;
+  opacity: 0.75;
+}

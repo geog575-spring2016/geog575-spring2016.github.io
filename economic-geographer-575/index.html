@@ -1,0 +1,338 @@
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Final Project 575</title>
+
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <!-- LINK SIMPLE STATISTICS -->
+    <script src="lib/simple_statistics.js" charset="utf-8"></script>
+
+    <!-- LINK D3 & ASSOCIATED -->
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://d3js.org/d3-queue.v2.min.js"></script>
+
+    <!-- LINK jQUERY & jQUERYUI -->
+    <link rel="stylesheet" href="lib/jquery-ui-1.11.4.custom/jquery-ui.min.css">
+	<script src="lib/jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+	<script src="lib/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+
+    <!-- LINK FONT AWESOME -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- LINK MAPBOX -->
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.16.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.16.0/mapbox-gl.css' rel='stylesheet' />
+    <!-- /LINK MAPBOX -->
+    <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+    <!-- Link custom css -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/scatterPlot.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway:800,200,500|Noticia+Text:400,700,400italic' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+
+<div id="splash01" style="position:absolute; height:100%; width:100%; background: rgba(0,0,0,0.4); z-index:100; transform:translate(0%);">
+	<div style="width:50%; background:white;margin-left:25%; margin-right:25%; border-radius:20px;">
+		<h1 style="text-align:center;">United States County
+        </br>Housing Data Explorer</h1>
+        
+        <hr style="width:80%;">
+
+        <p>Many variables contribute to differences in the value of homes across the country. You can use this tool to explore those variables within each county in the continental United States. Select two variables from the drop-downs to visualize them in both the scatterplot and bivariate choropleth.</p>
+        <p>Your own custom data may also be added by using the "Import Data" widget in the menu. Note that your imported data may only be displayed when viewing the fixed full county map.</p>
+		<button id="enterMapButton" style="cursor:pointer; width:80%; height: 100px;" onclick="moveSplashPage()"><h1>Click Here to Begin</h1></button>
+		
+		
+		</div>
+
+	</div>
+</div>
+
+<div id="splash02" style="position:absolute; height:100%; width:100%; background: rgba(0,0,0,0.4); z-index:99; transform:translate(0%);"></div>
+
+<div id="load01" style="position:absolute; height:100%; width:100%; background: rgba(0,0,0,0.25); z-index:1; transform: translate(150%);">
+	<div class="container">
+  		<div class="ball"></div>
+  		<div class="ball"></div>
+  		<div class="ball"></div>
+  		<div class="ball"></div>
+  		<div class="ball"></div>
+  		<div class="ball"></div>
+  		<div class="ball"></div>
+	</div>
+</div>
+<!-- mapbox gl map -->
+
+
+
+<div id='map'></div>
+<div id='map2' style="position:absolute; width:100%; height:100%; background:black;"></div>
+
+<div id="importUserData">
+		<p style="cursor:pointer; text-align:right; margin-top:2px; margin-bottom:0px;" onclick="removeWidget()">Close</p>
+        <p>Upload your own single attribute dataset using the dataset template available below </p>
+        <a href="/data/template.csv" target="_blank" download><button type="button">Download Dataset Template</button></a>
+        <input type="file" id='Uploaded_User_Dataset' accept='.csv'></input>
+        <button id="mapToggleButton" style="cursor:pointer;" onclick="toggleMap()">Toggle Between Maps</button>
+</div>
+
+
+<div id="infoPanel01" style="cursor:pointer;" onclick="closeMoreInfo()">
+	<p>Use the two drop-downs below the scatterplot to change the axis values displayed. You can select by state, county, or reset the map to the entire county extent. When selecting by state, simply click on the state of your choice. When selecting by county, hold shift while clicking and dragging with the mouse.</p>
+	<!--<p>Use the two drop-downs below the scatterplot to change the axis values displayed. You can import your own data into the map by using the "Import Data" widget, and also manipulate the slider to change the year for the data shown. Hover over the counties to retrieve specific information.</p>-->
+	<p>(Click to Close)</p>
+</div>
+
+<!-- this should be the timeseries control -->
+<div id="titleSidebar">
+	<!--
+    <div id="importUserData">
+        <p>Upload your own single attribute dataset using the dataset template available below </p>
+        <a href="/data/template.csv" download><button type="button">Download Dataset Template</button></a>
+        <input type="file" id='Uploaded_User_Dataset' accept='.csv'></input>
+    </div></br>
+
+    <button id="mapToggleButton" style="cursor:pointer;" onclick="toggleMap()">Toggle Between Maps</button>
+    -->
+    <div id="sliderInfo" style="font-size: 30px;">2009</div>
+    <input id='slider01' type='range' min='1' max='6' step='1' value='1' style="width: 90%"/>
+    <button id="playButton" onclick="initiateAnimation(this.id);" onmouseover="highlightPlayButton(this.id)" onmouseout="resetPlayButton(this.id)">Play</button>
+    <button id="stopButton" onclick="stopAnimation(this.id);" onmouseover="highlightRepick(this.id)" onmouseout="resetRepick(this.id)">Pause</button>
+    <button id="playButton01" onclick="showMoreInfo()" onmouseover="highlightPlayButton(this.id)" onmouseout="resetPlayButton(this.id)">Info</button>
+    <button id="playButton02" onclick="toggleWidget()" onmouseover="highlightPlayButton(this.id)" onmouseout="resetPlayButton(this.id)">Import Data</button>
+    
+    
+    
+    <div id="control02" style="position:absolute; height:100px; width:60%; background:black; z-index:50; top:0; left:100%;">
+        <div id="control02Text" style="position:absolute; height:30%; width:100%; background:white;">
+            Selection By: 
+        </div>
+        <div id="control0201" style="position: absolute; height:70%; bottom:0;width:33.3%; background:#6DA1AA; cursor:pointer;" onclick="chooseByState()"><p style="margin-top:20px;">State</p></div>
+        <div id="control0202" style="position: absolute; height:70%; bottom:0;width:33.3%; margin-left: 33.3%;background:#6DA1AA; cursor:pointer;" onclick="chooseByDrag()"><p style="margin-top:0px;">County Shift + Drag</p></div>
+        <div id="control0203" style="position: absolute; height:70%; bottom:0;width:33.3%; margin-left: 66.6%; background:#6DA1AA; cursor:pointer;" onclick="fullCounty()"><p style="margin-top:20px;">Reset</p></div>
+    </div>
+</div>
+
+<!-- timeseries control -->
+<div id="slider"></div>
+
+
+<div id="dropdownContainer">
+    <select id="yAxisDropdown">
+        <option value="Median_Home_Value">Median Home Value</option>
+        <option value="Median_Household_Income" selected>Median Household Income</option>
+        <option value="Unemployment_Rate">Unemployment Rate</option>
+        <option value="Median_Monthly_Ownership_Costs">Median Monthly Ownership Costs</option>
+         <option value="Housing_Age">Housing Age</option>
+         <option value="Uploaded_User_Dataset">Uploaded User Dataset</option>
+    </select>
+    <select id="xAxisDropdown">
+        <option value="Median_Home_Value" selected>Median Home Value</option>
+        <option value="Median_Household_Income">Median Household Income</option>
+        <option value="Unemployment_Rate">Unemployment Rate</option>
+        <option value="Median_Monthly_Ownership_Costs">Median Monthly Ownership Costs</option>
+        <option value="FIPS">County (Single Variate)</option>
+    </select>
+</div>
+
+<!-- Link custom js script -->
+<script src="js/main.js"></script>
+<script src="js/loadData.js"></script>
+<script src="js/buildVisualizations.js"></script>
+<script src="js/buildScatterPlot.js"></script>
+<script src="js/buildChoropleth.js"></script>
+<script src="js/buildControls.js"></script>
+
+<script>
+	var mapControl = false;
+	var widgetControl = false;
+	var stateControl = false;
+	var fullCountyControl = true;
+
+	function moveSplashPage() {
+		document.getElementById("splash01").style.transform = "translate(150%)";
+		document.getElementById("splash02").style.transform = "translate(-150%)";
+	};
+
+	function toggleMap() {
+
+		if (mapControl == false) {
+			document.getElementById("map2").style.transform = "translate(0%)";
+			mapControl = true;
+			return mapControl;
+		} else if (mapControl == true) {
+			document.getElementById("map2").style.transform = "translate(100%)";
+			mapControl = false;
+			return mapControl;
+		}
+	};
+	
+	function removeWidget() {
+		
+		document.getElementById("importUserData").style.transform = "translate(250%)";
+	};
+	
+	function toggleWidget() {
+	
+		document.getElementById("importUserData").style.transform = "translate(0%)";
+		/*
+		if (widgetControl == false) {
+			widgetControl = true;
+			document.getElementById("importUserData").style.transform = "translate(0%)";
+			return widgetControl;
+		} else if (widgetControl == true) {
+			widgetControl = false;
+			document.getElementById("importUserData").style.transform = "translate(250%)";
+			return widgetControl;
+		}
+		*/
+	};
+
+	function chooseByDrag() {
+		startLoading();
+		loadingTimer = setTimeout(stopLoading, 5000); //barbaric I know
+		fullCountyControl = false;
+
+		map.setFilter("counties-highlighted-A3", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-B3", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-C3", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-A2", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-B2", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-C2", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-A1", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-B1", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-C1", ["==", "STATE_NAME", "Alaska"]);
+
+    	try {
+			map.removeLayer("statesProper");
+    		map.removeLayer("route-hover");
+    	}
+    	catch(err) {
+    		stateControl = false;
+    		return stateControl;
+    	}
+
+    	stateControl = false;
+    	return stateControl;
+    };
+
+	function chooseByState() {
+		startLoading();
+		loadingTimer = setTimeout(stopLoading, 5000); //barbaric I know
+		//map.removeLayer("countiesAttribute");
+		fullCountyControl = false;
+		stateControl = true;
+
+
+		map.setFilter("counties-highlighted-A3", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-B3", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-C3", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-A2", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-B2", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-C2", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-A1", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-B1", ["==", "STATE_NAME", "Alaska"]);
+    	map.setFilter("counties-highlighted-C1", ["==", "STATE_NAME", "Alaska"]);
+
+    	/*
+    	map.removeLayer("counties-highlighted-A3");
+    	map.removeLayer("counties-highlighted-B3");
+    	map.removeLayer("counties-highlighted-C3");
+    	map.removeLayer("counties-highlighted-A2");
+    	map.removeLayer("counties-highlighted-B2");
+    	map.removeLayer("counties-highlighted-C2");
+    	map.removeLayer("counties-highlighted-A1");
+    	map.removeLayer("counties-highlighted-B1");
+    	map.removeLayer("counties-highlighted-C1");
+    	*/
+			map.addLayer({
+        		"id": "route-hover",
+        		"type": "fill",
+        		"source": "statesProper",
+        		"layout": {},
+        		"paint": {
+            		"fill-color": "#627BC1",
+            		"fill-opacity": 1
+        		},
+        		"filter": ["==", "NAME", ""]
+    		}, "counties-highlighted-A1");
+
+			map.addLayer ({
+    			"id": "statesProper",
+				"type": "fill",
+    			"source": "statesProper",
+    			"source-layer": "original",
+    			'layout': {
+            		'visibility': 'visible'
+				},
+    			"paint": {
+    				"fill-outline-color": "black",
+    				"fill-color": "white"
+    			}
+    		},"route-hover");
+    		return stateControl;
+	};
+
+	function fullCounty() {
+		startLoading();
+		loadingTimer = setTimeout(stopLoading, 5000); //barbaric I know
+		fullCountyControl = true;
+
+		choropleth();
+	};
+
+	function startLoading() {
+		document.getElementById("load01").style.transform = "translate(0%)";
+	};
+
+	function stopLoading() {
+		document.getElementById("load01").style.transform = "translate(150%)";
+	}
+
+	function highlightPlayButton(x) {
+		if (hoverAnimationControl == false) {
+			document.getElementById(x).style.background = "#E8E57D";
+			document.getElementById(x).style.color = "black";
+		} else {
+			return;
+		}
+	};
+
+	function resetPlayButton(x) {
+		if (hoverAnimationControl == false) {
+			document.getElementById(x).style.background = "";
+			document.getElementById(x).style.color = "";
+		} else {
+			return;
+		}
+	};
+
+	function highlightRepick(x) {
+		document.getElementById(x).style.background = "#E8E57D";
+		document.getElementById(x).style.color = "black";
+	};
+
+	function resetRepick(x) {
+		document.getElementById(x).style.background = "";
+		document.getElementById(x).style.color = "";
+	};
+	
+	function showMoreInfo() {
+		document.getElementById("infoPanel01").style.transform = "translate(0%)";
+	};
+	
+	function closeMoreInfo() {
+		
+		document.getElementById("infoPanel01").style.transform = "translate(-150%)";
+	};
+
+</script>
+
+</body>
+
+
+</html>

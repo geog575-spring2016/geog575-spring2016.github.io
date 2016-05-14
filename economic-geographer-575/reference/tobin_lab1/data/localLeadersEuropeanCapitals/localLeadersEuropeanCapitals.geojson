@@ -1,0 +1,530 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "country-sovereign": "Portugal",
+        "capital": "Lisbon",
+        "most_recent": "Fernando Medina",
+        "1_s_term": 2015,
+        "2_recent": "António Costa",
+        "2_s_term": 2007,
+        "2_e_term": 2015,
+        "3_recent": "António Carmona Rodrigues",
+        "3_s_term": 2004,
+        "3_e_term": 2007,
+        "4_recent": "Pedro Santana Lopes",
+        "4_s_term": 2002,
+        "4_e_term": 2004,
+        "5_recent": "Jo�o Soares",
+        "5_s_term": 1996,
+        "5_e_term": 2002,
+        "6_recent": "Jorge Sampaio",
+        "6_s_term": 1989,
+        "6_e_term": 1996,
+        "7_recent": "Nuno Krus Abecasis",
+        "7_s_term": 1980,
+        "7_e_term": 1989,
+        "Links to Data": "https://en.wikipedia.org/wiki/List_of_mayors_of_Lisbon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.138006,
+          38.713057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country-sovereign": "Spain",
+        "capital": "Madrid",
+        "most_recent": "Manuela Carmena",
+        "1_s_term": 2015,
+        "2_recent": "Ana Botella",
+        "2_s_term": 2011,
+        "2_e_term": 2015,
+        "3_recent": "Alberto Ruiz-Gallard�n",
+        "3_s_term": 2003,
+        "3_e_term": 2011,
+        "4_recent": "Jos� del Manzano",
+        "4_s_term": 1991,
+        "4_e_term": 2003,
+        "5_recent": "Agust�n Rodr�guez Sahag�n",
+        "5_s_term": 1989,
+        "5_e_term": 1991,
+        "6_recent": "Juan Barranco Gallardo",
+        "6_s_term": 1986,
+        "6_e_term": 1989,
+        "7_recent": "Enrique Tierno Galv�n",
+        "7_s_term": 1979,
+        "7_e_term": 1986,
+        "Links to Data": "https://en.wikipedia.org/wiki/List_of_mayors_of_Madrid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.703582,
+          40.416705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country-sovereign": "France",
+        "capital": "Paris",
+        "most_recent": "Anne Hidalgo",
+        "1_s_term": 2014,
+        "2_recent": "Bertrand Delano�",
+        "2_s_term": 2001,
+        "2_e_term": 2014,
+        "3_recent": "Jean Tiberi",
+        "3_s_term": 1995,
+        "3_e_term": 2001,
+        "4_recent": "Jacques Chirac",
+        "4_s_term": 1977,
+        "4_e_term": 1995,
+        "5_recent": "N/A",
+        "5_s_term": 1871,
+        "5_e_term": 1977,
+        "6_recent": "Joseph Vautrain",
+        "6_s_term": 1871,
+        "6_e_term": 1871,
+        "7_recent": "Louis Charles Delescluze",
+        "7_s_term": 1871,
+        "7_e_term": 1871,
+        "Links to Data": "https://en.wikipedia.org/wiki/List_of_mayors_of_Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.352133,
+          48.856506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country-sovereign": "United Kingdom",
+        "capital": "City of London",
+        "most_recent": "Lord Mountevans",
+        "1_s_term": 2015,
+        "2_recent": "Sir Alan Yarrow",
+        "2_s_term": 2014,
+        "2_e_term": 2014,
+        "3_recent": "Dame Fiona Woolf",
+        "3_s_term": 2013,
+        "3_e_term": 2013,
+        "4_recent": "Sir Roger Gifford",
+        "4_s_term": 2012,
+        "4_e_term": 2012,
+        "5_recent": "Sir David Wootton",
+        "5_s_term": 2011,
+        "5_e_term": 2011,
+        "6_recent": "Sir Michael Bear",
+        "6_s_term": 2010,
+        "6_e_term": 2010,
+        "7_recent": "Nick Anstee",
+        "7_s_term": 2009,
+        "7_e_term": 2009,
+        "Links to Data": "https://en.wikipedia.org/wiki/List_of_Lord_Mayors_of_London#21st_century"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.091998,
+          51.515618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country-sovereign": "Ireland",
+        "capital": "Dublin",
+        "most_recent": "Cr�ona Ni Dh�laigh",
+        "1_s_term": 2015,
+        "2_recent": "Christy Burke",
+        "2_s_term": 2014,
+        "2_e_term": 2014,
+        "3_recent": "Ois�n Quinn",
+        "3_s_term": 2013,
+        "3_e_term": 2013,
+        "4_recent": "Naoise � Muir�",
+        "4_s_term": 2012,
+        "4_e_term": 2012,
+        "5_recent": "Andrew Montague",
+        "5_s_term": 2011,
+        "5_e_term": 2011,
+        "6_recent": "Gerry Breen",
+        "6_s_term": 2010,
+        "6_e_term": 2010,
+        "7_recent": "Emer Costello",
+        "7_s_term": 2009,
+        "7_e_term": 2010,
+        "Links to Data": "https://en.wikipedia.org/wiki/List_of_Lord_Mayors_of_Dublin#21st_century"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.260273,
+          53.349765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country-sovereign": "Belgium",
+        "capital": "City of Brussels",
+        "most_recent": "Yvan Mayeur",
+        "1_s_term": 2013,
+        "2_recent": "Freddy Thielemans",
+        "2_s_term": 2001,
+        "2_e_term": 2013,
+        "3_recent": "Fran�ois-Xavier de Donnea",
+        "3_s_term": 1995,
+        "3_e_term": 2000,
+        "4_recent": "Freddy Thielemans",
+        "4_s_term": 1994,
+        "4_e_term": 1995,
+        "5_recent": "Michel Demaret",
+        "5_s_term": 1993,
+        "5_e_term": 1994,
+        "6_recent": "Herv� Brouhon",
+        "6_s_term": 1983,
+        "6_e_term": 1993,
+        "7_recent": "Pierre Van Halteren",
+        "7_s_term": 1975,
+        "7_e_term": 1983,
+        "Links to Data": "https://en.wikipedia.org/wiki/List_of_mayors_of_the_City_of_Brussels#Kingdom_of_Belgium_.281830.E2.80.93present.29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.360083,
+          50.855688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country-sovereign": "Netherlands",
+        "capital": "Amsterdam",
+        "most_recent": "Eberhard van der Laan",
+        "1_s_term": 2010,
+        "2_recent": "Job Cohen",
+        "2_s_term": 2001,
+        "2_e_term": 2010,
+        "3_recent": "Schelto Patijn",
+        "3_s_term": 1994,
+        "3_e_term": 2001,
+        "4_recent": "Ed van Thijn",
+        "4_s_term": 1983,
+        "4_e_term": 1994,
+        "5_recent": "Wim Polak",
+        "5_s_term": 1977,
+        "5_e_term": 1983,
+        "6_recent": "Ivo Samkalden",
+        "6_s_term": 1967,
+        "6_e_term": 1977,
+        "7_recent": "Gijs van Hall",
+        "7_s_term": 1957,
+        "7_e_term": 1967,
+        "Links to Data": "https://en.wikipedia.org/wiki/List_of_mayors_of_Amsterdam#21st_century"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.897996,
+          52.374436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country-sovereign": "Germany",
+        "capital": "Berlin",
+        "most_recent": "Michael M�ller",
+        "1_s_term": 2014,
+        "2_recent": "Klaus Wowereit",
+        "2_s_term": 2001,
+        "2_e_term": 2014,
+        "3_recent": "Eberhard Diepgen",
+        "3_s_term": 1991,
+        "3_e_term": 2001,
+        "4_recent": "Walter Momper",
+        "4_s_term": 1989,
+        "4_e_term": 1991,
+        "5_recent": "Eberhard Diepgen",
+        "5_s_term": 1984,
+        "5_e_term": 1989,
+        "6_recent": "Richard von Weizs�cker",
+        "6_s_term": 1981,
+        "6_e_term": 1984,
+        "7_recent": "Hans-Jochen Vogel",
+        "7_s_term": 1981,
+        "7_e_term": 1981,
+        "Links to Data": "https://en.wikipedia.org/wiki/Governing_Mayor_of_Berlin#Reunified_Germany_.281990.E2.80.93present.29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.38886,
+          52.517037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country-sovereign": "Switzerland",
+        "capital": "Bern",
+        "most_recent": "Alexander Tsch�pp�t",
+        "1_s_term": 2005,
+        "2_recent": "Klaus Baumgartner",
+        "2_s_term": 1993,
+        "2_e_term": 2004,
+        "3_recent": "Werner Bircher",
+        "3_s_term": 1979,
+        "3_e_term": 1992,
+        "4_recent": "Reynold Tsch�pp�t",
+        "4_s_term": 1966,
+        "4_e_term": 1979,
+        "5_recent": "Eduard Freim�ller",
+        "5_s_term": 1958,
+        "5_e_term": 1966,
+        "6_recent": "Otto Steiger",
+        "6_s_term": 1952,
+        "6_e_term": 1958,
+        "7_recent": "Ernst B�rtschi",
+        "7_s_term": 1937,
+        "7_e_term": 1951,
+        "Links to Data": "https://en.wikipedia.org/wiki/List_of_mayors_of_Bern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.451501,
+          46.948276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country-sovereign": "Italy",
+        "capital": "Rome",
+        "most_recent": "Ignazio Marino",
+        "1_s_term": 2013,
+        "2_recent": "Gianni Alemanno",
+        "2_s_term": 2008,
+        "2_e_term": 2013,
+        "3_recent": "Walter Veltroni",
+        "3_s_term": 2001,
+        "3_e_term": 2008,
+        "4_recent": "Francesco Rutelli",
+        "4_s_term": 1993,
+        "4_e_term": 2001,
+        "5_recent": "Franco Carraro",
+        "5_s_term": 1989,
+        "5_e_term": 1993,
+        "6_recent": "Pietro Giubilo",
+        "6_s_term": 1988,
+        "6_e_term": 1989,
+        "7_recent": "Nicola Signorello",
+        "7_s_term": 1985,
+        "7_e_term": 1988,
+        "Links to Data": "https://en.wikipedia.org/wiki/Mayor_of_Rome#Republic_of_Italy_.281946-present.29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.483072,
+          41.893344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country-sovereign": "Austria",
+        "capital": "Vienna",
+        "most_recent": "Michael H�upi",
+        "1_s_term": 1994,
+        "2_recent": "Helmut Zilk",
+        "2_s_term": 1984,
+        "2_e_term": 1994,
+        "3_recent": "Leopold Gratz",
+        "3_s_term": 1973,
+        "3_e_term": 1984,
+        "4_recent": "Felix Slavik",
+        "4_s_term": 1970,
+        "4_e_term": 1973,
+        "5_recent": "Bruno Marek",
+        "5_s_term": 1965,
+        "5_e_term": 1970,
+        "6_recent": "Franz Jonas",
+        "6_s_term": 1951,
+        "6_e_term": 1965,
+        "7_recent": "Theodor K�rner",
+        "7_s_term": 1945,
+        "7_e_term": 1951,
+        "Links to Data": "https://en.wikipedia.org/wiki/List_of_mayors_of_Vienna#Mayors_and_State_governors_of_Vienna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.372504,
+          48.208354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country-sovereign": "Czech Republic",
+        "capital": "Prague",
+        "most_recent": "Adriana Krn�?ov�",
+        "1_s_term": 2014,
+        "2_recent": "Tom�� Hude?ek",
+        "2_s_term": 2013,
+        "2_e_term": 2014,
+        "3_recent": "Bohuslav Svoboda",
+        "3_s_term": 2010,
+        "3_e_term": 2013,
+        "4_recent": "Pavel B�m",
+        "4_s_term": 2002,
+        "4_e_term": 2010,
+        "5_recent": "Jan Kasl",
+        "5_s_term": 1998,
+        "5_e_term": 2002,
+        "6_recent": "Jan Koukal",
+        "6_s_term": 1993,
+        "6_e_term": 1998,
+        "7_recent": "Milan Kondr",
+        "7_s_term": 1991,
+        "7_e_term": 1993,
+        "Links to Data": "https://en.wikipedia.org/wiki/List_of_mayors_of_Prague#1993.E2.80.93present"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.421256,
+          50.08744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country-sovereign": "Denmark",
+        "capital": "Copenhagen",
+        "most_recent": "Frank Jensen",
+        "1_s_term": 2010,
+        "2_recent": "Ritt Bjerregaard",
+        "2_s_term": 2006,
+        "2_e_term": 2009,
+        "3_recent": "Lars Engberg",
+        "3_s_term": 2004,
+        "3_e_term": 2005,
+        "4_recent": "Jens Kramer Mikkelsen",
+        "4_s_term": 1989,
+        "4_e_term": 2004,
+        "5_recent": "Egon Weidekamp",
+        "5_s_term": 1976,
+        "5_e_term": 1989,
+        "6_recent": "Urban Hansen",
+        "6_s_term": 1962,
+        "6_e_term": 1976,
+        "7_recent": "Sigvard Munk",
+        "7_s_term": 1956,
+        "7_e_term": 1962,
+        "Links to Data": "https://en.wikipedia.org/wiki/List_of_lord_mayors_of_Copenhagen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.570072,
+          55.686724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country-sovereign": "Norway",
+        "capital": "Oslo",
+        "most_recent": "Marianne Borgen",
+        "1_s_term": 2015,
+        "2_recent": "Fabian Stang",
+        "2_s_term": 2007,
+        "2_e_term": 2015,
+        "3_recent": "Per Ditlev-Simonsen",
+        "3_s_term": 1995,
+        "3_e_term": 2007,
+        "4_recent": "Ann-Marit S�b�nes",
+        "4_s_term": 1992,
+        "4_e_term": 1995,
+        "5_recent": "Peter N. Myhre",
+        "5_s_term": 1990,
+        "5_e_term": 1991,
+        "6_recent": "Albert Nordengen",
+        "6_s_term": 1976,
+        "6_e_term": 1990,
+        "7_recent": "Brynjulf Bull",
+        "7_s_term": 1964,
+        "7_e_term": 1975,
+        "Links to Data": "https://en.wikipedia.org/wiki/List_of_mayors_of_Oslo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.739111,
+          59.913269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country-sovereign": "Sweden",
+        "capital": "Stockholm",
+        "most_recent": "Karin Wanng�rd",
+        "1_s_term": 2014,
+        "2_recent": "Sten Nordin",
+        "2_s_term": 2008,
+        "2_e_term": 2014,
+        "3_recent": "Kristina Ax�n Olin",
+        "3_s_term": 2006,
+        "3_e_term": 2008,
+        "4_recent": "Annika Billstr�m",
+        "4_s_term": 2002,
+        "4_e_term": 2006,
+        "5_recent": "Carl Cederschi�ld",
+        "5_s_term": 1998,
+        "5_e_term": 2002,
+        "6_recent": "Mats Hulth",
+        "6_s_term": 1994,
+        "6_e_term": 1998,
+        "7_recent": "Carl Cederschi�ld",
+        "7_s_term": 1991,
+        "7_e_term": 1994,
+        "Links to Data": "https://en.wikipedia.org/wiki/List_of_municipal_commissioners_for_finance_of_Stockholm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.071094,
+          59.325117
+        ]
+      }
+    }
+  ]
+}

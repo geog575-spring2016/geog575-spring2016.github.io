@@ -1,0 +1,215 @@
+/* Stylesheet by Tobin McGilligan, 2016 */
+
+body {
+	margin: 0;
+}
+#map {
+	height: 100vh;
+}
+#title {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: #fff;
+	border: 2px solid rgba(0,0,0,0.2);
+	border-radius: 8px;
+	padding: 8px 18.6px;
+	padding-top: 3px;
+	z-index: 10;
+	font-weight: bold;
+	font-size: 18px;
+}
+#title span{
+	font-size: 48px;
+}
+#title .fa {
+	position: absolute;
+	right: 5px;
+	font-size: 18px;
+}
+
+/* Leaflet Popups */
+.leaflet-popup-content {
+	margin: 16px 22px;
+}
+.leaflet-popup-content strong {
+	font-size: 16px;
+}
+.leaflet-popup-content .popupAttributeLabel {
+	text-decoration: underline;
+}
+.leaflet-popup-content .popupAttributeValue {
+	font-size: 36px;
+}
+
+/* Slider */
+#slider {
+	background: #fff;
+	border: 2px solid rgba(0,0,0,0.2);
+	margin-top: 4px;
+}
+/*this is the little square handle inserted by jQueryUI*/
+#slider span {
+	background: #fff;
+	border: 1px solid black;
+}
+#slider span:hover {
+	background-color: #f4f4f4;
+}
+/*the div containing the slider buttons*/
+#slider-buttons {
+	text-align: center;
+	font-size: 28px;
+	border: 2px solid rgba(0,0,0,0.2);
+	border-radius: 4px;
+}
+/*each slider button... '.fa' class is for FontAwesome icons*/
+#slider-buttons .fa {
+	padding: 8px 18.6px;
+	background: #fff;
+	border-right: 1px solid #ccc;
+}
+#slider-buttons .fa:hover {
+	background-color: #f4f4f4;
+}
+/*round the first and last buttons so they look nice*/
+#slider-buttons .fa:last-child {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-right: none; /*and remove that border*/
+}
+#slider-buttons .fa:first-child {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+/* Legend */
+/* after jQueryUI constructor function, the map legend consists of a div
+with class="legend" (as specified by the option passed in the constructor)
+containing a div with class="ui-dialog-titlebar" and a div with an id
+attribute that is retained from the original HTML markup*/
+.legend {
+	background: #fff;
+	border: 2px solid rgba(0,0,0,0.2);
+}
+/* the titlebar */
+.legend .ui-dialog-titlebar {
+	background: #ff7800;
+	opacity: 1;
+	border: 1px solid #000;
+}
+.legend .ui-dialog-titlebar .ui-button {
+	background: #fff;
+	border: 1px solid #ccc;
+}
+.legend .ui-dialog-titlebar .ui-button .ui-icon {
+	background-image: url("../lib/jquery/jquery-ui-1.11.4/images/ui-icons_222222_256x240.png");
+}
+/* Symbolization Picker is a jQueryUI buttonset within the dialog titlebar */
+#symbolizationPicker {
+	margin-left: 15px;
+}
+#symbolizationPicker label span {
+	font-size: 0.75em;
+}
+#symbolizationPicker .ui-state-hover {
+	color: #ff7800;
+}
+/* the div with id attribute retained from original HTML markup */
+#dialog { /*within the div, center everything on both axes*/
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+#attributeText {
+	margin-right: 25px; /*margin for visual separation*/
+}
+#attributeText span {
+	font-weight: bold;
+}
+#legendSymbols { /*align the circle symbols*/ 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#legendSymbols div { /*defaults for circle marker symbols*/
+	border-radius: 50%;
+	border: 1px solid #000;
+	width: 14px;
+	margin-top: 5px;
+}
+#legendLabels div { /*defaults for symbol labels*/
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 1px 0px; /* accounts for border of circle marker */
+	margin-left: 10px;
+	margin-top: 5px;
+	background-color: #fff;
+}
+/* These styles apply only to the color symbolization legend */
+.color5 {/*since CSS rules are applied general --> specific, these rules
+	will be applied before those above, despite appearing later in the file*/
+	background-color: #feedde; /*adds a background color for the symbol,
+	over-ridden for the labels in '#legendLabels div'*/
+	height: 14px;
+}
+.color4 {
+	background-color: #fdbe85;
+	height: 14px;
+}
+.color3 {
+	background-color: #fd8d3c;
+	height: 14px;
+}
+.color2 {
+	background-color: #e6550d;
+	height: 14px;
+}
+.color1 {
+	background-color: #a63603;
+	height: 14px;
+}
+.defaultColor {
+	background-color: #ff7800;
+}
+/* These styles apply only to the size symbolization legend */
+#legendSymbols div.size3 {/*since CSS rules are applied general --> specific,
+	these rules will be applied after those above*/
+	background-color: #ff7800;
+	width: 45px;
+	height: 45px;
+}
+#legendSymbols div.size2 {
+	background-color: #ff7800;
+	width: 30px;
+	height: 30px;
+}
+#legendSymbols div.size1 {
+	background-color: #ff7800;
+	width: 15px;
+	height: 15px;
+}
+#legendLabels div.size3 { /*the labels do not need a width or background color*/
+	height: 45px;
+}
+#legendLabels div.size2 {
+	height: 30px;
+}
+#legendLabels div.size1 {
+	height: 15px;
+}
+
+.myCustomIcon {
+	border-radius: 100%;
+	border: 1px solid #000;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.myCustomIcon div {
+	margin-top: 0px;
+	margin-left: 0px;
+}
