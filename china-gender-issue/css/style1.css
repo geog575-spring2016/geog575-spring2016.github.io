@@ -1,0 +1,130 @@
+
+.map1Div {
+    width: 100%;  
+    height: 100%;
+}
+
+.scatterPlotDiv {
+    width: 100%;  
+    height: 100%;
+}
+.map2Div {
+    width: 100%;
+    height: 100%;
+    
+}
+.gratBackground {
+    fill: white;
+}
+
+.gratLines {
+    fill: white;
+    stroke: white;
+    stroke-width: 1px;
+}
+
+.backgroundCountry {
+    fill: white;
+    stroke: white;
+    stroke-width: 1px;
+}
+
+.enumUnits {
+    stroke: #000;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+}
+
+.scatterPlotBackground {
+    fill: none;
+    z-index: 0;
+}
+
+.infolabel {
+    position: absolute;
+    height: 70px;
+    min-width: 100px;
+    color: #fff;
+    background-color: #000;
+    border: solid thin #fff;
+    padding: 5px 10px;
+    z-index: 10;
+    opacity: 0.8;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.xAxis path,
+.xAxis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.xAxis text {
+    font-family: sans-serif;
+    font-size: 0.85em;
+    fill: #333333;
+}
+
+.yAxis path,
+.yAxis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.yAxis text {
+    font-family: sans-serif;
+    font-size: 0.85em;
+    fill: #333333;
+}
+
+.linegraph {
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis--y path {
+  display: none;
+}
+
+.provinces {
+  fill: none;
+  stroke: #aaa;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 1.5px;
+}
+
+.province--hover {
+  stroke: #000;
+}
+
+.focus text {
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+.voronoi path {
+  fill: none;
+  pointer-events: all;
+}
+
+#form {
+  position: absolute;
+  
+}

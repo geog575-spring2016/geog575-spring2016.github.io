@@ -1,0 +1,32 @@
+name,urban_unmarried_m_f,rural_unmarried_m_f,urban_newborn_m_f,rural_newborn_m_f,gdp_per_capita,region_code
+Beijing Municipality,117,142,112,110,19311,a1
+Tianjin Municipality,123,144,115,113,18561,a2
+Hebei Province,111,137,119,119,7290,a3
+Shanxi Province,113,152,115,112,6683,a4
+Inner Mongolia Autonomous Region,127,172,105,113,12039,a5
+Liaoning Province,121,155,111,115,10770,a6
+Jilin Province,120,143,113,118,8035,a7
+Heilongjiang Province,123,141,113,117,6885,a8
+Shanghai Municipality,126,154,113,101,19344,a9
+Jiangsu Province,122,140,120,123,13436,a10
+Zhejiang Province,130,179,117,120,13149,a11
+Anhui Province,126,140,122,137,5311,a12
+Fujian Province,126,149,124,128,10177,a13
+Jiangxi Province,129,147,125,131,5404,a14
+Shandong Province,117,136,121,127,10452,a15
+Henan Province,114,130,126,129,6216,a16
+Hubei Province,130,154,124,124,7096,a17
+Hunan Province,127,160,123,127,6286,a18
+Guangdong Province,129,133,131,127,11375,a19
+Guangxi Zhuang Autonomous Region,132,180,126,120,5141,a20
+Hainan Province,129,173,131,128,6060,a21
+Chongqing Municipality,125,175,111,118,7017,a22
+Sichuan Province,122,160,113,113,5386,a23
+Guizhou Province,130,171,126,126,3336,a24
+Yunnan Province,129,188,113,114,4005,a25
+Tibet Autonomous Region,118,124,116,96,4404,a26
+Shaanxi Province,121,151,115,117,6899,a27
+Gansu Province,121,139,126,124,4097,a28
+Qinghai Province,132,153,113,113,6132,a29
+Ningxia Hui Autonomous Region,120,140,113,115,6845,a30
+Xinjiang Uyghur Autonomous Region,125,152,106,105,6366,a31
