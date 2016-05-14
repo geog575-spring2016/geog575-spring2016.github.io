@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Green Bay Flood Viewer</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <!-- jquery link -->
+    <script type="text/javascript" src="lib/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="lib/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+
+
+    <!-- leaflet core and css -->
+    <script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
+    <link rel="stylesheet" type="text/css" href="lib/leaflet/leaflet.css">
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="navBar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header text-center">
+                <a id="pageHeader" class="navbar-brand" href="#">Green Bay Flood Viewer</a>
+            </div>
+            <ul id="nav" class="nav navbar-nav navbar-right">
+                <li>
+                    <a href id="aboutButton" data-toggle="modal" data-target="#about">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- About Modal -->
+    <div id="about" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header modalHeadFoot">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">About the Flood Viewer</h4>
+            </div>
+            <div id="modalBody" class="modal-body">
+                <p><!--about text-->
+                    This tool provides data and maps depicting potential coastal flooding impacts in the City of Green Bay. Water levels were calculated based on historic storm events seen in the area and possible combinations of historic water levels and historic storm surges. The viewer visualises potential overtopping of the dike protecting the east side of the city based on a set of flood levels that is adjusted using the water level slider.
+                </p>
+            </div>
+            <div class="modal-footer modalHeadFoot">
+            <button id="modalButton" type="button" class="btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- map container -->
+    <div id="map">
+        <div id='stopPropPanel'>
+
+
+            <!-- opacity slider pannel -->
+            <div id="opacityPanel" class="panel">
+                <p class="panelText head">Satelite Opacity</p>
+                <input id="OPslide" type="range" class="slider-satelite">
+            </div>
+
+            <!-- water level slider -->
+            <div id="sliderPanel" class="panel">
+                <p class="panelText head">Choose Water Level</p>
+                    <div class="ui-slider-labels">
+                            <div id="floodHeader" class="floodLevelText"></div>
+
+                            <div>
+                                 <button id="6" class="ui-slider-label btn btn-cstm-water">591.00 ft</button>
+                            </div>    
+                            <div>
+                                 <button id="5" class="ui-slider-label btn btn-cstm-water">582.79 ft</button>
+                            </div> 
+                            <div>
+                                 <button id="4" class="ui-slider-label btn btn-cstm-water">583.81 ft</button>
+                            </div>  
+
+                            <div>
+                                 <button id="3" class="ui-slider-label btn btn-cstm-water">584.97 ft</button>
+                            </div> 
+                            <div>
+                                 <button id="2" class="ui-slider-label btn btn-cstm-water">583.81 ft</button>
+                            </div>
+
+                            <div>
+                                 <button id="1" class="ui-slider-label btn btn-cstm-water">582.79 ft</button>
+                            </div>  
+                            <div>
+                                 <button id="0" class="ui-slider-label btn btn-cstm-water">579.21 ft</button>
+                            </div>
+                    </div>
+
+                  <div id="slider-holder">
+                  </div>
+
+                <div>
+                    <button id="showInfoPanel" class="btn btn-cstm-info">Display Statistics</button>
+                </div>
+            </div>
+
+
+            <!-- pannel container -->
+            <div id="buttonPanel" class='panel'>
+                <p class="panelText head">Choose Data Overlay</p>
+
+                <span>
+                    <button id="breaks" class="btn btn-cstm">Dike Breaks</button>
+                </span>
+
+                <button id="dikeBreakInfo" class="btn btn-cstm-legend">
+                    <i class="fa fa-question-circle-o fa-lg white" aria-hidden="true"></i>
+                </button>
+
+                <span>
+                    <button id="SOVI" class="btn btn-cstm">SOVI</button>
+                </span>
+
+                <button id="soviInfo" class="btn btn-cstm-legend">
+                    <i class="fa fa-question-circle-o fa-lg white" aria-hidden="true"></i>                
+                </button>
+
+                <span>
+                    <button id="BLS" class="btn btn-cstm">Business</button>
+                </span>
+                
+                <button  id="blsInfo" class="btn btn-cstm-legend">
+                    <i class="fa fa-question-circle-o fa-lg white" aria-hidden="true"></i>
+                </button>
+
+                <span>
+                    <button id="affectedPop" class="btn btn-cstm">People Affected</button>
+                </span>
+
+                <button id="populationInfo" class="btn btn-cstm-legend">
+                    <i class="fa fa-question-circle-o fa-lg white" aria-hidden="true"></i>
+                </button>
+
+                <span>
+                    <button id="propertyLost" class="btn btn-cstm">Property Lost</button>
+                </span>
+
+                <button id="propertyLostInfo"  class="btn btn-cstm-legend">
+                    <i class="fa fa-question-circle-o fa-lg white" aria-hidden="true"></i>
+                </button>
+
+                <span>
+                    <button id="medianIncome" class="btn btn-cstm">Median Income</button>
+                </span>
+
+                <button id="incomeInfo" class="btn btn-cstm-legend">
+                    <i class="fa fa-question-circle-o fa-lg white" aria-hidden="true"></i>
+                </button>
+
+                <span>
+                    <button id="turnOnFloods" class="btn btn-cstm-button">Flooding</button>
+                </span>
+
+                <span>
+                    <button id="reset" class="btn btn-cstm-button">Reset</button>   
+                </span>
+            </div>
+
+            <div id="waterLevelLegend"></div>
+        </div>
+
+
+        <!-- information panel -->
+        <div id="infoPanel" class='panel'>
+            <div class="legendText head">
+                Depth:   <span id="waterLevel"></span>
+                <button id="hideInfoPanel" type="button" class="close">×</button>         
+            </div>
+<!--             <p class="panelText head">Info Panel</p> -->
+
+            <div>
+                <label class="legendLabels">Number of Dike Breaks</label>
+                <div id="numberOfDikeBreaks" class="infoPanelText"></div>    
+            </div>
+            <hr class="lineBreak">
+            <div>
+                <label class="legendLabels">Total Flooded Area</label>
+                <div id="totalFloodedArea" class="infoPanelText"></div>    
+            </div>
+            <hr class="lineBreak">
+            <div>
+                <label class="legendLabels">Max Property Losses</label>
+                <div id="maxPropertyLosses" class="infoPanelText"></div>    
+            </div>
+            <hr class="lineBreak">
+            <div>
+                <label class="legendLabels">Number of People Affected</label>
+                <div id="peopleAffected" class="infoPanelText"></div>    
+            </div>
+        </div>
+
+
+        <!-- legend -->
+        <div id="legendPanel" class='panel'>
+            <div class="legendText head">
+                <span id="legendHeader"></span>
+                <button id="legendClose" type="button" class="close">×</button>
+            </div>
+
+            <span id='legendText' ></span>
+            <span id='colorLegend'>
+                <div id='replace'></div>
+            </span>
+        </div>
+    <!-- end map -->
+    </div>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="lib/bootstrap.min.js"></script>
+
+    <!-- <script type="text/javascript" src="js/tutorials.js"></script> -->
+    <script type="text/javascript" src="js/custom.js"></script>
+<!-- body end-->
+</body>
+
+</html>
