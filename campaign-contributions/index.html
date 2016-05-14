@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Campaign Contributions</title>
+
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		 <link rel="stylesheet" href="css/d3.slider.css"/>
+		 <link href='https://fonts.googleapis.com/css?family=Roboto:400italic,500,500italic,700,700italic,400' rel='stylesheet' type='text/css'>
+
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+
+	</head>
+
+
+	<body>
+		<!--put your initial page content here-->
+		<!--<div id="content"></div>-->
+		<!--you can also use this space for internal scripts or stylesheets;
+		place these within <script> or <style> tags-->
+		<div class="center">
+			<div class="jumbotron">
+					<div class="container">
+
+						<h2>We Need Your Money </h2>
+
+					<img class = "others" src = "img/jill.png" >
+					<img class = "others" src = "img/lessig.png" >
+					<img class = "others" src = "img/santorum.png" >
+					<img class = "others" src = "img/huckabee.png" >
+					<img class = "others" src = "img/ben.png" >
+					<img class = "others" src = "img/jeb.png" >
+					<img class = "others" src = "img/chris.png" >
+					<img class = "others" src = "img/john.png" >
+					<img class = "hilary" src = "img/bernie.png" >
+					<img class = "trump" src = "img/trump.png" >
+					<img class = "hilary" src = "img/hilary.png" >
+					<img class = "others" src = "img/ted.png" >
+					<img class = "others" src = "img/marco.png" >
+					<img class = "others" src = "img/carly.png" >
+					<img class = "others" src = "img/randPaul.png" >
+					<img class = "others" src = "img/scott.png" >
+					<img class = "others" src = "img/jindal.png" >
+					<img class = "others" src = "img/pataki.png" >
+					<img class = "others" src = "img/rickPerry.png" >
+					<img class = "others" src = "img/webb.png" >
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+				<div id="instructions" class="col-md-12">
+					<h5>Individual Citizen Campaign Contributions for the 2016 Presidential Election</h5>
+					<p>This map visualizes the campaign contributions from individuals to presidential candidates during the 2015-2016 election cycle. Toggle between <b>Total</b> and <b>Per Capita</b> to see the combined raw and normalized totals per state through March 2016. <b>Compare Candidates</b> and sequence through time to see how donations change based on election events. Zoom into regions for more detail.</p>
+
+
+			<div class="container">
+				<div id = "sideColumn" class="col-md-2">
+				</div>
+
+				<div id = "mapContainer" class="col-md-7">
+				</div>
+				<div id = "infoPanel" class="col-md-3">
+					<div class="sequence-buttons">
+					   <div class="button" >
+						   <button type="button" class="stepBackward">
+							   <img id = "backButton" class="img-stepBackward" src="img/leftArrow_small.png" alt="Left Arrow">
+						   </button>
+						   <button type="button" class="stepForward">
+							   <img class="img-stepForward" src="img/rightArrow_small.png" alt="Right Arrow">
+						   </button>
+					   </div>
+				   </div>
+			   </div>
+		   </div>
+		   <br>
+		   <br>
+
+		   <div class="container">
+			   <div id="timeline" class="axiss">
+			   </div>
+		   </div>
+		   <br>
+		   <br>
+		   <br>
+		   <div class="container">
+				<div id="context" class="col-md-12">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<h4>About This Map</h4>
+					<p>Just about anyone who has been following the 2016 presidential election, or any major election for that matter, knows how important money is to the success of a campaign. The amount of money funneled to elections every cycle is astronomical. Some donations can be tracked back to their source while others are more difficult to track. There are three main ways that money can get to a candidate:  from citizens directly to candidates, from citizens and organizations to Political Action Committees (PACs), and from SuperPAC. </p>
+
+					<br>
+					<h4>Sources</h4>
+					<p><a href="http://www.naturalearthdata.com/">Natural Earth, </a>
+						<a href="https://beta.fec.gov/">FEC, </a>
+						<a href="http://sunlightfoundation.com/blog/2013/10/23/political-influence-by-county-a-new-way-to-look-at-campaign-finance-data/">Sunlightfoundation, </a>
+						<a href=" https://www.opensecrets.org/pacs/foreign.php">OpenSecrets, </a>
+						<a href="http://www.nytimes.com/interactive/2016/us/elections/election-2016-campaign-money-race.html?_r=0">Candidate Images, </a>
+						<a href="https://www.facebook.com/drjillstein/">Candidate Images, </a>
+						<a href="https://en.wikipedia.org/wiki/United_States_presidential_election,_2016_timeline#cite_note-Super-101">Election Events, </a>
+						Darren Northcott from the Noun Project
+</p>
+
+					<br>
+					<h4>Authors</h4>
+					<p>We Need Your Money is a collaborative project by Zihan Song, Shelley Witte, and Kristen Vincent for Robert Roth's Interactive Cartography and Geovisualization course at UW-Madison. Completed in May 2016.<p/>
+						<p>Many thanks to Robin Tolochko, Eric Nost, and Carl Sack for their invaluable help!</p>
+							<p>This project was built with D3, Queue, jQuery, and Bootstrap. </p>
+				</div>
+			</div>
+
+
+
+		<!--put your external script links here-->
+		<script type="text/javascript" src="lib/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="lib/d3.js"></script>
+		<script type="text/javascript" src="lib/d3-queue.js"></script>
+		<script type="text/javascript" src="lib/topojson.v1.min.js"></script>
+		<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+		<script src="lib/d3.slider.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+
+	</body>
+</html>
