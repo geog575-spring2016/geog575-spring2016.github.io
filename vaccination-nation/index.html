@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>VacciNation</title>
+
+		<!--external stylesheet links-->
+        <link rel="stylesheet" href="lib/leaflet/leaflet.css">
+        <link rel="stylesheet" href="lib/leaflet-search-master/src/leaflet-search.css">
+        <link rel="stylesheet" href="lib/bootstrap-3.3.6-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/vaccine_coverage.css"/>
+		<link rel="stylesheet" href="css/exemptions.css"/>
+        <link rel="stylesheet" href="lib/leaflet.zoomhome.css"/>
+        <link rel="stylesheet" href="lib/font-awesome-4.6.2/css/font-awesome.css"/>
+
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+
+<!--        HEADER		-->
+        <div id="header">
+			<h1>The Immunity Mutiny</h1>
+            <h2 id="subheader">The struggle over childhood vaccination and the emergence of a new public health crisis</h2>
+        </div>
+
+<!--          MAIN MAP LEGEND -->
+		<div id='nav'>
+
+					<ul class='list-group' id='nav-list-group'>
+						<li class='list-group-item nav-item active' id='nav-item-intro' data-panel='intro' data-toggle="tooltip" data-attr='coverage'>
+							Vaccination Coverage
+						</li>
+						<li class='list-group-item nav-item' data-panel='intro3' data-attr='preventable-outbreaks' data-click="false">
+							Preventable Outbreaks
+						</li>
+					</ul>
+        </div>
+        <div id='intro-panel' class='nav-panel'>
+            <p>2014-2015 Kindergarten Vaccination Coverage</p>
+            <div id='coverage-legend'>
+            </div>
+        </div>
+    </div>
+		<div id = "intro3-panel">
+    <div class="main-sequence-buttons">
+            <div class="button">
+                    <button type="button" id="mainstepBackward">
+                    </button>
+                    <div id="mainyearLabel"></div>
+                    <button type="button" id="mainstepForward">
+                    </button>
+            </div>
+    </div>
+	</div>
+
+<!-- MAIN MAP -->
+        <div id="mainMap"></div>
+
+        <div id="mainMap-text">
+            <h3>Herd Immunity in Jeopardy</h3>
+
+            <p><img id="exemptGraphic" src="img/vaccinelaws.png" width="600" align="right"> Vaccines are most effective at preventing outbreaks of especially contagious diseases like measles and whooping cough (pertussis) when immunization rates are at or above 95%. This principle of <a href = "http://www.pbs.org/wgbh/nova/body/herd-immunity.html">“herd immunity”</a> also helps shield the most vulnerable individuals in a community: newborns, the very elderly, and others who are unable to be vaccinated for medical reasons.</p>
+
+<p>Recent decades, however, have seen many parents opting their children out of vaccines for personal and religious beliefs. For an increasing number of families and communities in the United States, vaccination has been transformed
+	from sound public health policy into a civil liberties issue, with a rising chorus of anti-vaccination activists stirring popular doubt
+	about the efficacy and safety of immunization. In several communities across the nation—particularly religious and alternative communities—childhood vaccination rates have begun to fall sharply below 95%, and vaccine-preventable diseases like measles and whooping cough are on the rise.</p>
+
+<p>Measles, declared eradicated from the United States in 2000, has reappeared in troubling numbers across America, with a particularly notable 2014 outbreak in Disneyland resulting in over 140 cases. Whooping cough infection rates, meanwhile, have rocketed to levels not seen since the 1950s, with almost 50,000 cases developing nationally in 2012.</p><img id="pertussisGraph" src="img/WhoopingCough-01.png" width="1300"></div>
+
+  
+
+        </div>
+
+<!--        WASHINGTON-->
+<br><h3><center>Declining Vaccinations in Washington State</center></h3>
+<div id="washington-wrapper">
+			<div id="washington-map"></div>
+							<!--       	SEQUENCE BUTTONS-->
+			<div class="sequence-buttons">
+						<!-- <div id="washington-legend"></div> -->
+													<div class="button">
+																	<button type="button" id="stepBackward">
+																					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+																	</button>
+																	<div id="yearLabel"></div>
+																	<button type="button" id="stepForward">
+																					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+																	</button>
+													</div>
+													<div id="washington-legend"></div>
+
+			</div>
+
+
+	</div>
+
+        <div id="washington-text">
+					<p>Washington is one of many states that lags behind both
+its own and national goals for vaccination coverage. The state accepts both
+religious and personal or philosophical immunization exemptions and has
+consistently been one of the top 10 states to report the most vaccine
+exemptions for children enrolled in kindergarten. While declining immunization
+rates in some parts of the country are associated with strongly held religious
+beliefs, Washington’s <a
+href="http://www.huffingtonpost.com/2015/03/06/vaccines-exemption-measles_n_6812092.html">deep-rooted
+counterculture of healthy living and alternative healing</a>
+is also responsible for increasing numbers of parents opting out from state
+immunization requirements. From 2015-2016, only 85% of children entering
+kindergarten in Washington were completely immunized.</p>
+
+<p>While fewer children in Washington may be receiving
+vaccinations than in past years, immunization rates are improving from a low
+point in 2008-2009. <a
+href="http://www.nytimes.com/2012/09/20/health/washington-state-makes-it-harder-to-forgo-immunizations.html?_r=0">Lawmakers
+have pushed for more funding and stricter bills that makes opting out of
+vaccinations more difficult</a>. In 2010, the state legislature
+created the <a
+               href="http://www.wavaccine.org/">Washington Vaccine Association</a>.
+This nonprofit organization helps purchase vaccines and distribute them to
+providers for no charge. In 2011, Washington adopted a law that requires
+parents to obtain a licensed healthcare provider’s signature if they wish to
+exempt their children. Within one year of passage, exemption rates decreased
+from 6.0% to 4.5%. Nonetheless, several counties have immunization rates that
+are still well below 95%. In February 2015, the state legislature introduced a
+bill that would eliminate personal belief and philosophical exemptions. As of
+this writing, however, <a href="http://apps.leg.wa.gov/billinfo/summary.aspx?bill=2009">the bill is still stuck in committee</a>.</p>
+        </div>
+
+<!--        NEW YORK-->
+    <h3><center>New York City's Private-School Petri Dish</center></h3>
+        <div id="new-york-map">
+    </div>
+        <div id="new-york-text">
+            <p>If Washington state exhibits a general pattern of declining vaccinations, New York City private schools represent an acute case of dwindling immunity. For the 2014-2015 academic year, 24 schools in the five boroughs reported vaccination rates under 75%. Another 46 institutions reported rates between 75% and 85%. While many of these schools are orthodox or conservative religious organizations, some, like the <a href = “http://www.nytimes.com/2010/10/05/nyregion/05bigcity.html?_r=0”>Manhattan Free School</a> serve up alternative education to secular (and often liberal) elites; think comic-book making or video-game studies, instead of catechism or Torah.</p>
+
+<p>Although all schools in New York City fall under the same state-level immunization requirements, private schools—particularly religious private schools—can greatly facilitate the process of securing <a href=”https://www.health.ny.gov/prevention/immunization/handbook/section_1_requirements.htm”>vaccine exemptions</a>. The school simply has to offer testimony that “in the opinion of the institution” the student and/or their legal guardians hold “genuine and sincere religious beliefs” that forbid immunization.</p>
+
+<p>Declining herd immunity in New York City private schools, however, has resulted in marked outbreaks of vaccine-preventable diseases in recent years. In 2013, for example, New York City saw <a href=”http://www.cdc.gov/mmwr/preview/mmwrhtml/mm6236a5.htm”>58 cases of measles</a>, the largest outbreak in over two decades, and almost three times the size of the last major outbreak in 2008. Each of those 58 cases was located in an Orthodox Jewish community in Brooklyn. Similarly, 2015 saw an outbreak of at least <a href=”http://nypost.com/2015/10/19/whooping-cough-cases-spike-in-orthodox-jewish-neighborhoods/”>109 cases of whooping cough</a> (pertussis) in the city’s Orthodox neighborhoods. Most years see only 200 cases across the five boroughs. But although these particular incidents seem to point to vaccination problems in religious private schools, it’s important to remember that alternative educational institutions catering to secular, well-to-do families are also contributing to declining immunity in New York City.</p>
+        </div>
+
+<!--        CALIFORNIA-->
+<div id="california-wrapper">
+	<h3 id="California-title">California: A Measles Outbreak and a Silver Lining</h3>
+	<br>
+	<br>
+
+		<div id="california-map">
+		</div>
+		<div id = "californiaLegendControls">
+				<div id = "californiaButtons">
+						<label>Measles Outbreaks
+										<br><input type="Radio" name="map" id='propsymbs13' class ='radio' value="msls" />
+										2013
+										<br><input type="Radio" name="map" id='propsymbs14' class ='radio' value="msls" checked="checked" />
+										2014
+						</label>
+						<br>
+						<label>Vaccine Coverage Rates
+								<br><input type="Radio" name="map" id='vc13'  class ='radio' value="vc13" />
+										2013-2014
+								<br><input type="Radio" name="map" id='vc15'  class ='radio' value="vc15" />
+										2015-2016
+						</label>
+						<br>
+						<label>Personal Belief Exemptions
+										<br><input type="Radio" name="map" id='pb13'  class ='radio' value="pb13" />
+										2013-2014
+										<br><input type="Radio" name="map" id='pb15'  class ='radio' value="pb15" />
+										2015-2016
+						</label>
+						<br>
+						<!-- <label><input type="Radio" name="map" id='none' class ='radio' value="none"  checked="checked" />
+						</label>None -->
+				</div>
+				<div id="california-legend-vc"></div>
+		</div>
+</div>
+
+        <div id="california-text">
+						<br>
+            <br>
+						<br>
+            <p>California has also witnessed the tragic effects of declining immunization rates. In December 2014, Disneyland, located in Orange County, experienced the symptoms of low vaccination rates first-hand. A <a href="http://www.webmd.com/children/vaccines/news/20150316/low-vaccination-rates-likely-behind-disney-measles-outbreak-study"> measles outbreak</a> swept across the park. At least 147 cases were reported. The source is believed to have been an international visitor. The outbreak was attributed to the lowest rates of vaccination coverage in the state in the past five years. This prompted the government and health officials to scrutinize the state of vaccination in California.</p>
+            <p>In reaction to the Disneyland outbreak, California <a href="http://www.forbes.com/sites/tarahaelle/2015/06/30/california-vaccination-bill-sb-277-signed-by-governor-becomes-law/#1214a9f0a123">California Senate Bill 277</a> was drafted. In an effort to increase coverage, this bill removes the option of personal belief or religious exemptions from vaccinations for a child entering kindergarten in a public school. This makes California only one of three states in America to have such a law. In response to the bill, advocates have adamantly <a href="https://news.stanford.edu/2015/07/23/exemptions-vaccine-model-072315/">fought against the bill</a>, launching petitions and efforts to recall elected officials that voted for the bill. Some argue that SB277 is unconstitutional and violates medical freedom. Additionally, the bill is also believed to infringe upon the right to a public education, as children are now prohibited from entering a public school without the required vaccinations.</p>
+            <p>While statistics on vaccination since the enactment of SB377 have yet to be released, California is already moving in the direction of increased coverage and decreased exemptions. Between the 2015-2016 and 2013-2014 school years, personal belief exemption rates decreased from <a href="https://www.cdph.ca.gov/programs/immunize/Documents/2013_14_KindergartenAssessmentSummary.pdf">3.15%</a> to <a href="https://www.cdph.ca.gov/programs/immunize/Documents/2015-16_CA_KindergartenSummaryReport.pdf">2.37%</a>. Also during this time, coverage increased from <a href="https://www.cdph.ca.gov/programs/immunize/Documents/2015-16_CA_KindergartenSummaryReport.pdf">90.2% to 92.9%</a>. While it is actually <a href="http://www.wired.com/2015/06/sb277-california-is-now-the-perfect-test-lab-for-vaccine-laws/"> somewhat difficult</a> to draw direct correlations between legislation and disease numbers, considering the impacts that SB377 will have on coverage in time will stir important dialogue regarding the impacts that government can have on public health and whether the individual rights of its citizens are preserved.</p>
+			</div>
+				<div id="workscited">
+
+						United States Map Sources:<br>
+						<a href="http://www.vaccinefactsandpolicy.org">Exemptions Data</a><br>
+						<a href="">Coverage Data</a><br>
+						<a href="">Preventable Outbreaks Data</a><br><br>
+
+						Washington Map Sources:<br>
+						<a href="http://www.doh.wa.gov/DataandStatisticalReports/HealthBehaviors/Immunization/SchoolReports/DataTables">Immunizations Data</a><br><br>
+						New York Map Data:<br>
+						<a href="https://health.data.ny.gov/Health/School-Immunization-Survey-Beginning-2012-13-Schoo/5pme-xbs5">New York State Department of Health</a><br><br>
+						California Map Sources:
+						<br>
+						<a href="https://www.cdph.ca.gov/programs/immunize/Documents/2013_14_KindergartenAssessmentSummary.pdf">Personal Belief Exemptions and Vaccine Coverage 2013-2014</a>
+						<br>
+						<a href="https://www.cdph.ca.gov/programs/immunize/Documents/2015-16_CA_KindergartenSummaryReport.pdf">Personal Belief Exemptions and Vaccine Coverage 2015-2016</a>
+						<br>
+						<a href="https://www.cdph.ca.gov/programs/immunize/Documents/VPD-DiseaseSummary2014.pdf">Measles Outbreak Reports</a>
+						<br><br>
+				</div>
+
+		<!--external script links-->
+        <script type="text/javascript" src="lib/jquery-2.2.0.min.js"></script>
+        <script type="text/javascript" src="lib/leaflet/leaflet-src.js"></script>
+        <script type="text/javascript" src="lib/leaflet-search-master/src/leaflet-search.js"></script>
+		<script type="text/javascript" src="lib/d3.min.js"></script>
+		<script type="text/javascript" src="lib/simple_statistics.min.js"></script>
+		<script type="text/javascript" src="lib/d3-queue.v2.min.js"></script>
+		<script type="text/javascript" src="lib/topojson.v1.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/Washington.js"></script>
+        <script type="text/javascript" src="js/NewYork.js"></script>
+        <script type="text/javascript" src="js/California.js"></script>
+		<script type="text/javascript" src="js/vaccine_coverage.js"></script>
+		<!-- <script type="text/javascript" src="js/exemptions.js"></script> -->
+        <script type="text/javascript" src="lib/Leaflet.Sleep.js"></script>
+        <script type="text/javascript" src="lib/leaflet.zoomhome.js"></script>
+        <script type="text/javascript" src="lib/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+
+	</body>
+</html>

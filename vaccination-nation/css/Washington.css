@@ -1,0 +1,68 @@
+/* Style Sheet */
+
+
+option {
+    font-weight: normal;
+}
+
+.infolabel {
+    /*position: absolute;
+    height: 50px;
+    min-width: 100px;
+    color: #fff;
+    background-color: #000;
+    border: solid thin #fff;
+    padding: 5px 10px;*/
+    font-family: Lato, sans-serif;
+    position:absolute;
+    height:40px;
+    width: 300px;
+    color: #fff;
+    background-color: #000;
+    border: solid thin #000;
+    padding: 10px 10px;
+    border-radius: 15px;
+    text-align: left;
+    vertical-align: middle;
+    pointer-events:none;
+    top: -75px;
+    /*font-size: 13px;*/
+}
+
+#panel {
+    width: 22%;
+    padding: 0px;
+    margin: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.button {
+    padding-right: 15%;
+    display: inline-flex;
+    float: right;
+}
+
+/*
+#washington-legend {
+    fill: white;
+}*/
+
+.WashingtonMap {
+  stroke: white;
+  stroke-width: 1px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#washington-legend {
+    fill: none;
+    stroke: #888;
+    font-size: 12px;
+    float: left;
+    height: 10px
+    width: 200px;
+}
