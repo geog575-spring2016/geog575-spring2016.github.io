@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Metro Transit</title>
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+		<!--library stylesheets-->
+		<link rel="stylesheet" href="lib/leaflet/leaflet.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/leaflet.zoomhome.css"/>
+		<link rel="stylesheet" href="css/l.geosearch.css"/>
+		<link rel="stylesheet" href="css/easy-button.css"/>
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+		<!--put your initial page content here-->
+		<div id = "header"><a href="http://www.startribune.com"><img src="img/header.png" alt="Star Tribune logo" id="startrib"></a>
+			<header>
+				Rapid Transit in the Cities
+			</header>
+		</div>
+		<div id = "subheader"> 
+		Examining demographics and accessibility of the bus<br> and light rail system in the Minneapolis / St. Paul Metropolitan Area
+		</div>
+		<div id = "context">
+			<p>The Metro Transit METRO system is the Twin Cities’ network of transitways with frequent, all-day service between stations. Service began in 2004 with the Blue Line train, but this rapid transit system is also made up of buses. The Red Line bus began service in 2013, with the Green Line train commencing in 2014. Whether it runs on a road or on tracks, the goal is for trips at least every 15 minutes throughout most of the day. The exception is the North Star Line, which is a commuter rail that runs northwest and operates primarily during rush hours.</p>
+			<p>Additions are planned to this network, beginning in 2019 with the Orange Line bus. In 2020 and 2021, extensions will begin on the Green and Blue Lines, respectively. 2021 will also see an addition to the Orange Line. Finally, there are plans in the works for a possible Gold Line bus and Red Line extension in the future.</p>
+			<p>With all of this expansion on the horizon, the demographics involved with who will or won’t be served are of interest. This interactive map not only depicts where the current lines and stations are, but also allows the user to toggle the planned lines. Additionally, users are able to overlay areas within walking distance of a station, as well as search by address. Finally, demographic data at the census tract level can be overlaid to look at who currently has access, who will, and who still won’t after construction is complete. Data are from the <a href="http://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=CF">2014 American Community Survey</a>.</p>
+		</div>
+		<div id="map"></div>
+		<div id="legend">
+            <div id="break0" class="break"></div>
+            <div id="break1" class="break">
+                <div id="sq1" class="sq"></div>
+                <div id="label1" class="label"></div>
+            </div>
+            <div id="break2" class="break">
+                <div id="sq2" class="sq"></div>
+                <div id="label2" class="label"></div>
+            </div>
+            <div id="break3" class="break" >
+                <div id="sq3" class="sq"></div>
+                <div id="label3" class="label"></div>
+            </div>
+            <div id="break4" class="break">
+                <div id="sq4" class="sq"></div>
+                <div id="label4" class="label"></div>
+            </div>
+            <div id="break5" class="break">
+                <div id="sq5" class="sq"></div>
+                <div id="label5" class="label"></div>
+            </div>
+		</div>
+		<div id="footer">By Christopher Morgan, Grace Vriezen, and Soren Walljasper</div>
+		<div id = "bottombar">Final Project for Geography 575: Interactive Cartography & Geovisualization at the University of Wisconsin-Madison</div>
+
+		<!--you can also use this space for internal scripts or stylesheets;
+		place these within <script> or <style> tags-->
+		<script type="text/javascript" src="lib/d3.min.js"></script>
+		<script type="text/javascript" src="lib/d3-queue.v2.min.js"></script>
+		<script type="text/javascript" src="lib/topojson.v1.min.js"></script>
+		<script type = "text/javascript" src="lib/leaflet-omnivore.min.js"></script>
+		<script type="text/javascript" src="lib/simple_statistics.js"></script>
+		<script type="text/javascript" src="lib/d3.v3.min.js"></script>
+		<script type="text/javascript" src="lib/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="lib/leaflet/leaflet-src.js"></script>
+		<script src="http://cdn.leafletjs.com/leaflet/leaflet.js"></script>
+		<script type="text/javascript" src="js/leaflet.zoomhome.min.js"></script>
+		<script type="text/javascript" src="js/l.control.geosearch.js"></script>
+		<script type="text/javascript" src="js/l.geosearch.provider.google.js"></script>
+		<script type="text/javascript" src="lib/easy-button.js"></script>
+
+		<!--main script-->
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,250 @@
+/* 575 boilerplate style.css */
+
+header {
+	width: 100%;
+	height: 70px;
+	font-family: Georgia;
+	color: #000;
+	font-size: 40pt;
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+#startrib {
+	padding-left: 2%;
+	max-width: 20%;
+}
+
+#subheader {
+	width: 100%;
+	height: 20px;
+	font-family: Georgia;
+	color: #404040;
+	font-size: 20pt;
+	text-align: center;
+	padding-bottom: 4%;
+}
+
+#context {
+	font-family: Georgia;
+	width: 77%;
+	padding-bottom: 1%;
+	margin: auto;
+	line-height: 150%;
+}
+
+/*Map*/
+#map {
+	height: 600px;
+	width: 83%;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+#legend {
+	height: 340px;
+	width: 15%;
+	display: inline-block;
+	border-radius: 10px;
+	border: solid #61bf1a 3px;
+	float: right;
+}
+
+#footer {
+ 	height: 30px;
+ 	width: 100%;
+ 	font-family: Georgia;
+ 	color: #404040;
+ 	margin: 15px;
+ 	font-size: 10pt;
+ }
+ 
+ #bottombar {
+ 	height: 30px;
+ 	background-color: #e3f9d2;
+ 	border-radius: 10px;
+ 	font-family: Calibri;
+ 	text-align: center;
+ 	padding-top: .5%;
+ }
+  
+ #context a:link {
+ 	color: #009933;
+}
+
+/*style dropdown */
+
+select {
+	background-color: white;
+	border: 1;
+}
+/*style dropdown
+*/
+#blank {
+	font-weight: bold;
+	font-family: Georgia;
+	color: white;
+}
+
+#population {
+	font-family: Georgia;
+}
+
+#age {
+	font-family: Georgia;
+}
+#demographic {
+	font-family: Georgia;
+	font-weight: bold;
+	color: #61bf1a;
+}
+
+#white {
+	font-family: Georgia;
+}
+#black {
+	font-family: Georgia;
+}
+#asian {
+	font-family: Georgia;
+}
+#other {
+	font-family: Georgia;
+}
+#commute {
+	font-family: Georgia;
+	font-weight: bold;
+	color: #61bf1a;
+}
+
+#vehicle {
+	font-family: Georgia;
+}
+#public {
+	font-family: Georgia;
+}
+#commutetype {
+	font-family: Georgia;
+	font-weight: bold;
+	color: #61bf1a;
+}
+#alone {
+	font-family: Georgia;
+}
+#carpool {
+	font-family: Georgia;
+}
+#publictransit {
+	font-family: Georgia;
+}
+
+#bike {
+	font-family: Georgia;
+}
+
+#walked {
+	font-family: Georgia;
+}
+
+#alternate {
+	font-family: Georgia;
+}
+#home {
+	font-family: Georgia;
+}
+#householdtype {
+	font-family: Georgia;
+	font-weight: bold;
+	color: #61bf1a;
+}
+#household {
+	font-family: Georgia;
+}
+#kids {
+	font-family: Georgia;
+}
+#misc {
+	font-family: Georgia;
+	font-weight: bold;
+	color: #61bf1a;
+}
+#income {
+	font-family: Georgia;
+}
+
+
+.break {
+    height: 50px ;
+    display: block;
+    padding: 0px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #e3f9d2;
+    border-radius: 5px;
+}
+
+.sq {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin-left: 12%;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: solid #509d15 1px;
+    border-radius: 5px;
+
+}
+
+.label {
+    height: 40px;
+    width: 90px;
+    display: inline;
+    float: right;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    position: absolute;
+    text-align: center;
+    line-height: 20px;
+
+}
+
+#break0 {
+	padding: 3px;
+	text-align: center;
+}
+
+#sq1 {
+
+    background-color: #fff;
+}
+
+#sq2 {
+
+    background-color: #BFBFBF;
+}
+
+#sq3 {
+
+    background-color: #808080;
+}
+
+#sq4 {
+
+    background-color: #404040;
+}
+
+#sq5 {
+
+    background-color: #000;
+}
+
+.legendLabel {
+	font-family: Georgia;
+	margin: 0;
+
+}
