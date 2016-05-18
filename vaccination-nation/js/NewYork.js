@@ -16,6 +16,7 @@
 /*    `.__,`---^---'       \ ` -'   */
 /*       -.______  \ . /  ______,-  */
 /*               `.     ,'          */
+/*     Geography 575                */
 
 //determine which attribute to visualize
 var attribute = "completely-immunized";
