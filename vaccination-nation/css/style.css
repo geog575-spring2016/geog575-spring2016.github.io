@@ -201,7 +201,7 @@ p {
 }
 
 #mainstepForward {
-    background:url(/img/forward.png) no-repeat;
+    background:url(../img/forward.png) no-repeat;
     cursor:pointer;
     width: 45px;
     height: 30px;
@@ -209,7 +209,7 @@ p {
 }
 
 #mainstepBackward {
-    background:url(/img/reverse.png) no-repeat;
+    background:url(../img/reverse.png) no-repeat;
     cursor:pointer;
     width: 45px;
     height: 30px;
@@ -302,7 +302,7 @@ padding-right: 50px;
 }
 
 #stepForward {
-    background:url(/img/forward.png) no-repeat;
+    background:url(../img/forward.png) no-repeat;
     cursor:pointer;
     width: 45px;
     height: 30px;
@@ -310,7 +310,7 @@ padding-right: 50px;
 }
 
 #stepBackward {
-    background:url(/img/reverse.png) no-repeat;
+    background:url(../img/reverse.png) no-repeat;
     cursor:pointer;
     width: 45px;
     height: 30px;
