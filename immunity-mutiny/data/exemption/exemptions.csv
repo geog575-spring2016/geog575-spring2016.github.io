@@ -1,0 +1,52 @@
+State,postal,codes
+Alabama,AL,1.00
+Alaska,AK,1.00
+Arizona,AZ,3.00
+Arkansas,AR,3.00
+California,CA,2.00
+Colorado,CO,3.00
+Connecticut,CT,1.00
+Delaware,DE,1.00
+
+Florida,FL,1.00
+Georgia,GA,1.00
+Hawaii,HI,1.00
+Idaho,ID,3.00
+Illinois,IL,1.00
+Indiana,IN,1.00
+Iowa,IA,1.00
+Kansas,KS,1.00
+Kentucky,KY,1.00
+Louisiana,LA,3.00
+Maine,ME,3.00
+Maryland,MD,1.00
+Massachusetts,MA,1.00
+Michigan,MI,3.00
+Minnesota,MN,3.00
+Mississippi,MS,2.00
+Missouri,MO,1.00
+Montana,MT,1.00
+Nebraska,NE,1.00
+Nevada,NV,1.00
+New Hampshire,NH,1.00
+New Jersey,NJ,1.00
+New Mexico,NM,1.00
+New York,NY,1.00
+North Carolina,NC,1.00
+North Dakota,ND,3.00
+Ohio,OH,3.00
+Oklahoma,OK,3.00
+Oregon,OR,3.00
+Pennsylvania,PA,1.00
+Rhode Island,RI,1.00
+South Carolina,SC,1.00
+South Dakota,SD,1.00
+Tennessee,TN,1.00
+Texas,TX,3.00
+Utah,UT,3.00
+Vermont,VT,1.00
+Virginia,VA,1.00
+West Virginia,WV,2.00
+Washington,WA,3.00
+Wisconsin,WI,3.00
+Wyoming,WY,1.00
